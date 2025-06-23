@@ -1,4 +1,4 @@
-// build.js - Static site generator for DVPA
+// build.js - Static site generator for DVPA with modular header and footer
 
 const fs = require("fs");
 const path = require("path");
@@ -9,9 +9,13 @@ const outputDir = path.join(__dirname, "../public/portfolios");
 const pageOutputDir = path.join(__dirname, "../public");
 const photoTemplatePath = path.join(__dirname, "../templates/photograph.html");
 const pageTemplatePath = path.join(__dirname, "../templates/page.html");
+const headerPath = path.join(__dirname, "../templates/header.html");
+const footerPath = path.join(__dirname, "../templates/footer.html");
 
 const photoTemplate = fs.readFileSync(photoTemplatePath, "utf-8");
 const pageTemplate = fs.readFileSync(pageTemplatePath, "utf-8");
+const header = fs.readFileSync(headerPath, "utf-8");
+const footer = fs.readFileSync(footerPath, "utf-8");
 
 function buildImagePages() {
   const categories = fs.readdirSync(contentDir);
@@ -25,6 +29,8 @@ function buildImagePages() {
         const data = JSON.parse(fs.readFileSync(path.join(categoryPath, file), "utf-8"));
 
         const html = photoTemplate
+          .replace(/{{header}}/g, header)
+          .replace(/{{footer}}/g, footer)
           .replace(/{{title}}/g, data.title || "")
           .replace(/{{image}}/g, data.image || "")
           .replace(/{{image-biz}}/g, data["image-biz"] || "")
@@ -55,6 +61,8 @@ function buildSectionPages() {
       const data = JSON.parse(fs.readFileSync(path.join(pageDir, file), "utf-8"));
 
       const html = pageTemplate
+        .replace(/{{header}}/g, header)
+        .replace(/{{footer}}/g, footer)
         .replace(/{{title}}/g, data.title)
         .replace(/{{body}}/g, data.body);
 
