@@ -28,19 +28,19 @@ function buildImagePages() {
       if (file.endsWith(".json")) {
         const data = JSON.parse(fs.readFileSync(path.join(categoryPath, file), "utf-8"));
 
-        const html = photoTemplate
+        let html = photoTemplate
           .replace(/{{header}}/g, header)
           .replace(/{{footer}}/g, footer)
-          .replace(/{{title}}/g, data.title || "")
-          .replace(/{{image}}/g, data.image || "")
-          .replace(/{{image-biz}}/g, data["image-biz"] || "")
-          .replace(/{{image-home}}/g, data["image-home"] || "")
-          .replace(/{{location}}/g, data.location || "")
-          .replace(/{{place}}/g, data.place || "")
-          .replace(/{{print-type}}/g, data["print-type"] || "")
-          .replace(/{{edition-type}}/g, data["edition-type"] || "")
-          .replace(/{{field-notes}}/g, data["field-notes"] || "")
-          .replace(/{{date}}/g, data.date || "");
+          .replace(/{{title}}/g, data.title)
+          .replace(/{{body-id}}/g, data.title)
+          .replace(/{{image}}/g, data.image)
+          .replace(/{{image-home}}/g, data["image-home"])
+          .replace(/{{image-biz}}/g, data["image-biz"])
+          .replace(/{{location}}/g, data.location)
+          .replace(/{{place}}/g, data.place)
+          .replace(/{{print-type}}/g, data["print-type"])
+          .replace(/{{edition-type}}/g, data["edition-type"])
+          .replace(/{{field-notes}}/g, data["field-notes"]);
 
         const outputCategoryDir = path.join(outputDir, category);
         if (!fs.existsSync(outputCategoryDir)) fs.mkdirSync(outputCategoryDir, { recursive: true });
