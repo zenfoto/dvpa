@@ -9,11 +9,13 @@ const outputDir = path.join(__dirname, "../public/portfolios");
 const pageOutputDir = path.join(__dirname, "../public");
 const photoTemplatePath = path.join(__dirname, "../templates/photograph.html");
 const pageTemplatePath = path.join(__dirname, "../templates/page.html");
+const sectionTemplatePath = path.join(__dirname, "../templates/section.html");
 const headerPath = path.join(__dirname, "../templates/header.html");
 const footerPath = path.join(__dirname, "../templates/footer.html");
 
 const photoTemplate = fs.readFileSync(photoTemplatePath, "utf-8");
 const pageTemplate = fs.readFileSync(pageTemplatePath, "utf-8");
+const sectionTemplate = fs.readFileSync(sectionTemplatePath, "utf-8");
 const header = fs.readFileSync(headerPath, "utf-8");
 const footer = fs.readFileSync(footerPath, "utf-8");
 
@@ -22,7 +24,7 @@ function buildImagePages() {
 
   categories.forEach((category) => {
     const categoryPath = path.join(contentDir, category);
-    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json"));
+    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json") && file !== "index.json");
 
     const dataObjects = files.map(file => {
       const filePath = path.join(categoryPath, file);
@@ -30,7 +32,6 @@ function buildImagePages() {
       return { data, fileName: file };
     });
 
-    // Sort by the 'order' field
     dataObjects.sort((a, b) => a.data.order - b.data.order);
 
     dataObjects.forEach((entry, index) => {
@@ -70,25 +71,48 @@ function buildImagePages() {
 }
 
 function buildSectionPages() {
-  const files = fs.readdirSync(pageDir);
+  const categories = fs.readdirSync(contentDir);
 
-  files.forEach((file) => {
-    if (file.endsWith(".json")) {
-      const data = JSON.parse(fs.readFileSync(path.join(pageDir, file), "utf-8"));
+  categories.forEach((category) => {
+    const categoryPath = path.join(contentDir, category);
+    const indexPath = path.join(categoryPath, "index.json");
+    if (!fs.existsSync(indexPath)) return;
 
-      const html = pageTemplate
-        .replace(/{{header}}/g, header)
-        .replace(/{{footer}}/g, footer)
-        .replace(/{{title}}/g, data.title)
-        .replace(/{{body}}/g, data.body);
+    const sectionData = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+    const files = fs.readdirSync(categoryPath).filter(file =>
+      file.endsWith(".json") && file !== "index.json"
+    );
 
-      const sectionDir = path.join(pageOutputDir, data.slug);
-      if (!fs.existsSync(sectionDir)) fs.mkdirSync(sectionDir, { recursive: true });
+    const imageData = files.map(file => {
+      const filePath = path.join(categoryPath, file);
+      return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    });
 
-      const outputFile = path.join(sectionDir, "index.html");
-      fs.writeFileSync(outputFile, html);
-      console.log(`Generated section page: ${outputFile}`);
-    }
+    imageData.sort((a, b) => a.order - b.order);
+
+    const thumbnails = imageData.map(img => {
+      return `<div class="thumb">
+        <a href="${img.slug}.html">
+          <img src="${img.thumb}" alt="${img.title}">
+          <h4>${img.title}</h4>
+        </a>
+      </div>`;
+    }).join("\n");
+
+    const html = sectionTemplate
+      .replace(/{{header}}/g, header)
+      .replace(/{{footer}}/g, footer)
+      .replace(/{{title}}/g, sectionData.title)
+      .replace(/{{body-id}}/g, sectionData.title)
+      .replace(/{{intro}}/g, sectionData.intro || "")
+      .replace(/{{thumbnails}}/g, thumbnails);
+
+    const outputPath = path.join(outputDir, category);
+    if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
+
+    const outputFile = path.join(outputPath, "index.html");
+    fs.writeFileSync(outputFile, html);
+    console.log(`Generated section index: ${outputFile}`);
   });
 }
 
