@@ -13,6 +13,7 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css" media="screen">
   </head>
   <body id="The Cosmic Wall">
+    
     <div id="top">
   <div id="top-inner">
     <header id="header">
@@ -111,15 +112,13 @@
   </div>
 </div>
 
-
-
     <main id="main" class="detail">
       <div class="row">
         <div class="p-main" id="resize">
           <div class="sizing">
-            <img src="/assets/photographs/the-cosmic-wall-zion-national-park.jpg" alt="The Cosmic Wall" class="photograph photo1 current" data-width="1200" data-height="900">
-            <img src="/assets/photographs/the-cosmic-wall-zion-national-park-home.jpg" alt="The Cosmic Wall" class="photograph photo2" data-width="1200" data-height="960">
-            <img src="/assets/photographs/the-cosmic-wall-zion-national-park-biz.jpg" alt="The Cosmic Wall" class="photograph photo3" data-width="1200" data-height="960">
+            <img src="/assets/photographs/the-cosmic-wall-zion-national-park.jpg" alt="The Cosmic Wall" class="photograph photo1 current" data-width="{{image-width}}" data-height="{{image-height}}"/>
+            <img src="/assets/photographs/the-cosmic-wall-zion-national-park-home.jpg" alt="The Cosmic Wall" class="photograph photo2" data-width="{{image-width}}" data-height="{{image-height}}"/>
+            <img src="/assets/photographs/the-cosmic-wall-zion-national-park-biz.jpg" alt="The Cosmic Wall" class="photograph photo3" data-width="{{image-width}}" data-height="{{image-height}}"/>
           </div>
 
           <div class="photoNav">
@@ -168,7 +167,6 @@
     <a href="/contact/">inquiries</a> are always welcome.
   </p>
 </footer>
-
 
     <script type="text/javascript">
 		$(document).ready(function() {
@@ -224,6 +222,7 @@
 		});
 	</script>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="/global/scripts/general.js"></script>
 	<script src="/global/scripts/sizing.js"></script>
 	<script src="/global/scripts/photo.js"></script>

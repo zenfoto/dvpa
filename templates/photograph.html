@@ -13,15 +13,16 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css" media="screen">
   </head>
   <body id="{{body-id}}">
+    
     {{header}}
 
     <main id="main" class="detail">
       <div class="row">
         <div class="p-main" id="resize">
           <div class="sizing">
-            <img src="{{image}}" alt="{{title}}" class="photograph photo1 current" data-width="1200" data-height="900">
-            <img src="{{image-home}}" alt="{{title}}" class="photograph photo2" data-width="1200" data-height="960">
-            <img src="{{image-biz}}" alt="{{title}}" class="photograph photo3" data-width="1200" data-height="960">
+            <img src="{{image}}" alt="{{title}}" class="photograph photo1 current" data-width="{{image-width}}" data-height="{{image-height}}"/>
+            <img src="{{image-home}}" alt="{{title}}" class="photograph photo2" data-width="{{image-width}}" data-height="{{image-height}}"/>
+            <img src="{{image-biz}}" alt="{{title}}" class="photograph photo3" data-width="{{image-width}}" data-height="{{image-height}}"/>
           </div>
 
           <div class="photoNav">
@@ -116,6 +117,7 @@
 		});
 	</script>
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="/global/scripts/general.js"></script>
 	<script src="/global/scripts/sizing.js"></script>
 	<script src="/global/scripts/photo.js"></script>
