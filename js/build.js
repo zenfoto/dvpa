@@ -22,35 +22,49 @@ function buildImagePages() {
 
   categories.forEach((category) => {
     const categoryPath = path.join(contentDir, category);
-    const files = fs.readdirSync(categoryPath);
+    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json"));
 
-    files.forEach((file) => {
-      if (file.endsWith(".json")) {
-        const data = JSON.parse(fs.readFileSync(path.join(categoryPath, file), "utf-8"));
+    const dataObjects = files.map(file => {
+      const filePath = path.join(categoryPath, file);
+      const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      return { data, fileName: file };
+    });
 
-        let html = photoTemplate
-          .replace(/{{header}}/g, header)
-          .replace(/{{footer}}/g, footer)
-          .replace(/{{title}}/g, data.title)
-          .replace(/{{body-id}}/g, data.title)
-          .replace(/{{image}}/g, data.image)
-          .replace(/{{image-home}}/g, data["image-home"])
-          .replace(/{{image-biz}}/g, data["image-biz"])
-          .replace(/{{image-width}}/g, data["image-width"])
-          .replace(/{{image-height}}/g, data["image-height"])
-          .replace(/{{location}}/g, data.location)
-          .replace(/{{place}}/g, data.place)
-          .replace(/{{print-type}}/g, data["print-type"])
-          .replace(/{{edition-type}}/g, data["edition-type"])
-          .replace(/{{field-notes}}/g, data["field-notes"]);
+    // Sort by the 'order' field
+    dataObjects.sort((a, b) => a.data.order - b.data.order);
 
-        const outputCategoryDir = path.join(outputDir, category);
-        if (!fs.existsSync(outputCategoryDir)) fs.mkdirSync(outputCategoryDir, { recursive: true });
+    dataObjects.forEach((entry, index) => {
+      const data = entry.data;
+      const prev = index > 0 ? dataObjects[index - 1].data.slug : null;
+      const next = index < dataObjects.length - 1 ? dataObjects[index + 1].data.slug : null;
 
-        const outputFile = path.join(outputCategoryDir, `${data.slug}.html`);
-        fs.writeFileSync(outputFile, html);
-        console.log(`Generated image page: ${outputFile}`);
-      }
+      const prevLink = prev ? `<a class="button gallery prev" href="${prev}.html">❮❮</a>` : "";
+      const nextLink = next ? `<a class="button gallery next" href="${next}.html">❯❯</a>` : "";
+
+      let html = photoTemplate
+        .replace(/{{header}}/g, header)
+        .replace(/{{footer}}/g, footer)
+        .replace(/{{title}}/g, data.title)
+        .replace(/{{body-id}}/g, data.title)
+        .replace(/{{image}}/g, data.image)
+        .replace(/{{image-home}}/g, data["image-home"])
+        .replace(/{{image-biz}}/g, data["image-biz"])
+        .replace(/{{image-width}}/g, data["image-width"])
+        .replace(/{{image-height}}/g, data["image-height"])
+        .replace(/{{location}}/g, data.location)
+        .replace(/{{place}}/g, data.place)
+        .replace(/{{print-type}}/g, data["print-type"])
+        .replace(/{{edition-type}}/g, data["edition-type"])
+        .replace(/{{field-notes}}/g, data["field-notes"])
+        .replace(/{{prev-link}}/g, prevLink)
+        .replace(/{{next-link}}/g, nextLink);
+
+      const outputCategoryDir = path.join(outputDir, category);
+      if (!fs.existsSync(outputCategoryDir)) fs.mkdirSync(outputCategoryDir, { recursive: true });
+
+      const outputFile = path.join(outputCategoryDir, `${data.slug}.html`);
+      fs.writeFileSync(outputFile, html);
+      console.log(`Generated image page: ${outputFile}`);
     });
   });
 }
