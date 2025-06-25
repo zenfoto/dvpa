@@ -1,0 +1,24 @@
+[
+  {
+    "image": "/assets/photographs/home/aspen-canopy-crested-butte.jpg",
+    "alt": "Aspen Canopy - Kebler Pass",
+    "title": "Aspen Canopy at Dusk",
+    "location": "Kebler Pass, Colorado, 2020",
+    "link": "/portfolios"
+  },
+  {
+    "image": "/assets/photographs/home/reflections-subway-zion-national-park.jpg",
+    "alt": "Reflections - The Subway",
+    "title": "Reflections",
+    "location": "The Subway, Zion National Park, 2018",
+    "link": "/portfolios/zion-national-park/reflections.html"
+  },
+  {
+    "image": "/assets/photographs/home/granary-at-sunset-the-palouse.jpg",
+    "alt": "Granary at Sunset - The Palouse",
+    "title": "Granary at Sunset",
+    "location": "The Palouse, Washington, 2022",
+    "link": "/portfolios"
+  }
+]
+

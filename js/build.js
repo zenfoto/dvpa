@@ -92,7 +92,7 @@ function buildSectionPages() {
 
     const thumbnails = imageData.map(img => {
       return `<div class="thumb">
-        <a href="${img.slug}.html">
+        <a href="/portfolios/${category}/${img.slug}.html">
           <img src="${img.thumb}" alt="${img.title}">
           <h4>${img.title}</h4>
         </a>
