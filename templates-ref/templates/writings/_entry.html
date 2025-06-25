@@ -1,0 +1,76 @@
+{% extends "_layout" %}
+{% set title = entry.title %}
+
+{% set quoted = craft.entries.section('quotes').orderBy('RAND()').one() %}
+{% if entry.fieldNotes is not null %}
+	{% set photograph = entry.fieldNotes.one() %}
+{% endif %}
+
+{% block content %}
+<main id="main">
+	<div class="row">
+		<div class="p-main" id="resize">
+		<article>
+			<p class="date">{{ entry.postDate|date('F j, Y') }}</p>
+			<h2>{{ entry.title }}</h2>
+	
+			{% if photograph is not null %}
+				{% set image = photograph.image.one() %}
+				{% if image is defined %}
+				<img src="{{ image.getUrl() }}" alt="{{ entry.title }}" class="photograph" data-width="{{ image.getWidth() / 2 }}" data-height="{{ image.getHeight() / 2 }}" />
+				{% endif %}
+			{% endif %}
+			
+			{% for block in entry.mainContent.all() %}
+		
+				{% if block.type == "paragraphs" %}
+					{{ block.text }}
+		
+				{% elseif block.type == "heading" %}
+					{% set h = block.headingLevel %}
+					<{{ h.value }}>{{ block.text|striptags('<b><i>') }}</{{ h.value }}>
+		
+				{% elseif block.type == "photo" %}
+					{% set image = block.image.one() %}
+					{% if image %}
+						{% if block.position %}
+			<img src="{{ image.getUrl() }}" class="{{ block.position }}" alt="" />
+						{% else %}
+			<img src="{{ image.getUrl() }}" alt="" />
+						{% endif %}
+					{% endif %}
+					
+					{% if block.caption %}{{ block.caption }}{% endif %}
+		
+				{% elseif block.type == "video" %}
+					TODO: video<br />
+					
+				{% elseif block.type == "quote" %}
+					{{ block.quote }}
+					— {{ block.person }} <i>{{ block.location }}</i>
+					
+				{% endif %}
+		
+			{% endfor %}
+			
+			</div>
+		</article>
+	<div class="p-side">
+		<h3>Inspirations</h3>
+			<div class="inspirations">
+				<p class="quote">{{ quoted.quotes|striptags('<b><i>') }}</p>
+				<p class="attribute">— <a href="/about/inspiration/{{quoted.master.one().slug}}">{{quoted.master.one().title}}</a></p>
+			</div>
+		
+		<h3>Portfolios</h3>
+		{% if photograph is not null %}
+			{% set relatedPhotograph = craft.entries.section('photographs').relatedTo(photograph.portfolios).id(['not', photograph.id]).search('-portfolios:new-work -portfolios:home').orderBy('RAND()').one() %}
+			{% set image = relatedPhotograph.image.one() %}
+			{% if image is defined %}
+			<img src="{{ image.getUrl() }}" alt="{{ entry.title }}" class="photograph" data-width="{{ image.getWidth() / 2 }}" data-height="{{ image.getHeight() / 2 }}" />
+			{% endif %}
+		{% endif %}
+
+	</div>
+</main>
+{% endblock %}

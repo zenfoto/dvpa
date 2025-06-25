@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Zion National Park - Watercourse Way - Douglas Vincent Photographic Arts</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="referrer" content="origin-when-cross-origin">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="keywords" content="Douglas Vincent, Photographic Art, Photography, Fine Art Photography, Pigment Ink Prints, Cibachrome, Ilfochrome, Portfolio">
-  <meta name="author" content="Douglas Vincent | Photographic Arts">
-  <meta http-equiv="Expires" content="30">
-  <link rel="stylesheet" href="https://use.typekit.net/avc4wei.css">
-  <link href="/css/style.css" rel="stylesheet" type="text/css" media="screen">
-</head>
+    <meta charset="utf-8">
+    <title>Zion National Park - Watercourse Way - Douglas Vincent Photographic Arts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin-when-cross-origin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Douglas Vincent, Photographic Art, Photography, Fine Art Photography, Pigment Ink Prints, Cibachrome, Ilfochrome, Portfolio">
+    <meta name="author" content="Douglas Vincent | Photographic Arts">
+    <meta http-equiv="Expires" content="30">
+    <link rel="stylesheet" href="https://use.typekit.net/avc4wei.css">
+    <link href="/css/style.css?v={{ now|date('n.j.y.G.i.s') }}" rel="stylesheet" type="text/css" media="screen"></head>
 <body id="Zion National Park - Watercourse Way">
   <div id="top">
   <div id="top-inner">
@@ -131,7 +130,65 @@
   </p>
 </footer>
 
-  <script src="/global/scripts/sizing.js"></script>
-  <script src="/global/scripts/init.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="/global/scripts/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			noBurger = 1024;
+			$('#navToggleMain').change(function() {
+				win = $(window).width();
+				if ($('#navToggleMain').prop("checked") == true) {
+					if (win < noBurger) {
+						$('html').addClass('noscroll');
+						//$('#nav').addClass('open');
+						$('#top').addClass('open');
+						$('#grilled-cheese').addClass('open');
+					} else {
+						$('#navToggleMain').prop("checked", false);
+					}
+				}
+				else if($('#navToggleMain').prop("checked") == false) {
+					if (win < noBurger) {
+						$('html').removeClass('noscroll');
+						//$('#nav').removeClass('open');
+						$('#top').removeClass('open');
+						$('#grilled-cheese').removeClass('open');
+					} else {
+						$('#navToggleMain').prop("checked", true);
+					}
+				}
+			});
+	
+			$('#nav input[type=checkbox]').change(function() {
+				win = $(window).width();
+				className = $(this).attr('class');
+				if($(this).prop("checked") == true) {
+					if (win < noBurger) {
+						console.log("Checkbox is checked.");
+						$('.'+className+' h3').addClass('open');
+						$('#'+className).addClass('open');
+					} else {
+						console.log("Checkbox is unchecked.");
+						$(this).prop("checked", false);
+					}
+				}
+				else if($(this).prop("checked") == false) {
+					if (win < noBurger) {
+						console.log("Checkbox is unchecked.");
+						$('.'+className+' h3').removeClass('open');
+						$('#'+className).removeClass('open');
+					} else {
+						console.log("Checkbox is checked.");
+						$(this).prop("checked", true);
+					}
+				}
+			});
+		});
+	</script>
+
+	<script src="/global/scripts/general.js"></script>
+	<script src="/global/scripts/sizing.js"></script>
+	<script src="/global/scripts/photo.js"></script>
+
 </body>
 </html>

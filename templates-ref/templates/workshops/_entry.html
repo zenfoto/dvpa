@@ -1,0 +1,65 @@
+{% extends "_layout" %}
+{% set title = entry.title %}
+
+{% block content %}
+<div id="mainContent">
+	<h1>{{ entry.title }}</h1>
+	
+	{% for block in entry.blogContent.all() %}
+
+		{% if block.type == "text" %}
+			{{ block.text }}
+
+		{% elseif block.type == "heading" %}
+			{% set h = block.headingLevel %}
+			<{{ h.value }}>{{ block.text|striptags('<b><i>') }}</{{ h.value }}>
+
+		{% elseif block.type == "photo" %}
+			{% set image = block.image.one() %}
+			{% if image %}
+				{% if block.position %}
+	<img src="{{ image.getUrl() }}" class="{{ block.position }}" alt="" />
+				{% else %}
+	<img src="{{ image.getUrl() }}" alt="" />
+				{% endif %}
+			{% endif %}
+			
+			{% if block.caption %}{{ block.caption }}{% endif %}
+
+		{% elseif block.type == "video" %}
+			TODO: video<br />
+			
+		{% elseif block.type == "quote" %}
+			{{ block.quote }}
+			<p>—{{ block.person }} <i>{{ block.location }}</i></p>
+			
+		{% endif %}
+
+	{% endfor %}
+	
+	{% for block in entry.sidebar.all() %}
+	
+		{% if block.type == "text" %}
+			{{ block.text }}
+
+		{% elseif block.type == "photo" %}
+			{% set image = block.image.one() %}
+			{% if image %}
+				{% if block.position %}
+	<img src="{{ image.getUrl() }}" class="{{ block.position }}" alt="" />
+				{% else %}
+	<img src="{{ image.getUrl() }}" alt="" />
+				{% endif %}
+			{% endif %}
+			
+			{% if block.caption %}{{ block.caption }}{% endif %}
+
+		{% elseif block.type == "quote" %}
+			{{ block.quote }}
+			<p>—{{ block.person }} <i>{{ block.location }}</i></p>
+			
+		{% endif %}
+	
+	{% endfor %}
+</div>	
+{% endblock %}

@@ -1,0 +1,67 @@
+{% extends "_layout" %}
+
+{% set myEntryQuery = craft.entries.section('photographs').relatedTo(category) %}
+{% set entries = myEntryQuery.all() %}
+{% if entries|length %}
+	{% set catTitle = category.title %}
+	{% set catSlug = category.slug %}
+	{% set catPort = category.portDescription %}
+	{% else %}
+		{% exit 404 %}
+{% endif %}
+
+{% set title = catTitle %}
+{% set portDescription = catPort %}
+
+{% set params = craft.categories.group('portfolios').limit(null) %}
+
+
+{% block content %}
+<main id="main">
+{% if entries|length %}
+	<h1>{{ catTitle }}</h1>
+	<div class="port-intro">{{ catPort }}</div>
+	<div class="row">
+		<div id="thumbs">
+		{% for entry in entries %}
+			{% set image = entry.image.one() %}
+			{% if image %}
+			<div class="thumb">
+				<a href="/portfolios/{{ catSlug }}/{{ entry.slug }}">
+					<img src="{{ image.getUrl('small') }}" alt="{{ entry.title }}" />
+					<h4>{{ entry.title }}</h4>
+				</a>
+			</div>
+			{% endif %}
+		{% endfor %}
+			<div class="thumb empty"></div>
+			<div class="thumb empty"></div>
+			<div class="thumb empty"></div>
+		</div>
+	</div>
+		{% set prevEntry = category.getPrev(params) %}
+		{% set nextEntry = category.getNext(params) %}
+
+	<div id="prevnext">
+		<ul class="piped">
+			<li>{% if prevEntry %}<span class="prev"><a href="{{ prevEntry.slug }}">{{ prevEntry.title }}</a></span>{% else %}<span>Previous</span>{% endif %}</li>
+			<li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+			<li>{% if nextEntry %}<span class="next"><a href="{{ nextEntry.slug }}">{{ nextEntry.title }}</a></span>{% else %}<span>Next</span>{% endif %}</li>
+		</ul>
+	</div>
+			
+{% endif %}
+</main>
+{% endblock %}
+
+{% js %}
+
+$(document).ready(function() {
+	$('.thumb').each(function(i) {
+		thumbWidth = $(this).width();
+		$(this).find('img').css('max-height', thumbWidth);
+	});
+});
+
+{% endjs %}
+

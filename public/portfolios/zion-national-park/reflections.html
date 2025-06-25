@@ -9,8 +9,8 @@
     <meta name="keywords" content="Douglas Vincent, Photographic Art, Photography, Fine Art Photography, Pigment Ink Prints, Large Format Photography, Analog Photography, Film Photography, Film, Cibachrome, Ilfochrome">
     <meta name="author" content="Douglas Vincent | Photographic Arts">
     <meta http-equiv="Expires" content="30">
-    <link rel="stylesheet" href="https://use.typekit.net/avc4wei.css">
-    <link href="/css/style.css" rel="stylesheet" type="text/css" media="screen">
+     <link rel="stylesheet" href="https://use.typekit.net/avc4wei.css">
+    <link href="/css/style.css?v={{ now|date('n.j.y.G.i.s') }}" rel="stylesheet" type="text/css" media="screen">
   </head>
   <body id="Reflections">
     
@@ -168,7 +168,9 @@
   </p>
 </footer>
 
-    <script type="text/javascript">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="/global/scripts/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript">
 		$(document).ready(function() {
 			noBurger = 1024;
 			$('#navToggleMain').change(function() {
@@ -222,10 +224,10 @@
 		});
 	</script>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="/global/scripts/general.js"></script>
 	<script src="/global/scripts/sizing.js"></script>
 	<script src="/global/scripts/photo.js"></script>
+
 
 </body>
 </html>

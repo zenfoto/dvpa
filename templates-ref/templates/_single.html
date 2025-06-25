@@ -1,0 +1,97 @@
+{% extends "_layout" %}
+{% set title = entry.title %}
+
+{% block content %}
+<main id="main" class="solo">
+
+	<div class="single-column">
+
+	{% for block in entry.mainContent.all() %}
+
+		{% if block.type == "paragraphs" %}
+			{{ block.text }}
+
+		{% elseif block.type == "heading" %}
+			{% set h = block.heading %}
+			<{{ h.value }}>{{ block.text|striptags('<b><i>') }}</{{ h.value }}>
+
+		{% elseif block.type == "photo" %}
+			{% set image = block.image.one() %}
+			{% if image %}
+				<figure {% if block.position %}class="{{ block.position }}"{% endif %}>
+					<div styles="single-image">
+						<img src="/{{ image.getUrl() }}" alt="" width="{{ image.Width / block.size.value }}" data-height="{{ image.Height / block.size.value }}"/>
+						{% if block.caption %}<figcaption>{{ block.caption|striptags('<b><i>') }}</figcaption>{% endif %}
+					</div>
+				</figure>
+			{% endif %}
+
+		{% elseif block.type == "video" %}
+			TODO: video<br />
+			
+		{% elseif block.type == "quote" %}
+			<blockquote><span>{{ block.quote|striptags }}</span></blockquote>
+		{% endif %}
+
+	{% endfor %}
+
+
+{% if entry.hasDescendants() %}
+	{% set descendant = craft.entries()
+		.type('not noPageNavUrl')
+		.descendantOf(entry)
+		.one() %}
+
+			<div id="prevnext">
+				<ul class="piped">
+					<li>{{entry.title}}</li>
+					<li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+					<li><span class="next"><a href="{{ entry.slug }}/{{ descendant.slug }}">{{ descendant.title }}</a></span></li>
+				</ul>
+			</div>
+
+{% else %}
+
+	{% set ancestor = craft.entries()
+		.ancestorOf(entry)
+		.one() %}
+
+	{% set entries = craft.entries()
+		.ancestorOf(entry)
+		.all() %}
+
+			{% set prevEntry = craft.entries().type('not noPageNavUrl').prevSiblingOf(entry).one() %}
+			{% set nextEntry = craft.entries().type('not noPageNavUrl').nextSiblingOf(entry).one() %}
+
+			<div id="prevnext">
+				<ul class="piped">
+				{% if prevEntry %}
+					{% if prevEntry.type == "directURL" %}
+						{% set prevEntryURL = prevEntry.directURL %}
+					{% else %}
+						{% set prevEntryURL = prevEntry.slug %}
+					{% endif %}
+					<li><span class="prev"><a href="{{ prevEntryURL }}">{{ prevEntry.title }}</a></span></li>
+					<li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+				{% else %}
+					<li><span class="prev"><a href="/{{ ancestor.slug }}">{{ ancestor.title }}</a></span></li>
+					<li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+				{% endif %}
+
+				{% if nextEntry %}
+					{% if nextEntry.type == "directURL" %}
+						{% set nextEntryURL = nextEntry.directURL %}
+					{% else %}
+						{% set nextEntryURL = nextEntry.slug %}
+					{% endif %}
+					<li><span class="next"><a href="{{ nextEntryURL }}">{{ nextEntry.title }}</a></span></li>
+				{% else %}
+					<li><span>Next</span></li>
+				{% endif %}
+				</ul>
+			</div>
+
+{% endif %}
+	</div>
+</main>
+{% endblock %}

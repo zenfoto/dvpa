@@ -1,0 +1,9 @@
+{% if entry.type == "singlePage" %}
+
+	{% include "_single" %}
+
+{% elseif entry.type == "directURL" %}
+
+	{% include entry.directURL %}
+
+{% endif %}

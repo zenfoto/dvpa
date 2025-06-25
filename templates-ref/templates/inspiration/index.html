@@ -1,0 +1,29 @@
+{% extends "_layout" %}
+
+{% block content %}
+<main id="main">
+	<h1>Inspiration</h1>
+{% set entries = craft.entries.section('inspiration').all() %}
+{% if entries|length %}
+	<div class="row">
+		<div class="p-main">
+			<div id="thumbs">
+			{% for entry in entries %}
+				{% set image = entry.image.one() %}
+				{% if image %}
+					<div class="thumb"><a href="#">
+						<img src="{{ image.getUrl('thumbs') }}" alt="{{ entry.title }}" width="{{ image.getWidth('thumbs') / 2 }}" data-height="{{ image.getHeight('thumbs') / 2 }}" />
+						<h4>{{ entry.inspireName }}</h4>
+					</a>
+				{% endif %}
+					</div>
+		{% endfor %}
+			</div>
+		</div>
+		<div class="p-side">
+			<h3>What's this?</h3>
+		</div>
+	</div>
+{% endif %}
+</main>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "_layout" %}
+{% set title = entry.title %}
+
+{% block content %}
+<main id="main">
+	<div class="innercontent">
+
+	{% for block in entry.mainContent.all() %}
+
+		{% if block.type == "paragraphs" %}
+			{{ block.text }}
+
+		{% elseif block.type == "heading" %}
+			{% set h = block.heading %}
+			<{{ h.value }}>{{ block.text|striptags('<b><i>') }}</{{ h.value }}>
+
+		{% elseif block.type == "photo" %}
+			{% set image = block.image.one() %}
+			{% if image %}
+				<figure {% if block.position %}class="{{ block.position }}"{% endif %}>
+					<img src="{{ image.getUrl() }}" alt="" />
+					{% if block.caption %}<figcaption>{{ block.caption|striptags('<b><i>') }}</figcaption>{% endif %}
+				</figure>
+			{% endif %}
+
+		{% elseif block.type == "video" %}
+			TODO: video<br />
+			
+		{% elseif block.type == "quote" %}
+			{{ block.quote }}
+			<p>—{{ block.person }} <i>{{ block.location }}</i></p>
+			
+		{% endif %}
+
+	{% endfor %}
+
+	</div>
+</main>
+{% endblock %}

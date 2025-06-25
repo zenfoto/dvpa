@@ -1,0 +1,40 @@
+{% extends "_layout" %}
+
+{% block content %}
+<main id="main">
+	<h1>Inspiration</h1>
+
+{% set myCatQuery = craft.categories.group('masters') %}
+{% set categories = myCatQuery.all() %}
+{% if categories|length %}
+	<div class="row">
+		<div class="p-main">
+			<div id="thumbs">
+	{% for category in categories %}
+		{% set image = null %}
+		
+		<div class="thumb"><a href="/about/inspiration/{{ category.slug }}">
+			{% set entry = category.thumbnail %}
+				{% if entry is not null %}
+					{% set image = category.thumbnail.one() %}
+				{% endif %}
+	
+				{% if image is not null %}
+						<img src="/{{ image.getUrl('thumbs') }}" alt="{{ entry.title }}" width="{{ image.getWidth('small') / 2 }}" data-height="{{ image.getHeight('small') / 2 }}" />
+				{% else %}
+			<div style="margin: 0 auto 10px;background-color:#ddd;width:250px;height:210px">&nbsp;</div>
+				{% endif %}
+			<h4>{{ category.title }}</h4>
+					</a></div>
+			{% endfor %}			
+			</div>
+		</div>
+		<div class="p-side">
+			<h3>A Note about this Section</h3>
+			<p>My sojourn into photography started as a curiosity. That curiosity was heightened during road trips to Utah and Arizona in my college years. The vast open landscapes intertwined with sinuous canyons exerted a visceral longing within me. I didn't quite know what to do with those newfound feelings. But then a trip to Zion National Park transformed those longings into a profound revelation of the power of place. Coupled with a foray into the writings of <a href="/about/inspiration/ansel-adams">Ansel Adams</a>, I was quickly inspired to acquire a Nikon FM-2N and commit to an all-manual based approach to photography. While I could hardly articulate it at the time, photography had become my creative vehicle for expressing a growing intimacy with the natural world.</p>
+			<p>Now, a good 25 years into this journey, a host of people have influenced my artistic direction, my philosophy, and, most importantly, the values that guide my life. Time has come to acknowledge those persons and offer my deepest gratitude. A story accompanies each inspiration and not all end happily. However, it would be disingenuous not to acknowledge each influence.</p>
+			<p>I hope there's something here for you, dear reader, to appreciate. I'm sure for some, you'll be meeting at least a few of these inspirers for the first time. Maybe in some small way, you'll be inspired too.</p>
+		</div>
+{% endif %}
+</main>
+{% endblock %}

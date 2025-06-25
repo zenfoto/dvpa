@@ -1,0 +1,61 @@
+{% extends "_layout" %}
+
+{% block content %}
+<main id="main">
+    <div class="single-column">
+
+    <h1 class="inquiry">Contact Form</h1>
+    
+    {% macro errorList(errors) %}
+        {% if errors %}
+            <ul class="errors">
+                {% for error in errors %}
+                    <li>{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endmacro %}
+    
+    {% set message = message ?? null %}
+    
+    {% if craft.app.session.hasFlash('notice') %}
+    <p class="message notice">{{ craft.app.session.getFlash('notice') }}</p>
+    {% elseif craft.app.session.hasFlash('error') %}
+    <p class="message error">{{ craft.app.session.getFlash('error') }}</p>
+    {% endif %}
+    
+    
+    <form method="post" action="" accept-charset="UTF-8">
+        {{ csrfInput() }}
+        {{ actionInput('contact-form/send') }}
+        {{ craft.contactFormExtensions.recaptcha | raw }}
+    
+        <h4><label for="from-name">Your Name</label></h4>
+        {{ input('name', 'fromName', message.fromName ?? '', { id: 'from-name', autocomplete: 'name', }) }}
+        {{ message ? _self.errorList(message.getErrors('fromName')) }}
+    
+        <h4><label for="from-email">Your Email</label></h4>
+        {{ input('email', 'fromEmail', message.fromEmail ?? '', { id: 'from-email', autocomplete: 'email',}) }}
+        {{ message ? _self.errorList(message.getErrors('fromEmail')) }}
+    
+        <h4><label for="phone">Your Phone Number</label></h4>
+        <input id="phone" type="text" name="message[Phone]" value="">
+    
+        <h4>How can we help you?</h4>
+        <select name="message[Subject]">
+            <option value="——" selected="selected">Please select...</option>
+            <option value="Purchase a Photograph">Purchase a Photograph</option>
+            <option value="Printing Services">Printing Services</option>
+            <option value="Take a Workshop">Take a Workshop</option>
+            <option value="General Question">General Question</option>
+        </select>
+    
+        <h3><label for="message">Message</label></h3>
+        <textarea rows="10" cols="40" id="message" name="message[body]">{{ message.message.body ?? '' }}</textarea>
+
+        <input type="submit" class="submit" value="Send Us your Message!">
+    </form>
+    </div>
+</main>
+
+{% endblock %}

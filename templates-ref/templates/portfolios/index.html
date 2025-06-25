@@ -1,0 +1,37 @@
+{% extends "_layout" %}
+{% set title = "Portfolios" %}
+
+{% block content %}
+<main id="main">
+
+<h1>Portfolios</h1>
+
+{% set myCatQuery = craft.categories.group('portfolios') %}
+{% set categories = myCatQuery.all() %}
+{% if categories|length %}
+	<div id="thumbs">
+	{% for category in categories %}
+		{% set image = null %}
+		{% if category.public|length %}
+
+		<div class="thumb"><a href="/portfolios/{{ category.slug }}">
+			{% set coverEntry = category.coverImage %}
+			{% set entry = coverEntry.one() %}
+			{% if entry is not null %}
+				{% set image = entry.image.one() %}
+			{% endif %}
+
+			{% if image is not null %}
+
+			<img src="{{ image.getUrl('thumbs') }}" alt="{{ entry.title }}" width="{{ image.getWidth('thumbs') / 2 }}" data-height="{{ image.getHeight('thumbs') / 2 }}" />
+				{% else %}
+			<div style="margin: 0 auto 10px;background-color:#ddd;width:250px;height:210px">&nbsp;</div>
+				{% endif %}
+			<h4>{{ category.title }}</h4>
+		</a></div>
+		{% endif %}
+	{% endfor %}
+	</div>
+{% endif %}
+</main>
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "_layout" %}
+{% set title = category %}
+
+{% set quoted = craft.entries.section('quotes').orderBy('RAND()').one() %}
+
+{% block content %}
+<main id="main">
+	<h1>{{ category.title }}</h1>
+	<div class="row">
+		<div class="p-main" id="resize">
+	{% set myEntryQuery = craft.entries().relatedTo(category).limit(50) %}
+	{% set entries = myEntryQuery.all() %}
+	{% for entry in entries %}
+		{% if entry.fieldNotes is not null %}
+			{% set photograph = entry.fieldNotes.one() %}
+		{% endif %}
+	    <article>
+	        <p>{{ entry.postDate|date('F j, Y') }}</p>
+	        <h2><a href="{{ entry.url }}">{{ entry.title }}</a></h2>
+	        
+       		{% if photograph is not null %}
+				{% set image = photograph.image.one() %}
+				{% if image is defined %}
+				<img src="{{ image.getUrl() }}" alt="{{ entry.title }}" class="photograph" data-width="{{ image.getWidth() / 2 }}" data-height="{{ image.getHeight() / 2 }}" />
+				{% endif %}
+			{% endif %}
+
+	{% for block in entry.mainContent %}
+	
+		{% if block.type == "paragraphs" %}
+			<p>{{ block.text|striptags('<b><i><a><li><ol><ul>')|raw|slice(0, 240) ~ '...' }}</p>
+	
+		{% elseif block.type == "heading" %}
+			{% set h = block.headingLevel %}
+			<{{ h.value }}>{{ block.text|striptags('<b><i>') }}</{{ h.value }}>
+		
+		{% elseif block.type == "photo" %}
+			{% set image = block.image.one() %}
+			{% if image %}
+				{% if block.position %}
+		<img src="{{ image.getUrl('medium') }}" alt="{{ entry.title }}" class="{{ block.position }}" width="{{ image.getWidth('medium') / 2 }}" data-height="{{ image.getHeight('medium') / 2 }}" />
+				{% else %}
+		<img src="{{ image.getUrl('medium') }}" alt="{{ entry.title }}" width="{{ image.getWidth('medium') / 2 }}" data-height="{{ image.getHeight('medium') / 2 }}" />
+				{% endif %}
+			{% endif %}
+			
+			{% if block.caption %}{{ block.caption }}{% endif %}
+	
+		{% elseif block.type == "video" %}
+			TODO: video<br />
+			
+		{% elseif block.type == "quote" %}
+			{{ block.quote }}
+			<p>—{{ block.person }} <i>{{ block.location }}</i></p>
+			
+		{% endif %}
+	{% endfor %}
+	    </article>
+	{% endfor %}
+
+	</div>
+	<div class="p-side">
+		<h3>Inspirations</h3>
+		{{quoted.quotes}}
+		<p>— <a href="/about/inspiration/{{quoted.master.one().slug}}">{{quoted.master.one().title}}</a></p>
+	</div>
+</main>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% set blogCats = craft.categories().group('writingsCategory').all() %}
+{% if blogCats|length %}
+<ul class="cats">
+{% for cat in blogCats %}
+{% set entryCount = craft.entries.relatedTo(cat).count() %}
+<li><a href="{{ cat.url }}">{{ cat.title }} ({{ entryCount }})</a></li>
+{% endfor %}
+</ul>
+{% endif %}

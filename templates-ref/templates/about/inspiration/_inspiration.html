@@ -1,0 +1,64 @@
+
+{% extends "_layout" %}
+
+{% set params = craft.categories.group('masters').limit(null) %}
+
+{% set quoted = craft.entries.section('quotes').relatedTo(category).orderBy('RAND()').one() %}
+
+
+{% if category is defined and category is not null %}
+	{% set name = category.title %}
+	{% set birth = category.inspireBirthdate %}
+	{% set death = category.inspireDeath %}
+	{% set profession = category.inspireProfession %}
+	{% set biography = category.inspireBiography %}
+	{% set why = category.inspireWhy %}
+	{% set attribution = category.inspireAttribution %}
+{% else %}
+	{% exit 404 %}
+{% endif %}
+
+{% block content %}
+<main id="main" class="inspire">
+	<h1>Inspiration</h1>
+	<div class="row">
+		<div class="p-main" >
+			<h2 id="title">{{ name }}</h3>
+			<p class="date">{{ birth|date('medium') }} - {{ death ? death|date('medium') }}</p>
+			<p>{{ profession }}</p>
+			<h3>{{ name }}'s Inspiration</h3>
+			{{ why }}
+			<h3>About {{ name }}</h3>
+			{{ biography }}
+
+			{% set prevEntry = category.getPrev(params) %}
+			{% set nextEntry = category.getNext(params) %}
+
+		<div id="prevnext">
+			<ul class="piped">
+				<li>{% if prevEntry %}<span class="prev"><a href="{{ prevEntry.slug }}">{{ prevEntry.title }}</a></span>{% else %}<span>Previous</span>{% endif %}</li>
+				<li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+				<li>{% if nextEntry %}<span class="next"><a href="{{ nextEntry.slug }}">{{ nextEntry.title }}</a></span>{% else %}<span>Next</span>{% endif %}</li>
+			</ul>
+		</div>
+
+		</div>
+		<div class="p-side" id="resize">
+			<div class="photo-details">
+			{% set entry = category.image %}
+			{% set image = category.image.one() %}
+			{% if image is not null %}<div><img src="/{{ image.getUrl }}" alt="{{ entry.title }}" class="photograph" data-width="{{ image.Width() / 2 }}" data-height="{{ image.Height() / 2 }}" />
+			<p class="attribution">{{ attribution }}</p>	
+			</div>{% endif %}			
+			</div>
+
+		{% if quoted | length %}
+		<div class="inspirations">
+			<p class="quote">{{quoted.quotes|striptags('<b><i>') }}</p>
+			<p class="attribute">- <a href="/about/inspiration/{{quoted.master.one().slug}}">{{quoted.master.one().title}}</a></p>
+		</div>
+		{% endif %}
+		</div>
+	</div>
+</main>
+{% endblock %}

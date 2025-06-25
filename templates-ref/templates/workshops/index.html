@@ -1,0 +1,32 @@
+{% extends "_layout" %}
+{% set title = "Workshops" %}
+
+{% block content %}
+<div id="mainContent">
+	<h1>Workshops</h1>
+{% set myEntryQuery = craft.entries().section('workshops') %}
+{% set entries = myEntryQuery.all() %}
+{% for entry in entries %}
+
+{% endfor %}
+
+</div>
+<div id="sidebar">
+{% for block in entry.sidebar.all() %}
+
+	{% if block.type == "text" %}
+		{{ block.text }}
+
+	{% elseif block.type == "heading" %}
+		{% set h = block.headingLevel %}
+		<{{ h.value }}>{{ block.text|striptags('<b><i>') }}</{{ h.value }}>
+
+	{% elseif block.type == "quote" %}
+		{{ block.quote }}
+		<p>—{{ block.person }} <i>{{ block.location }}</i></p>
+
+	{% endif %}
+
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,101 @@
+{# From the route which points to this template, #}
+{# 'portfolios' and 'photograph' map to /portfolios/'portfolios'/'photograph' #}
+
+{% set portfolio = craft.categories().group('portfolios').slug(portfolios).one() %}
+
+{% set entry = craft.entries().slug(photograph).relatedTo(portfolio).one() %}
+{% set params = craft.entries.section('photographs').relatedTo(portfolio).limit(null) %}
+{% set fieldNote = craft.entries.section('writings').relatedTo(entry).one() %}
+
+{% extends "_layout" %}
+
+{% if entry is defined and entry is not null %}
+	{% set title = entry.title %}
+	{% set location = entry.location %}
+	{% set print = entry.printType %}
+	{% set edition = entry.editionType %}
+	{% set state = entry.state.one() %}
+	{% set year = entry.year.one() %}
+{% else %}
+	{% exit 404 %}
+{% endif %}
+
+{% block content %}
+<main id="main" class="detail">
+	<div class="row">
+		<div class="p-main" id="resize">
+			{% set images = entry.image.all() %}
+			{% if images is defined %}
+			<div class="sizing">
+				{% for image in images %}
+				<img src="{{ image.getUrl() }}" alt="{{ entry.title }}" class="photograph photo{{ loop.index }}{% if loop.index == 1 %} current{% endif %}" data-width="{{ image.getWidth() / 2 }}" data-height="{{ image.getHeight() / 2 }}" />
+				{% endfor %}
+			</div>
+			{% endif %}
+
+			{% set prevEntry = entry.getPrev(params) %}
+			{% set nextEntry = entry.getNext(params) %}
+
+			<div class="photoNav">
+				<p id="photoNavM" class="nav">
+					{% if prevEntry %}<a class="button gallery prev" href="{{ prevEntry.slug }}">❮❮</a>{% else %}{% endif %} 
+					{% if nextEntry %}<a class="button gallery next" href="{{ nextEntry.slug }}">❯❯</a>{% else %}{% endif %}
+				</p>
+				<div class="image-nav">
+					{% if images is defined %}
+						{% if entry.image.count() > 1 %}
+							<ul>
+							{% for image in images %}
+								<li><a class="button gallery trigger{% if loop.index == 1 %} selected{% endif %}" id="photo{{ loop.index }}" href="#{{ loop.index }}">{{ loop.index }}</a></li>
+							{% endfor %}
+							</ul>
+						{% endif %}
+					{% endif %}
+				</div>
+			</div>
+		</div>
+		<div class="p-side">
+			<div class="photo-details">
+				<h2 id="title">{{ entry.title }}</h3>
+				<p class="location">{{ entry.location }}, {{ entry.place }}</p>
+				<p class="place">{% if state %}{{ state.title }}{% endif %}, {% if year %}{{ year.title }}{% endif %}</p>
+				<p><a href="#">Print Type</a>: {% if entry.printType.value %}{{ entry.printType }}{% endif %}</p>
+				<p><a href="#">Edition Type</a>: {% if entry.editionType.value %}{{ entry.editionType }}{% endif %} ({{ entry.editionSize }})</p>	
+							
+				<p class="inquire"><a class="button gallery inquire" href="/inquiries/print/{{ entry.id }}">INQUIRIES ❯❯</a></p>
+
+				<p id="photoNavD" class="nav">
+				{% if prevEntry %}<a class="button gallery prev" href="{{ prevEntry.slug }}">❮❮</a>{% else %}{% endif %} 
+				{% if nextEntry %}<a class="button gallery next" href="{{ nextEntry.slug }}">❯❯</a>{% else %}{% endif %}
+				</p>
+			
+				{% if fieldNote %}<p>Read the <a href="{{ fieldNote.url }}">field notes</a> for this image.</p>{% endif %}
+				
+			</div>
+		</div>
+	</div>
+</main>
+{% endblock %}
+
+{% js %}
+
+$(document).ready(function() {
+	$('.trigger').click(function(e) {
+		e.preventDefault();
+		
+		if ($('.sizing .'+$(this).attr('id')).hasClass('current')) {} else {
+			$('.trigger').each(function() {
+				$(this).removeClass('selected');
+			});
+			$(this).addClass('selected');
+			$('.sizing .current').fadeTo(500, 0, function() {
+				$(this).removeClass('current');
+			});
+			$('.sizing .'+$(this).attr('id')).fadeTo(500, 1, function() {
+				$(this).addClass('current');
+			});
+		}
+	});
+});
+
+{% endjs %}

@@ -1,0 +1,21 @@
+{% extends "_layout" %}
+
+{% block content %}
+<main id="main">
+
+	{% set category = craft.categories.group('portfolios').slug('home') %}
+	{% set entry = craft.entries().relatedTo(category).orderBy('RAND()').one() %}
+
+	<div class="homecontent">
+		{% set image = entry.image.one() %}
+		<a href="/portfolios"><img src="{{ image.getUrl('home1440') }}" alt="{{ image.title }}" /></a>
+
+		{% set state = entry.state.one() %}
+		{% set year = entry.year.one() %}
+		
+		<h3>{{ entry.title }}</h3>
+		<h4>{{ entry.location }}, {{ state.title }}, {{ year.title }}</h4>
+		<p><a href="/portfolios" class="more">View All Photographs »</a></p>
+	</div>
+</main>
+{% endblock %}
