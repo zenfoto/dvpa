@@ -8,6 +8,7 @@
 	<meta name="keywords" content="Douglas Vincent, Photographic Art, Photography, Fine Art Photography, Pigment Ink Prints, Large Format Photography, Analog Photography, Film Photography, Film, Cibachrome, Ilfochrome">
 	<meta name="author" content="Douglas Vincent | Photographic Arts">
 	<meta http-equiv="Expires" content="30">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<link rel="stylesheet" href="https://use.typekit.net/avc4wei.css">
 	<link href="/css/style.css" rel="stylesheet" type="text/css" media="screen">
 	</head>
@@ -198,7 +199,7 @@
 				<a href="${f.link}"><img src="${f.image}" alt="${f.alt}"></a>
 				<h3>${f.title}</h3>
 				<h4>${f.location}</h4>
-				<p><a href="${f.link}" class="more">View All Photographs »</a></p>
+				<p><a href="/portfolios" class="more">View All Photographs »</a></p>
 			`;
 			})
 			.catch(err => console.error("Error loading featured image:", err));
