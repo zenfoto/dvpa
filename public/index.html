@@ -133,6 +133,24 @@
 
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<script src="/global/scripts/jquery.touchSwipe.min.js"></script>
+
+	<script>
+		fetch("/global/data/home-featured.json")
+			.then(response => response.json())
+			.then(items => {
+			const f = items[Math.floor(Math.random() * items.length)];
+
+			document.getElementById("featured-hero").innerHTML = `
+				<a href="${f.link}"><img src="${f.image}" alt="${f.alt}"></a>
+				<h3>${f.title}</h3>
+				<h4>${f.location}</h4>
+				<p><a href="/portfolios" class="more">View All Photographs »</a></p>
+			`;
+			})
+			.catch(err => console.error("Error loading featured image:", err));
+</script>
+
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			noBurger = 1024;
