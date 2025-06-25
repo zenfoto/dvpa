@@ -186,7 +186,7 @@ p { margin-bottom: 2em; }
 ul { margin-bottom: 2em; }
 
 p { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
-#Artist #global-nav li a.Artist, #Photographs #global-nav li a.Photographs, #Inquiries #global-nav li a.Inquiries { font-weight: 700; color: #696969; }
+#Artist #global-nav li a.Artist, #Photographs #global-nav li a.Photographs, #Inquiries #global-nav li a.Inquiries { font-weight: 700; color: #696969;}
 
 #main a.more { border: 0; color: #968f66; text-transform: uppercase; font: 600 16px/22px 'karmina-sans', sans-serif;}
 #main a.more hover { font: 600 16px/22px 'karmina-sans', sans-serif;}
@@ -203,7 +203,7 @@ p { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto;
 }
 
 figcaption {font: 300 16px/20px 'semplicitapro', sans-serif; color: #727272; margin-top: 0.25em; text-align: left;}
-figure.center figcaption { text-align: center;  padding: 0 5%:}
+figure.center figcaption { text-align: center;  padding: 0 5%;}
 
 header ul { font: 400 13px/18px 'semplicitapro', sans-serif; }
 
