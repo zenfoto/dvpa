@@ -43,4 +43,28 @@ $(document).ready(function() {
 //				escKeyPressed(); break;
 		}
 	};
+
+  $('.trigger').click(function(e) {
+    e.preventDefault();
+    
+    const targetClass = '.' + $(this).attr('id');
+    const $current = $('.sizing .current');
+    const $target = $('.sizing ' + targetClass);
+
+    if ($target.hasClass('current')) return;
+
+    // Update nav buttons
+    $('.trigger').removeClass('selected');
+    $(this).addClass('selected');
+
+    // Transition effect
+    $current.fadeTo(500, 0, function() {
+      $(this).removeClass('current');
+    });
+
+    $target.fadeTo(500, 1, function() {
+      $(this).addClass('current');
+    });
+  });
+
 });
