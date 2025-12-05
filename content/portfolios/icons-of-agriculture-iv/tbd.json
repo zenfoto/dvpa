@@ -1,16 +1,16 @@
 {
-  "title": "Granary Detail",
+  "title": "Silo Details",
   "slug": "tbd",
   "image": "/assets/photographs/tbd.jpg",
   "image-home": "/assets/photographs/tbd-home.jpg",
   "image-biz": "/assets/photographs/tbd-biz.jpg",
   "thumb": "/assets/photographs/thumbs/tbd.jpg",
-  "location": "Southeastern Washington",
-  "place": "Palouse, Washington 2013",
-  "print-type": NaN,
-  "edition-type": "",
+  "location": "Ione",
+  "place": "Morrow County, Oregon 2015",
+  "print-type": "Pigment Ink",
+  "edition-type": "Limited (25)",
   "field-notes": "",
-  "order": 11,
+  "order": 7,
   "image-width": 0,
   "image-height": 0
 }
