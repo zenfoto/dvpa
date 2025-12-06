@@ -1,5 +1,3 @@
-// build.js - Static site generator for DVPA with full support for photos, sections, and single content pages
-
 const fs = require("fs");
 const path = require("path");
 
@@ -99,73 +97,80 @@ function buildSectionPages() {
 }
 
 function buildSinglePages() {
-  const singlesDir = path.join(pageDir, "about"); // You can expand this pattern as needed
-  const files = fs.readdirSync(singlesDir).filter(file => file.endsWith(".json"));
+  const singleDirs = fs.readdirSync(pageDir).filter(dir => {
+    const fullPath = path.join(pageDir, dir);
+    return fs.statSync(fullPath).isDirectory();
+  });
 
-  files.forEach(file => {
-    const data = JSON.parse(fs.readFileSync(path.join(singlesDir, file), "utf-8"));
+  singleDirs.forEach((dir) => {
+    const dirPath = path.join(pageDir, dir);
+    const files = fs.readdirSync(dirPath).filter(file => file.endsWith(".json"));
 
-    // Build each <section>
-    const sectionHTML = (data.sections || []).map(section => {
-      const hasFigure = section.image;
-      const hasText = section.heading || section.text;
-      const imgAttrs = [];
+    files.forEach(file => {
+      const data = JSON.parse(fs.readFileSync(path.join(dirPath, file), "utf-8"));
 
-      if (section["image-width"]) imgAttrs.push(`width="${section["image-width"]}"`);
-      if (section["image-height"]) imgAttrs.push(`height="${section["image-height"]}"`);
-      if (section["data-height"]) imgAttrs.push(`data-height="${section["data-height"]}"`);
+      const sectionHTML = (data.sections || []).map(section => {
+        const hasFigure = section.image;
+        const hasText = section.heading || section.text;
+        const figureClass = section["figure-class"] || "center";
+        const imgAttrs = [];
 
-      let figureBlock = "";
-      if (hasFigure) {
-        figureBlock = `
-          <figure class="center">
-          <div styles="single-image">
-          <img src="${section.image}" alt="${section.alt || ""}" ${imgAttrs.join(" ")}>
-          <figcaption>${section.caption}</figcaption>
-          </div>
-          </figure>`;
-      }
+        if (section["image-width"]) imgAttrs.push(`width="${section["image-width"]}"`);
+        if (section["image-height"]) imgAttrs.push(`height="${section["image-height"]}"`);
+        if (section["data-height"]) imgAttrs.push(`data-height="${section["data-height"]}"`);
 
-      let textBlock = "";
-      if (hasText) {
-        textBlock = `
-          <div class="text">
-            ${section.heading ? `<h3>${section.heading}</h3>` : ""}
-            ${section.text ? `<p>${section.text}</p>` : ""}
+        let figureBlock = "";
+        if (hasFigure) {
+          figureBlock = `
+            <figure class="${figureClass}">
+              <div class="single-image">
+                <img src="${section.image}" alt="${section.alt || ""}" ${imgAttrs.join(" ")}>
+                ${section.caption ? `<figcaption>${section.caption}</figcaption>` : ""}
+              </div>
+            </figure>`;
+        }
+
+        let textBlock = "";
+        if (hasText) {
+          textBlock = `
+            <div class="text">
+              ${section.heading ? `<h3>${section.heading}</h3>` : ""}
+              ${section.text ? `<p>${section.text}</p>` : ""}
+            </div>`;
+        }
+
+        return `
+          <div class="section">
+            ${figureBlock}
+            ${textBlock}
           </div>`;
-      }
+      }).join("\n");
 
-      return `
-        <div class="section">
-          ${figureBlock}
-          ${textBlock}
+      const navHTML = `
+        <div id="prevnext">
+          <ul class="piped">
+            <li>${data.navigation?.section || ""}</li>
+            <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+            ${data.navigation?.prev ? `<li><a class="prev" href="/${data.navigation.prev.slug}">${data.navigation.prev.label}</a></li>` : ""}
+            ${data.navigation?.next ? `<li><span class="next"><a href="/${data.navigation.next.slug}">${data.navigation.next.label}</a></span></li>` : ""}
+          </ul>
         </div>`;
-    }).join("\n");
 
-    const navHTML = `
-      <div id="prevnext">
-        <ul class="piped">
-          <li>${data.navigation?.section || ""}</li>
-          <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
-          ${data.navigation?.prev ? `<li><a class="prev" href="/${data.navigation.prev.slug}">${data.navigation.prev.label}</a></li>` : ""}
-          ${data.navigation?.next ? `<li><span class="next"><a href="/${data.navigation.next.slug}">${data.navigation.next.label}</a></span></li>` : ""}
-        </ul>
-      </div>`;
+      const html = sectionTemplate
+        .replace(/{{header}}/g, header)
+        .replace(/{{footer}}/g, footer)
+        .replace(/{{title}}/g, data.title)
+        .replace(/{{body-id}}/g, data["body-id"] || data.title)
+        .replace(/{{sections}}/g, sectionHTML)
+        .replace(/{{bottomNav}}/g, navHTML);
 
-    const html = sectionTemplate
-      .replace(/{{header}}/g, header)
-      .replace(/{{footer}}/g, footer)
-      .replace(/{{title}}/g, data.title)
-      .replace(/{{body-id}}/g, data["body-id"] || data.title)
-      .replace(/{{sections}}/g, sectionHTML)
-      .replace(/{{bottomNav}}/g, navHTML);
+      const outputPath = path.join(pageOutputDir, dir);
+      if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
 
-    const outputPath = path.join(pageOutputDir, "about"); // hardcoded path — adjust as needed
-    if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
-
-    const outputFile = path.join(outputPath, file.replace(".json", ".html"));
-    fs.writeFileSync(outputFile, html);
-    console.log(`Generated single content page: ${outputFile}`);
+      const outputFile = path.join(outputPath, file.replace(".json", ".html"));
+      fs.writeFileSync(outputFile, html);
+      console.log(`Generated single content page: ${outputFile}`);
+    });
   });
 }
 
