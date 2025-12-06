@@ -1,0 +1,103 @@
+{
+  "title": "Artist Statement",
+  "slug": "Artist Statement",
+  "body-id": "About",
+
+  "sections": [
+    {
+      "figure-class": "center",
+      "image-wrapper-class": "single-image",
+
+      "image": "/images/general/douglas-canyonlands-national-park.jpg",
+      "alt": "Douglas in Canyonlands",
+      "caption": "Exploring the canvas of my inspiration.",
+
+      "image-width": 420,
+      "image-height": 420,
+      "data-height": 420,
+
+      "heading": "The Why",
+      "text": "I strive to convey fleeting moments that resonate as guides to my own life — subtlety, simplicity, the sublime. The canvas of my inspiration is the American West, its broad brush strokes of wilderness and agriculture. I value intimacy of place, returning frequently to locations where time and communion have deepened my understanding of both place and self."
+    },
+
+   {
+      "figure-class": "center",
+      "image-wrapper-class": "single-image",
+
+      "image": "/images/general/douglas-exploring-canyonlands.jpg",
+      "alt": "Douglas navigating a predicament",
+      "caption": "Meditating on my predicament.",
+
+      "image-width": 420,
+      "image-height": 420,
+      "data-height": 420,
+
+      "heading": "The Discipline",
+      "text": "I've disciplined myself to explore without the weight (both physical and psychological) of a camera. The ability to see photographs is a mysterious balance of curiosity, receptivity, and experience. The acuteness of my receptivity, a discipline in letting go of preconceptions, can be elusive and frustrating. The process is a meditation, a 'non-effort' in becoming fully present and aware of the surroundings."
+    },
+
+    {
+      "figure-class": "center",
+      "image-wrapper-class": "single-image",
+
+      "image": "/images/general/douglas-view-camera.jpg",
+      "alt": "RH Phillips 4x5 view camera",
+      "caption": "My trusty field companion, the RH Phillips 4x5 view camera.",
+
+      "image-width": 420,
+      "image-height": 420,
+      "data-height": 420,
+
+      "heading": "In the Field",
+      "text": "When inspiration is found, it necessitates careful consideration of subject and light. Returning, under optimal conditions, to make the intended photograph can take minutes, a day, sometimes years. Or not at all. While intended photographs are sometimes lost, I believe this approach enables me to create intimate meditative photographs that evoke both a sense and transcendence of place and subject."
+    },
+
+    {
+      "figure-class": "center",
+      "image-wrapper-class": "single-image",
+
+      "image": "/images/general/douglas-darkroom-enlarger.jpg",
+      "alt": "The Analog Darkroom",
+      "caption": "Where the analog magic happens.",
+
+      "image-width": 420,
+      "image-height": 420,
+      "data-height": 420,
+
+      "heading": "The Darkroom",
+      "text": "The exposed photograph is just the first half of the creative journey. Whether exposed to grain or pixel, the goal is to articulate the composition into a meticulously crafted and considered photographic print. A new process begins, exploring variations in color and tonal balance, contrast, and emphasis, each iteration informing the whole of the completed work."
+    },
+
+     {
+      "figure-class": "center",
+      "image-wrapper-class": "single-image",
+
+      "image": "/images/general/douglas-cibachrome-print.jpg",
+      "alt": "A Cibachrome print",
+      "caption": "The luminous moment when the print is rinsed.",
+
+      "image-width": 420,
+      "image-height": 420,
+      "data-height": 420,
+
+      "heading": "The Photographic Print",
+      "text": "My intention in the final print is two-fold: to convey the veracity of the original composition while invoking a sense of wonder beyond the composition's physical elements. While the print is the culmination of my effort, it is only successful if my effort is transparent to the viewer."
+    },
+
+    {
+      "heading": "And You",
+      "text": "Conveying light and form to move the viewer to emotion, curiosity, even introspection, is the true joy I find in photography and print making."
+    }
+
+  ],
+
+
+  "navigation": {
+    "section": "About",
+    "prev": null,
+    "next": {
+      "slug": "about/my-story",
+      "label": "My Story"
+    }
+  }
+}
