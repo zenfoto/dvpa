@@ -119,9 +119,11 @@ function buildSinglePages() {
       if (hasFigure) {
         figureBlock = `
           <figure class="center">
-            <img src="${section.image}" alt="${section.alt || ""}" ${imgAttrs.join(" ")}>
+          <div styles="single-image">
+          <img src="${section.image}" alt="${section.alt || ""}" ${imgAttrs.join(" ")}>
           </figure>
-          <figcaption>${section.caption}</figcaption>`;
+          <figcaption>${section.caption}</figcaption>
+          </div>`;
       }
 
       let textBlock = "";
