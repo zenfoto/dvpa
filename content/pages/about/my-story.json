@@ -196,7 +196,7 @@
       "label": "My Story"
     },
     "next": {
-      "slug": "inspiration.html",
+      "slug": "/about/inspiration.html",
       "label": "Inspiration"
     }
   }

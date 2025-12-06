@@ -81,7 +81,7 @@
     "section": "About",
     "prev": null,
     "next": {
-      "slug": "my-story.html",
+      "slug": "/about/my-story.html",
       "label": "My Story"
     }
   }
