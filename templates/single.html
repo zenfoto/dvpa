@@ -18,22 +18,8 @@
 <main id="main" class="content">
   <h2>{{title}}</h2>
 
-  {{#sections}}
-  <figure class="{{figure-class}}">
-    <div class="{{image-wrapper-class}}">
-      <img
-        src="{{image}}"
-        alt="{{alt}}"
-        width="{{image-width}}"
-        height="{{image-height}}"
-        data-height="{{data-height}}"
-      />
-      <figcaption>{{caption}}</figcaption>
-    </div>
-  </figure>
-  <h3>{{heading}}</h3>
-  <p>{{text}}</p>
-  {{/sections}}
+  {{sections}}
+ 
 
   <div id="prevnext">
     <ul class="piped">
