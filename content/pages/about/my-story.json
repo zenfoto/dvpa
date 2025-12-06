@@ -192,11 +192,11 @@
   "navigation": {
     "section": "About",
     "prev": {
-      "slug": "about/my-story",
+      "slug": "about/my-story.html",
       "label": "My Story"
     },
     "next": {
-      "slug": "about/inspiration",
+      "slug": "about/inspiration.html",
       "label": "Inspiration"
     }
   }
