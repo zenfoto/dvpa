@@ -1,4 +1,3 @@
-// build.js - Static site generator for DVPA with modular header and footer
 
 const fs = require("fs");
 const path = require("path");
@@ -7,15 +6,18 @@ const contentDir = path.join(__dirname, "../content/portfolios");
 const pageDir = path.join(__dirname, "../content/pages");
 const outputDir = path.join(__dirname, "../public/portfolios");
 const pageOutputDir = path.join(__dirname, "../public");
+const contentOutputDir = path.join(__dirname, "../public");
+
 const photoTemplatePath = path.join(__dirname, "../templates/photograph.html");
 const pageTemplatePath = path.join(__dirname, "../templates/page.html");
-const sectionTemplatePath = path.join(__dirname, "../templates/section.html");
+const contentTemplatePath = path.join(__dirname, "../templates/single.html");
+
 const headerPath = path.join(__dirname, "../templates/header.html");
 const footerPath = path.join(__dirname, "../templates/footer.html");
 
 const photoTemplate = fs.readFileSync(photoTemplatePath, "utf-8");
 const pageTemplate = fs.readFileSync(pageTemplatePath, "utf-8");
-const sectionTemplate = fs.readFileSync(sectionTemplatePath, "utf-8");
+const contentTemplate = fs.readFileSync(contentTemplatePath, "utf-8");
 const header = fs.readFileSync(headerPath, "utf-8");
 const footer = fs.readFileSync(footerPath, "utf-8");
 
@@ -24,7 +26,7 @@ function buildImagePages() {
 
   categories.forEach((category) => {
     const categoryPath = path.join(contentDir, category);
-    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json") && file !== "index.json");
+    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json"));
 
     const dataObjects = files.map(file => {
       const filePath = path.join(categoryPath, file);
@@ -71,59 +73,30 @@ function buildImagePages() {
 }
 
 function buildSectionPages() {
-  const categories = fs.readdirSync(contentDir);
+  const files = fs.readdirSync(pageDir);
 
-  categories.forEach((category) => {
-    const categoryPath = path.join(contentDir, category);
-    const indexPath = path.join(categoryPath, "index.json");
-    if (!fs.existsSync(indexPath)) return;
+  files.forEach((file) => {
+    if (file.endsWith(".json")) {
+      const data = JSON.parse(fs.readFileSync(path.join(pageDir, file), "utf-8"));
 
-    const sectionData = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
-    const files = fs.readdirSync(categoryPath).filter(file =>
-      file.endsWith(".json") && file !== "index.json"
-    );
+      const html = pageTemplate
+        .replace(/{{header}}/g, header)
+        .replace(/{{footer}}/g, footer)
+        .replace(/{{title}}/g, data.title)
+        .replace(/{{body}}/g, data.body);
 
-    const imageData = files.map(file => {
-      const filePath = path.join(categoryPath, file);
-      return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    });
+      const sectionDir = path.join(pageOutputDir, data.slug);
+      if (!fs.existsSync(sectionDir)) fs.mkdirSync(sectionDir, { recursive: true });
 
-    imageData.sort((a, b) => a.order - b.order);
-
-    const thumbnails = imageData.map(img => {
-      return `<div class="thumb">
-        <a href="/portfolios/${category}/${img.slug}.html">
-          <img src="${img.thumb}" alt="${img.title}">
-          <h4>${img.title}</h4>
-        </a>
-      </div>`;
-    }).join("\n");
-
-    const html = sectionTemplate
-      .replace(/{{header}}/g, header)
-      .replace(/{{footer}}/g, footer)
-      .replace(/{{title}}/g, sectionData.title)
-      .replace(/{{body-id}}/g, sectionData.title)
-      .replace(/{{intro}}/g, sectionData.intro || "")
-      .replace(/{{thumbnails}}/g, thumbnails);
-
-    const outputPath = path.join(outputDir, category);
-    if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
-
-    const outputFile = path.join(outputPath, "index.html");
-    fs.writeFileSync(outputFile, html);
-    console.log(`Generated section index: ${outputFile}`);
+      const outputFile = path.join(sectionDir, "index.html");
+      fs.writeFileSync(outputFile, html);
+      console.log(`Generated section page: ${outputFile}`);
+    }
   });
 }
 
-buildImagePages();
-buildSectionPages();
-
-
 function buildContentPages() {
   const baseDir = path.join(__dirname, "../content/pages");
-  const templatePath = path.join(__dirname, "../templates/single.html");
-  const template = fs.readFileSync(templatePath, "utf-8");
 
   function walk(dir) {
     let results = [];
@@ -147,15 +120,14 @@ function buildContentPages() {
     const relativePath = path.relative(baseDir, filePath);
     const parts = relativePath.split(path.sep);
     const slug = path.basename(filePath, ".json");
-    const outputSubDir = path.join(outputDir, ...parts.slice(0, -1));
+    const outputPath = path.join(contentOutputDir, ...parts.slice(0, -1));
 
-    let html = template
+    let html = contentTemplate
       .replace(/{{header}}/g, header)
       .replace(/{{footer}}/g, footer)
       .replace(/{{title}}/g, data.title)
       .replace(/{{body-id}}/g, data["body-id"]);
 
-    // Inject sections
     const sectionHTML = data.sections.map(section => `
 <figure class="${section["figure-class"]}">
   <div class="${section["image-wrapper-class"]}">
@@ -169,7 +141,6 @@ function buildContentPages() {
 
     html = html.replace("{{sections}}", sectionHTML);
 
-    // Inject navigation
     let navHTML = `
 <div id="prevnext">
   <ul class="piped">
@@ -189,17 +160,13 @@ function buildContentPages() {
 
     html = html.replace("{{navigation}}", navHTML);
 
-    // Determine output filename
-    const outputPath = path.join(outputDir, ...parts.slice(0, -1));
-    if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
-
     const fileName = slug === "index" ? "index.html" : `${slug}.html`;
-    const fullPath = path.join(outputPath, fileName);
-
-    fs.writeFileSync(fullPath, html);
-    console.log(`Generated content page: ${fullPath}`);
+    if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
+    fs.writeFileSync(path.join(outputPath, fileName), html);
+    console.log(`Generated content page: ${path.join(outputPath, fileName)}`);
   });
 }
 
-
+buildImagePages();
+buildSectionPages();
 buildContentPages();

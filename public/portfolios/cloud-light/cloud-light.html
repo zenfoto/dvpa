@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
     <meta charset="utf-8">
-    <title>Artist Statement - Douglas Vincent Photographic Arts</title>
+    <title>Cloud Light - Douglas Vincent Photographic Arts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="origin-when-cross-origin">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Douglas Vincent, Photographic Art, Photography, Fine Art Photography, Pigment Ink Prints, Cibachrome, Ilfochrome, Portfolio">
+    <meta name="keywords" content="Douglas Vincent, Photographic Art, Photography, Fine Art Photography, Pigment Ink Prints, Large Format Photography, Analog Photography, Film Photography, Film, Cibachrome, Ilfochrome">
     <meta name="author" content="Douglas Vincent | Photographic Arts">
     <meta http-equiv="Expires" content="30">
-    <link rel="stylesheet" href="https://use.typekit.net/avc4wei.css">
-    <link href="/css/style.css?v={{ now|date('n.j.y.G.i.s') }}" rel="stylesheet" type="text/css" media="screen"></head>
-<body id="About">
-
-	<div id="top">
+     <link rel="stylesheet" href="https://use.typekit.net/avc4wei.css">
+    <link href="/css/style.css?v={{ now|date('n.j.y.G.i.s') }}" rel="stylesheet" type="text/css" media="screen">
+  </head>
+  <body id="Cloud Light">
+    
+    <div id="top">
   <div id="top-inner">
     <header id="header">
       <input type="checkbox" id="navToggleMain">
@@ -109,37 +110,55 @@
   </div>
 </div>
 
-<main id="main" class="content">
-  <h2>Artist Statement</h2>
+    <main id="main" class="detail">
+      <div class="row">
+        <div class="p-main" id="resize">
+          <div class="sizing">
+            <img src="undefined" alt="Cloud Light" class="photograph photo1 current" data-width="undefined" data-height="undefined"/>
+            <img src="undefined" alt="Cloud Light" class="photograph photo2" data-width="undefined" data-height="undefined"/>
+            <img src="undefined" alt="Cloud Light" class="photograph photo3" data-width="undefined" data-height="undefined"/>
+          </div>
 
-  {{#sections}}
-  <figure class="{{figure-class}}">
-    <div class="{{image-wrapper-class}}">
-      <img
-        src="{{image}}"
-        alt="{{alt}}"
-        width="{{image-width}}"
-        height="{{image-height}}"
-        data-height="{{data-height}}"
-      />
-      <figcaption>{{caption}}</figcaption>
-    </div>
-  </figure>
-  <h3>{{heading}}</h3>
-  <p>{{text}}</p>
-  {{/sections}}
+ <!--          <div class="photoNav">
+            <p id="photoNavM" class="nav">
+					    <a class="button gallery prev" href="dream-clouds-zion-national-park.html">❮❮</a>
+              <a class="button gallery next" href="the-goddess-wire-mesa.html">❯❯</a>
+            </p>
+            <div class="image-nav">
+              <ul>
+                <li><a class="button gallery trigger selected" id="photo1" href="#1">1</a></li>
+                <li><a class="button gallery trigger" id="photo2" href="#2">2</a></li>
+                <li><a class="button gallery trigger" id="photo3" href="#3">3</a></li>
+              </ul>
+            </div>
+          </div>
+ -->
+	</div>
+		 <div class="p-side">
+          <div class="photo-details">
+            <h2 id="title">Cloud Light</h2>
+            <p class="location">undefined</p>
+            <p class="place">undefined</p>
+            <p><a href="#">Print Type</a>: undefined</p>
+            <p><a href="#">Edition Type</a>: undefined</p>
 
-  <div id="prevnext">
-    <ul class="piped">
-      <li>{{navigation.section}}</li>
-      <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
-      {{#navigation.prev}}<li><a class="prev" href="/{{slug}}">{{label}}</a></li>{{/navigation.prev}}
-      {{#navigation.next}}<li><span class="next"><a href="/{{slug}}">{{label}}</a></span></li>{{/navigation.next}}
-    </ul>
-  </div>
-</main>
+            <p class="inquire">
+              <a class="button gallery inquire" href="/inquiries/print/">INQUIRIES ❯❯</a>
+            </p>
 
-<footer id="footer">
+           <p id="photoNavD" class="nav">
+					    <a class="button gallery prev" href="dream-clouds-zion-national-park.html">❮❮</a>
+              <a class="button gallery next" href="the-goddess-wire-mesa.html">❯❯</a>
+            </p>
+ 
+
+            <p>Read the <a href="/undefined">field notes</a> for this image.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
   <p>
     Copyright © 2010–2025 by Douglas Vincent : Photographic Arts<br>
     Permission must be <a href="/contact/">requested to use</a> any content from this site.
@@ -149,7 +168,6 @@
     <a href="/contact/">inquiries</a> are always welcome.
   </p>
 </footer>
-
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<script src="/global/scripts/jquery.touchSwipe.min.js"></script>
@@ -210,6 +228,7 @@
 	<script src="/global/scripts/general.js"></script>
 	<script src="/global/scripts/sizing.js"></script>
 	<script src="/global/scripts/photo.js"></script>
+
 
 </body>
 </html>
