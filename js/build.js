@@ -120,7 +120,8 @@ function buildSinglePages() {
         figureBlock = `
           <figure class="center">
             <img src="${section.image}" alt="${section.alt || ""}" ${imgAttrs.join(" ")}>
-          </figure>`;
+          </figure>
+          <figcaption>${section.caption}</figcaption>`;
       }
 
       let textBlock = "";
