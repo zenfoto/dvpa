@@ -1,6 +1,6 @@
 {
   "title": "Artist Statement",
-  "slug": "Artist Statement",
+  "slug": "index",
   "body-id": "About",
 
   "sections": [
@@ -8,7 +8,7 @@
       "figure-class": "center",
       "image-wrapper-class": "single-image",
 
-      "image": "/images/general/douglas-canyonlands-national-park.jpg",
+      "image": "/assets/general/douglas-canyonlands-national-park.jpg",
       "alt": "Douglas in Canyonlands",
       "caption": "Exploring the canvas of my inspiration.",
 
@@ -24,7 +24,7 @@
       "figure-class": "center",
       "image-wrapper-class": "single-image",
 
-      "image": "/images/general/douglas-exploring-canyonlands.jpg",
+      "image": "/assets/general/douglas-exploring-canyonlands.jpg",
       "alt": "Douglas navigating a predicament",
       "caption": "Meditating on my predicament.",
 
@@ -40,7 +40,7 @@
       "figure-class": "center",
       "image-wrapper-class": "single-image",
 
-      "image": "/images/general/douglas-view-camera.jpg",
+      "image": "/assets/general/douglas-view-camera.jpg",
       "alt": "RH Phillips 4x5 view camera",
       "caption": "My trusty field companion, the RH Phillips 4x5 view camera.",
 
@@ -56,7 +56,7 @@
       "figure-class": "center",
       "image-wrapper-class": "single-image",
 
-      "image": "/images/general/douglas-darkroom-enlarger.jpg",
+      "image": "/assets/general/douglas-darkroom-enlarger.jpg",
       "alt": "The Analog Darkroom",
       "caption": "Where the analog magic happens.",
 
@@ -72,7 +72,7 @@
       "figure-class": "center",
       "image-wrapper-class": "single-image",
 
-      "image": "/images/general/douglas-cibachrome-print.jpg",
+      "image": "/assets/general/douglas-cibachrome-print.jpg",
       "alt": "A Cibachrome print",
       "caption": "The luminous moment when the print is rinsed.",
 

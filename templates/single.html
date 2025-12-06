@@ -13,22 +13,15 @@
     <link href="/css/style.css?v={{ now|date('n.j.y.G.i.s') }}" rel="stylesheet" type="text/css" media="screen"></head>
 <body id="{{body-id}}">
 
-	{{header}}
+{{header}}
 
 <main id="main" class="content">
   <h2>{{title}}</h2>
 
   {{sections}}
  
+  {{bottomNav}}
 
-  <div id="prevnext">
-    <ul class="piped">
-      <li>{{navigation.section}}</li>
-      <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
-      {{#navigation.prev}}<li><a class="prev" href="/{{slug}}">{{label}}</a></li>{{/navigation.prev}}
-      {{#navigation.next}}<li><span class="next"><a href="/{{slug}}">{{label}}</a></span></li>{{/navigation.next}}
-    </ul>
-  </div>
 </main>
 
 {{footer}}
