@@ -118,7 +118,7 @@ function buildSinglePages() {
       let figureBlock = "";
       if (hasFigure) {
         figureBlock = `
-          <figure class="${section.class || ""}">
+          <figure class="center">
             <img src="${section.image}" alt="${section.alt || ""}" ${imgAttrs.join(" ")}>
           </figure>`;
       }
