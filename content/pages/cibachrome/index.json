@@ -5,58 +5,29 @@
 
   "sections": [
     {
-      "image": "/assets/general/cibachrome-darkroom.jpg",
-      "alt": "JOBO CPP-2 processor",
-      "caption": "A JOBO CPP-2 processor does the heavy lifting.",
+      "html-image": "<figure class='center'><div class='single-image'><img src='/assets/general/cibachrome-darkroom.jpg' alt='JOBO CPP-2 processor' width='800' height='449' data-height='449'><figcaption>A JOBO CPP-2 processor does the heavy lifting.</figcaption></div></figure>",
+      "html-text": "<div class='text'><h3>About Cibachrome</h3><p>Cibachrome belongs to the tradition of analog photography including the <a href='darkroom.html'>wet darkroom</a>, chemistry, and film. In its commercial prime, Cibachrome occupied a unique place in analog photography as the only process for producing photographic prints directly from color transparency film. The paper was discontinued in late 2011 and presently, in North America, there are only about five full-time practitioners of the Ilfochrome process.</p></div>"
+    },
 
-      "image-width": 800,
-      "image-height": 449,
-      "data-height": 449,
-
-      "heading": "About Cibachrome",
-      "text": "Cibachrome belongs to the tradition of analog photography including the <a href=\"darkroom.html\">wet darkroom</a>, chemistry, and film. In its commercial prime, Cibachrome occupied a unique place in analog photography as the only process for producing photographic prints directly from color transparency film. The paper was discontinued in late 2011 and presently, in North America, there are only about five full-time practitioners of the Ilfochrome process."
+    {
+      "html-text": "<div class='text'><h3>The Uniqueness of Cibachrome</h3><p>To understand what makes Cibachrome unique, it's helpful to compare it to the process that basically makes up the rest of chemistry-based analog photography. Almost all commercial color film and papers are created using the chromogenic process. In the chromogenic process, exposed silver halide material (film or paper) is processed with color developer that reacts with color-couplers in the material. Color image dyes are formed which, together, construct the color negative or photograph.</p><p>Cibachrome, by comparison, is a direct-positive, chromolytic process. It's a silver dye bleach material that incorporates highly concentrated cyan, magenta, and yellow dyes into the paper's emulsion. The combination of these dyes forms black. Complete removal of the dyes would yield transparency but appear white due to a white base layer. Depending on the degree of exposure in an image, the dyes are bleached away proportionately, revealing color and forming a positive photograph.</p></div>"
     },
 
    {
-      "heading": "The Uniqueness of Cibachrome",
-      "text": "To understand what makes Cibachrome unique, it's helpful to compare it to the process that basically makes up the rest of chemistry-based analog photography. Almost all commercial color film and papers are created using the chromogenic process. In the chromogenic process, exposed silver halide material (film or paper) is processed with color developer that reacts with color-couplers in the material. Color image dyes are formed which, together, construct the color negative or photograph."
+      "html-text": "<div class='text'><h3>Ilfochrome's Characterisitcs</h3><p>A number of characteristics, when combined, distinguish Cibachrome from all other photographic printing papers, both analog and digital. The paper's base is polyester (Melinex by DuPont) and has exceptional dimensional stability — it's very flat and sturdy. The paper is chemically inert enabling a bright neutral white critical to good color reproduction. The surface layer of Cibachrome is exceptionally smooth giving prints a high gloss finish. And because light reflectance in the material is more directional, prints, viewed at an angle, can exhibit an almost metallic appearance.</p><p>Cibachrome's greatest characteristic is its color Azo dyes. Embedded in the paper, these cyan, magenta, and yellow dyes are both exceedingly pure and stable. The dyes render images with excellent saturation and hue. Prints are very sharp, the high image resolution, a result of the anti-light scattering characteristics of the dyes themselves. And, under appropriate lighting, prints feel like they are lit from within, invoking a strong sense of dimensionality unique to all photographic printmaking.</p><p>In other words, these prints are absolutely beautiful.</p></div>"
     },
 
-    {
-      "text": "Cibachrome, by comparison, is a direct-positive, chromolytic process. It's a silver dye bleach material that incorporates highly concentrated cyan, magenta, and yellow dyes into the paper's emulsion. The combination of these dyes forms black. Complete removal of the dyes would yield transparency but appear white due to a white base layer. Depending on the degree of exposure in an image, the dyes are bleached away proportionately, revealing color and forming a positive photograph."
+   {
+      "html-image": "<figure class='center'><div class='single-image'><img src='/assets/general/ilfochrome-cibachrome-print-in-wash.jpg' alt='Cibachrome print pulled from JOBO processor' width='512' height='683' data-height='683'><figcaption>The magic moment; a print just pulled from the JOBO processor.</figcaption></div></figure>",
+      "html-text": "<div class='text'><h3>Why Cibachrome?</h3><p>I've been asked this question many times over the years and I find my answer hasn't wavered. My love and commitment to Cibachrome, despite its anxiety-inducing commercial <a href='history.html'>history</a>, is rooted in deeply held values of hand craftsmanship, excellence, and creative expression. To create with one's hands, physically, where the object's formation hinges on your every decision and movement, is incredibly fulfilling to me. There's a moment of magic when a wet print is pulled from the processor, a glowing affirmation of creative intent. And, despite many digital enthusiasts objections, a well printed Ilfochrome, properly displayed, is still unrivaled for its beauty in all color photographic printmaking.</p><h3>Creative Veracity</h3><p>I am a firm believer in the marriage of process to artistic intent. It is fundamental to realizing the highest achievements in creative expression. I refer to this as creative veracity. An artist, to realize his or her vision, must choose tools aligned to that vision, even if they fly in the face of cultural trends and conformities. Cibachrome, as a tool of creative expression, is ideally suited to my film-based large format photography, the crux of my photographic existence. It eloquently expresses the truth I strive to convey of my inspiration, its experience, and resulting insights.</p></div>"
     },
 
-    {
-      "heading": "Ilfochrome's Characterisitcs",
-      "text": "A number of characteristics, when combined, distinguish Cibachrome from all other photographic printing papers, both analog and digital. The paper's base is polyester (Melinex by DuPont) and has exceptional dimensional stability — it's very flat and sturdy. The paper is chemically inert enabling a bright neutral white critical to good color reproduction. The surface layer of Cibachrome is exceptionally smooth giving prints a high gloss finish. And because light reflectance in the material is more directional, prints, viewed at an angle, can exhibit an almost metallic appearance."
-    },
-
-    {
-        "text": "Cibachrome's greatest characteristic is its color Azo dyes. Embedded in the paper, these cyan, magenta, and yellow dyes are both exceedingly pure and stable. The dyes render images with excellent saturation and hue. Prints are very sharp, the high image resolution, a result of the anti-light scattering characteristics of the dyes themselves. And, under appropriate lighting, prints feel like they are lit from within, invoking a strong sense of dimensionality unique to all photographic printmaking."
-    },
-
-    {
-        "text": "In other words, these prints are absolutely beautiful."
-    },
-
-    {
-      "image": "/assets/general/ilfochrome-cibachrome-print-in-wash.jpg",
-      "alt": "Cibachrome print pulled from JOBO processor",
-      "caption": "The magic moment; a print just pulled from the JOBO processor.",
-
-      "image-width": 512,
-      "image-height": 683,
-      "data-height": 683,
-
-      "heading": "Why Cibachrome?",
-      "text": "I've been asked this question many times over the years and I find my answer hasn't wavered. My love and commitment to Cibachrome, despite its anxiety-inducing commercial <a href=\"history.html\">history</a>, is rooted in deeply held values of hand craftsmanship, excellence, and creative expression. To create with one's hands, physically, where the object's formation hinges on your every decision and movement, is incredibly fulfilling to me. There's a moment of magic when a wet print is pulled from the processor, a glowing affirmation of creative intent. And, despite many digital enthusiasts objections, a well printed Ilfochrome, properly displayed, is still unrivaled for its beauty in all color photographic printmaking."
-    },
-
-    {
-      "heading": "Creative Veracity",
-      "text": "I am a firm believer in the marriage of process to artistic intent. It is fundamental to realizing the highest achievements in creative expression. I refer to this as creative veracity. An artist, to realize his or her vision, must choose tools aligned to that vision, even if they fly in the face of cultural trends and conformities. Cibachrome, as a tool of creative expression, is ideally suited to my film-based large format photography, the crux of my photographic existence. It eloquently expresses the truth I strive to convey of my inspiration, its experience, and resulting insights."
+   {
+      "html-image": "",
+      "html-text": ""
     }
 
+  
   ],
 
 

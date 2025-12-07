@@ -110,41 +110,16 @@ function buildSinglePages() {
       const data = JSON.parse(fs.readFileSync(path.join(dirPath, file), "utf-8"));
 
       const sectionHTML = (data.sections || []).map(section => {
-        const hasFigure = section.image;
-        const hasText = section.heading || section.text;
-        const figureClass = section["figure-class"] || "center";
-        const imgAttrs = [];
+  const imageBlock = section["html-image"] || "";
+  const textBlock = section["html-text"] || "";
 
-        if (section["image-width"]) imgAttrs.push(`width="${section["image-width"]}"`);
-        if (section["image-height"]) imgAttrs.push(`height="${section["image-height"]}"`);
-        if (section["data-height"]) imgAttrs.push(`data-height="${section["data-height"]}"`);
-
-        let figureBlock = "";
-        if (hasFigure) {
-          figureBlock = `
-            <figure class="${figureClass}">
-              <div class="single-image">
-                <img src="${section.image}" alt="${section.alt || ""}" ${imgAttrs.join(" ")}>
-                ${section.caption ? `<figcaption>${section.caption}</figcaption>` : ""}
-              </div>
-            </figure>`;
-        }
-
-        let textBlock = "";
-        if (hasText) {
-          textBlock = `
-            <div class="text">
-              ${section.heading ? `<h3>${section.heading}</h3>` : ""}
-              ${section.text ? `<p>${section.text}</p>` : ""}
-            </div>`;
-        }
-
-        return `
-          <div class="section">
-            ${figureBlock}
-            ${textBlock}
-          </div>`;
-      }).join("\n");
+  return `
+    <div class="section">
+      ${imageBlock}
+      ${textBlock}
+    </div>
+  `;
+}).join("\n");
 
       const navHTML = `
         <div id="prevnext">
