@@ -1,0 +1,48 @@
+{
+  "title": "Display and Care",
+  "slug": "display-and-care",
+  "body-id": "Cibachrome",
+
+  "sections": [
+
+    {
+      "html-image": "<figure class='center'><div class='single-image'></div><img src='/assets/general/color-wheel.jpg' alt='Cibachrome under light' title='Cibachrome under light'><figcaption>How we perceive colors varies dramatically in different light.</figcaption></div></figure>",
+      "html-text": "<h3>Understanding Human Color Perception</h3><p>Human perception of color is primarily associated with the intensity of light reflected off an object. While our eye/brain complex does an exceptional job in perceiving light in poor conditions, the hue, saturation and luminosity of a color print can be dramatically affected with even subtle changes in light intensity. To maximize the viewing experience and enjoyment of a color photographic print, it's critical to position a print favorably with proper lighting.</p>"
+    },
+
+    {
+      "html-image": "<figure class='center'><div class='single-image'></div><img src='/assets/general/cibachrome-under-led-lights.jpg' alt='Cibachrome under LED light' title='Cibachrome under LED light'><figcaption>Cibachrome Print displayed under 3000K LED light.</figcaption></div></figure>",
+      "html-text": "<h3>Displaying Cibachrome Prints</h3><p>Generally, the best placement of photographic art within a room is away from windows and the direct path of sunlight. Even bright reflected sunlight may subject a print to harmful UV radiation which can accelerate fading and damage a print. For lighting a print, 60-80 watt incandescent halogen floodlights are ideal — they provide the most complimentary light when compared to other incandescent and fluorescent lighting which emit undesirable color casts. Lights should be positioned 4-6 feet away from the print at a 30-40° angle. Be careful to position the light so as to avoid direct spotlight reflections in the print's glass/glazing when viewed directly.</p>"
+    },
+
+    {
+      "html-text": "<h3>Handling and Care of Cibachrome Prints</h3><p>Cibachrome Classic is incredibly sensitive to the natural oils from one's hand. Fingerprints stick to the emulsion of paper (once printed) and are difficult to remove. Always handle prints with cotton gloves. I have been able to remove finger prints (and dust) with the <a href=\"https:://www.amazon.com/Kinetronics-Anti-static-Microfiber-Cloth-Tiger/dp/B00009R7VT/ref=sr_1_1?ie=UTF8&amp;qid=1330217930&amp;sr=8-1\">Kinetronics Anti-static Tiger Cloth</a> which is soft enough not to scratch the emulsion. If absolutely necessary, PEC-12 film cleaner with Pec Pads can also be used.</p>"
+    },
+
+    {
+      "html-text": "<h3>Archival Characteristics of Cibachrome</h3><p>Tests originally conducted by Ilford and cited by the defacto current standards body, <a href=\"https://www.wilhelm-research.com\" class='ext-link'>Wilhelm Imaging Research</a>, rates Cibachrome under recommended viewing conditions, at 29 years before any noticeable fading will occur. Real world evidence from owners of prints for 3+ decades indicate prints maintain their color fidelity much longer. Any initial fading occurs in the yellow spectrum which is almost imperceptible to the human eye. Dark stored, Cibachrome is rated at 200+ years, which can be interpreted to mean 'indefinitely'.</p>"
+    },
+
+    {
+      "html-text": "<h3>Archival Print Storage</h3><p>The emulsion of Cibachrome is so sensitive, even archival interleaving tissues can cause scratches on the prints surface. I've found high-density <a href=\"https://www.archivalmethods.com/Product.cfm?categoryid=6&amp;Productid=84\">polyethylene envelopes</a> to be ideal for storing prints safely and minimizing static which attracts dust. While expensive, one advantage of the envelopes is that two prints can be loaded back to back doubling their storage capacity.</p>"
+    },
+
+    {
+      "html-text": "<h3>Framing Photographic Prints</h3><p>An investment in photographic art you wish to both display and preserve means you should invest in archival grade framing. For museum quality frames, I've used <a href=\"://www.metroframe.com\">Metropolitan Picture Framing</a>. They have a nice <a href=\"https://www.metroframe.com/about-our-advice/\">education section</a> with lots of information on archival framing.</p><p>Another good resource is <a href=\"https://www.documounts.com\">Documounts</a>. They offer cheaper alternatives for quality archival matting, mounting and framing.</p>"
+    }
+
+  ],
+
+
+  "navigation": {
+    "section": "Cibachrome",
+    "prev": {
+      "slug": "cibachrome/darkroom.html",
+      "label": "Darkroom"
+    },
+    "next": {
+      "slug": "cibachrome/history.html",
+      "label": "History"
+    }
+  }
+}
