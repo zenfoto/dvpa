@@ -124,10 +124,9 @@ function buildSinglePages() {
       const navHTML = `
         <div id="prevnext">
           <ul class="piped">
-            <li>${data.navigation?.section || ""}</li>
-            <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
             ${data.navigation?.prev ? `<li><a class="prev" href="/${data.navigation.prev.slug}">${data.navigation.prev.label}</a></li>` : ""}
-            ${data.navigation?.next ? `<li><span class="next"><a href="/${data.navigation.next.slug}">${data.navigation.next.label}</a></span></li>` : ""}
+             <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+           ${data.navigation?.next ? `<li><span class="next"><a href="/${data.navigation.next.slug}">${data.navigation.next.label}</a></span></li>` : ""}
           </ul>
         </div>`;
 
