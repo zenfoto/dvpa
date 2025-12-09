@@ -139,7 +139,7 @@ function buildPortfolioIndexes() {
     if (!fs.existsSync(indexJsonPath)) return;
 
     const indexData = JSON.parse(fs.readFileSync(indexJsonPath, "utf-8"));
-    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json"));
+    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json") && file !== "index.json");
 
     const thumbnails = files.map(file => {
       const data = JSON.parse(fs.readFileSync(path.join(categoryPath, file), "utf-8"));
