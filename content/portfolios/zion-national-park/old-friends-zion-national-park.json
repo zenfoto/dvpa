@@ -1,17 +1,18 @@
 {
-  "title": "Old Friends",
   "slug": "old-friends-zion-national-park",
-  "image": "old-friends-zion-national-park.jpg",
-  "image-biz": "old-friends-zion-national-park-biz.jpg",
-  "image-home": "old-friends-zion-national-park-home.jpg",
+  "title": "Old Friends",
   "thumb": "old-friends-zion-national-park.jpg",
-  "location": "Upper East Side",
+  "image": "old-friends-zion-national-park.jpg",
+  "image-home": "old-friends-zion-national-park-home.jpg",
+  "image-biz": "old-friends-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Upper East Side",
+  "year": 2016,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 7
 }

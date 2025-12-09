@@ -1,17 +1,18 @@
 {
-  "title": "Sliding Doors",
   "slug": "sliding-doors-and-stacks-pomeroy",
-  "image": "sliding-doors-and-stacks-pomeroy.jpg",
-  "image-biz": "sliding-doors-and-stacks-pomeroy-biz.jpg",
-  "image-home": "sliding-doors-and-stacks-pomeroy-home.jpg",
+  "title": "Sliding Doors",
   "thumb": "sliding-doors-and-stacks-pomeroy.jpg",
-  "location": "Pomeroy",
+  "image": "sliding-doors-and-stacks-pomeroy.jpg",
+  "image-home": "sliding-doors-and-stacks-pomeroy-home.jpg",
+  "image-biz": "sliding-doors-and-stacks-pomeroy-biz.jpg",
   "place": "Garfield County",
+  "location": "Pomeroy",
+  "year": 2017,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 13,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 13
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Crimson Tide",
   "slug": "crimson-tide-zion-national-park",
-  "image": "crimson-tide-zion-national-park.jpg",
-  "image-biz": "crimson-tide-zion-national-park-biz.jpg",
-  "image-home": "crimson-tide-zion-national-park-home.jpg",
+  "title": "Crimson Tide",
   "thumb": "crimson-tide-zion-national-park.jpg",
-  "location": "Zion Canyon",
+  "image": "crimson-tide-zion-national-park.jpg",
+  "image-home": "crimson-tide-zion-national-park-home.jpg",
+  "image-biz": "crimson-tide-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Zion Canyon",
+  "year": 2010,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 13,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 13
 }

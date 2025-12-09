@@ -1,17 +1,18 @@
 {
-  "title": "Cliff & Pines",
   "slug": "cliff-and-pines-zion-national-park",
-  "image": "cliff-and-pines-zion-national-park.jpg",
-  "image-biz": "cliff-and-pines-zion-national-park-biz.jpg",
-  "image-home": "cliff-and-pines-zion-national-park-home.jpg",
+  "title": "Cliff & Pines",
   "thumb": "cliff-and-pines-zion-national-park.jpg",
-  "location": "Echo Canyon",
+  "image": "cliff-and-pines-zion-national-park.jpg",
+  "image-home": "cliff-and-pines-zion-national-park-home.jpg",
+  "image-biz": "cliff-and-pines-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Echo Canyon",
+  "year": 2000,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 15,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 15
 }

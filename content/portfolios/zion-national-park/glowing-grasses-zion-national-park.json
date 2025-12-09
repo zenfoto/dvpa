@@ -1,17 +1,18 @@
 {
-  "title": "Glowing Grasses",
   "slug": "glowing-grasses-zion-national-park",
-  "image": "glowing-grasses-zion-national-park.jpg",
-  "image-biz": "glowing-grasses-zion-national-park-biz.jpg",
-  "image-home": "glowing-grasses-zion-national-park-home.jpg",
+  "title": "Glowing Grasses",
   "thumb": "glowing-grasses-zion-national-park.jpg",
-  "location": "Lower Pine Creek",
+  "image": "glowing-grasses-zion-national-park.jpg",
+  "image-home": "glowing-grasses-zion-national-park-home.jpg",
+  "image-biz": "glowing-grasses-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Lower Pine Creek",
+  "year": 2018,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 5,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 5
 }

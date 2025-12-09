@@ -1,17 +1,18 @@
 {
-  "title": "Red, Off White, and Blue",
   "slug": "red-off-white-and-blue-palouse",
-  "image": "red-off-white-and-blue-palouse.jpg",
-  "image-biz": "red-off-white-and-blue-palouse-biz.jpg",
-  "image-home": "red-off-white-and-blue-palouse-home.jpg",
+  "title": "Red, Off White, and Blue",
   "thumb": "red-off-white-and-blue-palouse.jpg",
-  "location": "Palouse City",
+  "image": "red-off-white-and-blue-palouse.jpg",
+  "image-home": "red-off-white-and-blue-palouse-home.jpg",
+  "image-biz": "red-off-white-and-blue-palouse-biz.jpg",
   "place": "Whitman County",
+  "location": "Palouse City",
+  "year": 2022,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 15,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 15
 }

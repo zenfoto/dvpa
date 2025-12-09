@@ -1,17 +1,18 @@
 {
-  "title": "Pipes on Truck",
   "slug": "irrigation-pipes-on-truck-williams",
-  "image": "irrigation-pipes-on-truck-williams.jpg",
-  "image-biz": "irrigation-pipes-on-truck-williams-biz.jpg",
-  "image-home": "irrigation-pipes-on-truck-williams-home.jpg",
+  "title": "Pipes on Truck",
   "thumb": "irrigation-pipes-on-truck-williams.jpg",
-  "location": "Williams",
+  "image": "irrigation-pipes-on-truck-williams.jpg",
+  "image-home": "irrigation-pipes-on-truck-williams-home.jpg",
+  "image-biz": "irrigation-pipes-on-truck-williams-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Williams",
+  "year": 2014,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 7
 }

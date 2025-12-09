@@ -1,17 +1,18 @@
 {
-  "title": "Swirls",
   "slug": "swirls-zion-national-park",
-  "image": "swirls-zion-national-park.jpg",
-  "image-biz": "swirls-zion-national-park-biz.jpg",
-  "image-home": "swirls-zion-national-park-home.jpg",
+  "title": "Swirls",
   "thumb": "swirls-zion-national-park.jpg",
-  "location": "Wilderness",
+  "image": "swirls-zion-national-park.jpg",
+  "image-home": "swirls-zion-national-park-home.jpg",
+  "image-biz": "swirls-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Wilderness",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 6,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 6
 }

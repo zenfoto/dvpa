@@ -1,17 +1,18 @@
 {
-  "title": "Luminous Pine",
   "slug": "luminous-pine-zion-national-park",
-  "image": "luminous-pine-zion-national-park.jpg",
-  "image-biz": "luminous-pine-zion-national-park-biz.jpg",
-  "image-home": "luminous-pine-zion-national-park-home.jpg",
+  "title": "Luminous Pine",
   "thumb": "luminous-pine-zion-national-park.jpg",
-  "location": "East Side Canyon",
+  "image": "luminous-pine-zion-national-park.jpg",
+  "image-home": "luminous-pine-zion-national-park-home.jpg",
+  "image-biz": "luminous-pine-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "East Side Canyon",
+  "year": 2018,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 2,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 2
 }

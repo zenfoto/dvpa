@@ -1,17 +1,18 @@
 {
-  "title": "Twilight, Painted Hills",
   "slug": "twilight-painted-hills",
-  "image": "twilight-painted-hills.jpg",
-  "image-biz": "twilight-painted-hills-biz.jpg",
-  "image-home": "twilight-painted-hills-home.jpg",
+  "title": "Twilight, Painted Hills",
   "thumb": "twilight-painted-hills.jpg",
-  "location": "John Day Fossil Beds",
+  "image": "twilight-painted-hills.jpg",
+  "image-home": "twilight-painted-hills-home.jpg",
+  "image-biz": "twilight-painted-hills-biz.jpg",
   "place": "Mitchell",
+  "location": "John Day Fossil Beds",
+  "year": 2012,
+  "state": "Oregon",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 10,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 10
 }

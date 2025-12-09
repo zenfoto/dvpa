@@ -1,17 +1,18 @@
 {
-  "title": "Trees of Life I",
   "slug": "trees-of-life-i-zion-national-park",
-  "image": "trees-of-life-i-zion-national-park.jpg",
-  "image-biz": "trees-of-life-i-zion-national-park-biz.jpg",
-  "image-home": "trees-of-life-i-zion-national-park-home.jpg",
+  "title": "Trees of Life I",
   "thumb": "trees-of-life-i-zion-national-park.jpg",
-  "location": "East Side Canyon",
+  "image": "trees-of-life-i-zion-national-park.jpg",
+  "image-home": "trees-of-life-i-zion-national-park-home.jpg",
+  "image-biz": "trees-of-life-i-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "East Side Canyon",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 3
 }

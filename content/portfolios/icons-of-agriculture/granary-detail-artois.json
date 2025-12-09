@@ -1,17 +1,18 @@
 {
-  "title": "Pastels",
   "slug": "granary-detail-artois",
-  "image": "granary-detail-artois.jpg",
-  "image-biz": "granary-detail-artois-biz.jpg",
-  "image-home": "granary-detail-artois-home.jpg",
+  "title": "Pastels",
   "thumb": "granary-detail-artois.jpg",
-  "location": "Artois",
+  "image": "granary-detail-artois.jpg",
+  "image-home": "granary-detail-artois-home.jpg",
+  "image-biz": "granary-detail-artois-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Artois",
+  "year": 2015,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 2,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 2
 }

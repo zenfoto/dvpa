@@ -1,17 +1,18 @@
 {
-  "title": "Colorado River",
   "slug": "colorado-river-navajo-bridge",
-  "image": "colorado-river-navajo-bridge.jpg",
-  "image-biz": "colorado-river-navajo-bridge-biz.jpg",
-  "image-home": "colorado-river-navajo-bridge-home.jpg",
+  "title": "Colorado River",
   "thumb": "colorado-river-navajo-bridge.jpg",
-  "location": "Navajo Bridge",
+  "image": "colorado-river-navajo-bridge.jpg",
+  "image-home": "colorado-river-navajo-bridge-home.jpg",
+  "image-biz": "colorado-river-navajo-bridge-biz.jpg",
   "place": "Vermillion Cliffs",
+  "location": "Navajo Bridge",
+  "year": 2010,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 15,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 15
 }

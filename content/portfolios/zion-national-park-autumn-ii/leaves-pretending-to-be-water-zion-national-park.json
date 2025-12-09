@@ -1,17 +1,18 @@
 {
-  "title": "Leaves Pretending to be Water",
   "slug": "leaves-pretending-to-be-water-zion-national-park",
-  "image": "leaves-pretending-to-be-water-zion-national-park.jpg",
-  "image-biz": "leaves-pretending-to-be-water-zion-national-park-biz.jpg",
-  "image-home": "leaves-pretending-to-be-water-zion-national-park-home.jpg",
+  "title": "Leaves Pretending to be Water",
   "thumb": "leaves-pretending-to-be-water-zion-national-park.jpg",
-  "location": "Echo Canyon",
+  "image": "leaves-pretending-to-be-water-zion-national-park.jpg",
+  "image-home": "leaves-pretending-to-be-water-zion-national-park-home.jpg",
+  "image-biz": "leaves-pretending-to-be-water-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Echo Canyon",
+  "year": 2012,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 4
 }

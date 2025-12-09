@@ -1,17 +1,18 @@
 {
-  "title": "Emptiness",
   "slug": "granary-washtucna",
-  "image": "granary-washtucna.jpg",
-  "image-biz": "granary-washtucna-biz.jpg",
-  "image-home": "granary-washtucna-home.jpg",
+  "title": "Emptiness",
   "thumb": "granary-washtucna.jpg",
-  "location": "Washtucna",
+  "image": "granary-washtucna.jpg",
+  "image-home": "granary-washtucna-home.jpg",
+  "image-biz": "granary-washtucna-biz.jpg",
   "place": "The Palouse",
+  "location": "Washtucna",
+  "year": 2015,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 10,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 10
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Winter Oak at Sunset",
   "slug": "winter-oak-at-sunset-catheys-valley",
-  "image": "winter-oak-at-sunset-catheys-valley.jpg",
-  "image-biz": "winter-oak-at-sunset-catheys-valley-biz.jpg",
-  "image-home": "winter-oak-at-sunset-catheys-valley-home.jpg",
+  "title": "Winter Oak at Sunset",
   "thumb": "winter-oak-at-sunset-catheys-valley.jpg",
-  "location": "Cathey's Valley",
+  "image": "winter-oak-at-sunset-catheys-valley.jpg",
+  "image-home": "winter-oak-at-sunset-catheys-valley-home.jpg",
+  "image-biz": "winter-oak-at-sunset-catheys-valley-biz.jpg",
   "place": "Sierra Foothills",
+  "location": "Cathey's Valley",
+  "year": 2009,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 1,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1720,
+  "order": 1
 }

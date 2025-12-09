@@ -1,17 +1,18 @@
 {
-  "title": "Pine and Maples",
   "slug": "pine-and-maples-zion-national-park",
-  "image": "pine-and-maples-zion-national-park.jpg",
-  "image-biz": "pine-and-maples-zion-national-park-biz.jpg",
-  "image-home": "pine-and-maples-zion-national-park-home.jpg",
+  "title": "Pine and Maples",
   "thumb": "pine-and-maples-zion-national-park.jpg",
-  "location": "East Side Canyon",
+  "image": "pine-and-maples-zion-national-park.jpg",
+  "image-home": "pine-and-maples-zion-national-park-home.jpg",
+  "image-biz": "pine-and-maples-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "East Side Canyon",
+  "year": 2017,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 3
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Reflections",
   "slug": "reflections-subway-zion-national-park",
-  "image": "reflections-subway-zion-national-park.jpg",
-  "image-biz": "reflections-subway-zion-national-park-biz.jpg",
-  "image-home": "reflections-subway-zion-national-park-home.jpg",
+  "title": "Reflections",
   "thumb": "reflections-subway-zion-national-park.jpg",
-  "location": "The Subway",
+  "image": "reflections-subway-zion-national-park.jpg",
+  "image-home": "reflections-subway-zion-national-park-home.jpg",
+  "image-biz": "reflections-subway-zion-national-park-biz.jpg",
   "place": "North Fork",
+  "location": "The Subway",
+  "year": 2018,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 1,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1800,
+  "order": 1
 }

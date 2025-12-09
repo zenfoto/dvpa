@@ -1,17 +1,18 @@
 {
-  "title": "Sandstone Tsunami",
   "slug": "sandstone-tsunami-arizona",
-  "image": "sandstone-tsunami-arizona.jpg",
-  "image-biz": "sandstone-tsunami-arizona-biz.jpg",
-  "image-home": "sandstone-tsunami-arizona-home.jpg",
+  "title": "Sandstone Tsunami",
   "thumb": "sandstone-tsunami-arizona.jpg",
-  "location": "A Slot Canyon",
+  "image": "sandstone-tsunami-arizona.jpg",
+  "image-home": "sandstone-tsunami-arizona-home.jpg",
+  "image-biz": "sandstone-tsunami-arizona-biz.jpg",
   "place": "Colorado Plateau",
+  "location": "A Slot Canyon",
+  "year": 1997,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 18,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 18
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Reflections #11",
   "slug": "reflections-11-merced-river-yosemite",
-  "image": "reflections-11-merced-river-yosemite.jpg",
-  "image-biz": "reflections-11-merced-river-yosemite-biz.jpg",
-  "image-home": "reflections-11-merced-river-yosemite-home.jpg",
+  "title": "Reflections #11",
   "thumb": "reflections-11-merced-river-yosemite.jpg",
-  "location": "Merced River",
+  "image": "reflections-11-merced-river-yosemite.jpg",
+  "image-home": "reflections-11-merced-river-yosemite-home.jpg",
+  "image-biz": "reflections-11-merced-river-yosemite-biz.jpg",
   "place": "Mariposa County",
+  "location": "Merced River",
+  "year": 2012,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 19,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1600,
+  "image-height": 1600,
+  "order": 19
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Morning Light",
   "slug": "morning-light-monument-valley",
-  "image": "morning-light-monument-valley.jpg",
-  "image-biz": "morning-light-monument-valley-biz.jpg",
-  "image-home": "morning-light-monument-valley-home.jpg",
+  "title": "Morning Light",
   "thumb": "morning-light-monument-valley.jpg",
-  "location": "North Window",
+  "image": "morning-light-monument-valley.jpg",
+  "image-home": "morning-light-monument-valley-home.jpg",
+  "image-biz": "morning-light-monument-valley-biz.jpg",
   "place": "Monument Valley",
+  "location": "North Window",
+  "year": 1997,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 7
 }

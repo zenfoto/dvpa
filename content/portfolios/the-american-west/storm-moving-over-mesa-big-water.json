@@ -1,17 +1,18 @@
 {
-  "title": "Storm Moving Over Mesa",
   "slug": "storm-moving-over-mesa-big-water",
-  "image": "storm-moving-over-mesa-big-water.jpg",
-  "image-biz": "storm-moving-over-mesa-big-water-biz.jpg",
-  "image-home": "storm-moving-over-mesa-big-water-home.jpg",
+  "title": "Storm Moving Over Mesa",
   "thumb": "storm-moving-over-mesa-big-water.jpg",
-  "location": "Paria Wilderness",
+  "image": "storm-moving-over-mesa-big-water.jpg",
+  "image-home": "storm-moving-over-mesa-big-water-home.jpg",
+  "image-biz": "storm-moving-over-mesa-big-water-biz.jpg",
   "place": "Big Water",
+  "location": "Paria Wilderness",
+  "year": 2010,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 8,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 8
 }

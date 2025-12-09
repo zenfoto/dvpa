@@ -1,17 +1,18 @@
 {
-  "title": "Sea Slot",
   "slug": "sea-slot-pacific-coast",
-  "image": "sea-slot-pacific-coast.jpg",
-  "image-biz": "sea-slot-pacific-coast-biz.jpg",
-  "image-home": "sea-slot-pacific-coast-home.jpg",
+  "title": "Sea Slot",
   "thumb": "sea-slot-pacific-coast.jpg",
-  "location": "Davenport",
+  "image": "sea-slot-pacific-coast.jpg",
+  "image-home": "sea-slot-pacific-coast-home.jpg",
+  "image-biz": "sea-slot-pacific-coast-biz.jpg",
   "place": "Pacific Coast",
+  "location": "Davenport",
+  "year": 2010,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 22,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 22
 }

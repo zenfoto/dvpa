@@ -1,17 +1,18 @@
 {
-  "title": "Winter Oak",
   "slug": "el-captain-meadow-yosemite-national-park",
-  "image": "el-captain-meadow-yosemite-national-park.jpg",
-  "image-biz": "el-captain-meadow-yosemite-national-park-biz.jpg",
-  "image-home": "el-captain-meadow-yosemite-national-park-home.jpg",
+  "title": "Winter Oak",
   "thumb": "el-captain-meadow-yosemite-national-park.jpg",
-  "location": "El Capitan Meadow",
+  "image": "el-captain-meadow-yosemite-national-park.jpg",
+  "image-home": "el-captain-meadow-yosemite-national-park-home.jpg",
+  "image-biz": "el-captain-meadow-yosemite-national-park-biz.jpg",
   "place": "Yosemite National Park",
+  "location": "El Capitan Meadow",
+  "year": 2008,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 5,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1720,
+  "order": 5
 }

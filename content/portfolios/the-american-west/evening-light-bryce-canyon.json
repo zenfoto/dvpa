@@ -1,17 +1,18 @@
 {
-  "title": "Evening Light",
   "slug": "evening-light-bryce-canyon",
-  "image": "evening-light-bryce-canyon.jpg",
-  "image-biz": "evening-light-bryce-canyon-biz.jpg",
-  "image-home": "evening-light-bryce-canyon-home.jpg",
+  "title": "Evening Light",
   "thumb": "evening-light-bryce-canyon.jpg",
-  "location": "Markagunt Plateau",
+  "image": "evening-light-bryce-canyon.jpg",
+  "image-home": "evening-light-bryce-canyon-home.jpg",
+  "image-biz": "evening-light-bryce-canyon-biz.jpg",
   "place": "Bryce Canyon",
+  "location": "Markagunt Plateau",
+  "year": 1997,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 20,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 20
 }

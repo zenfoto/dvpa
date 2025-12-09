@@ -1,17 +1,18 @@
 {
-  "title": "Tree of Life II",
   "slug": "tree-of-life-ii-zion-national-park",
-  "image": "tree-of-life-ii-zion-national-park.jpg",
-  "image-biz": "tree-of-life-ii-zion-national-park-biz.jpg",
-  "image-home": "tree-of-life-ii-zion-national-park-home.jpg",
+  "title": "Tree of Life II",
   "thumb": "tree-of-life-ii-zion-national-park.jpg",
-  "location": "Taylor Creek South",
+  "image": "tree-of-life-ii-zion-national-park.jpg",
+  "image-home": "tree-of-life-ii-zion-national-park-home.jpg",
+  "image-biz": "tree-of-life-ii-zion-national-park-biz.jpg",
   "place": "Kolob Canyons",
+  "location": "Taylor Creek South",
+  "year": 2016,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 7
 }

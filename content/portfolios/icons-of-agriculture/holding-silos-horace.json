@@ -1,17 +1,18 @@
 {
-  "title": "Holding Silos",
   "slug": "holding-silos-horace",
-  "image": "holding-silos-horace.jpg",
-  "image-biz": "holding-silos-horace-biz.jpg",
-  "image-home": "holding-silos-horace-home.jpg",
+  "title": "Holding Silos",
   "thumb": "holding-silos-horace.jpg",
-  "location": "Horace",
+  "image": "holding-silos-horace.jpg",
+  "image-home": "holding-silos-horace-home.jpg",
+  "image-biz": "holding-silos-horace-biz.jpg",
   "place": "Greeley County",
+  "location": "Horace",
+  "year": 2021,
+  "state": "Kansas",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 9,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 9
 }

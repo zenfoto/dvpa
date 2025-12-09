@@ -1,17 +1,18 @@
 {
-  "title": "Stone Tapestry",
   "slug": "stone-tapestry-zion-national-park",
-  "image": "stone-tapestry-zion-national-park.jpg",
-  "image-biz": "stone-tapestry-zion-national-park-biz.jpg",
-  "image-home": "stone-tapestry-zion-national-park-home.jpg",
+  "title": "Stone Tapestry",
   "thumb": "stone-tapestry-zion-national-park.jpg",
-  "location": "Wilderness",
+  "image": "stone-tapestry-zion-national-park.jpg",
+  "image-home": "stone-tapestry-zion-national-park-home.jpg",
+  "image-biz": "stone-tapestry-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Wilderness",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 15,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 15
 }

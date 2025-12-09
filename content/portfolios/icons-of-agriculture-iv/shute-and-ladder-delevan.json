@@ -1,17 +1,18 @@
 {
-  "title": "Shute and Ladder",
   "slug": "shute-and-ladder-delevan",
-  "image": "shute-and-ladder-delevan.jpg",
-  "image-biz": "shute-and-ladder-delevan-biz.jpg",
-  "image-home": "shute-and-ladder-delevan-home.jpg",
+  "title": "Shute and Ladder",
   "thumb": "shute-and-ladder-delevan.jpg",
-  "location": "Delevan",
+  "image": "shute-and-ladder-delevan.jpg",
+  "image-home": "shute-and-ladder-delevan-home.jpg",
+  "image-biz": "shute-and-ladder-delevan-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Delevan",
+  "year": 2016,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 6,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 6
 }

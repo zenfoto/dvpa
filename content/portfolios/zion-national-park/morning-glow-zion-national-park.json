@@ -1,17 +1,18 @@
 {
-  "title": "Morning Glow",
   "slug": "morning-glow-zion-national-park",
-  "image": "morning-glow-zion-national-park.jpg",
-  "image-biz": "morning-glow-zion-national-park-biz.jpg",
-  "image-home": "morning-glow-zion-national-park-home.jpg",
+  "title": "Morning Glow",
   "thumb": "morning-glow-zion-national-park.jpg",
-  "location": "Zion Canyon",
+  "image": "morning-glow-zion-national-park.jpg",
+  "image-home": "morning-glow-zion-national-park-home.jpg",
+  "image-biz": "morning-glow-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Zion Canyon",
+  "year": 2015,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 18,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 18
 }

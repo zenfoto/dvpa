@@ -1,17 +1,18 @@
 {
-  "title": "Ramshackle Granary",
   "slug": "ramshackle-granary-winona",
-  "image": "ramshackle-granary-winona.jpg",
-  "image-biz": "ramshackle-granary-winona-biz.jpg",
-  "image-home": "ramshackle-granary-winona-home.jpg",
+  "title": "Ramshackle Granary",
   "thumb": "ramshackle-granary-winona.jpg",
-  "location": "Winona",
+  "image": "ramshackle-granary-winona.jpg",
+  "image-home": "ramshackle-granary-winona-home.jpg",
+  "image-biz": "ramshackle-granary-winona-biz.jpg",
   "place": "The Palouse",
+  "location": "Winona",
+  "year": 2017,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 11,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 11
 }

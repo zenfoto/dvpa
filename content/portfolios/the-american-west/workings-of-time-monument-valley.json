@@ -1,17 +1,18 @@
 {
-  "title": "Workings of Time",
   "slug": "workings-of-time-monument-valley",
-  "image": "workings-of-time-monument-valley.jpg",
-  "image-biz": "workings-of-time-monument-valley-biz.jpg",
-  "image-home": "workings-of-time-monument-valley-home.jpg",
+  "title": "Workings of Time",
   "thumb": "workings-of-time-monument-valley.jpg",
-  "location": "Monument Valley",
+  "image": "workings-of-time-monument-valley.jpg",
+  "image-home": "workings-of-time-monument-valley-home.jpg",
+  "image-biz": "workings-of-time-monument-valley-biz.jpg",
   "place": "Monument Valley",
+  "location": "Monument Valley",
+  "year": 1996,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 23,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 23
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Luminance",
   "slug": "luminance-dufur",
-  "image": "luminance-dufur.jpg",
-  "image-biz": "luminance-dufur-biz.jpg",
-  "image-home": "luminance-dufur-home.jpg",
+  "title": "Luminance",
   "thumb": "luminance-dufur.jpg",
-  "location": "Dufur",
+  "image": "luminance-dufur.jpg",
+  "image-home": "luminance-dufur-home.jpg",
+  "image-biz": "luminance-dufur-biz.jpg",
   "place": "Wasco County",
+  "location": "Dufur",
+  "year": 2018,
+  "state": "Oregon",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 6,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 6
 }

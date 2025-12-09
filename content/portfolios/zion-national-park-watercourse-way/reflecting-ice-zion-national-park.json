@@ -1,17 +1,18 @@
 {
-  "title": "Reflecting Ice",
   "slug": "reflecting-ice-zion-national-park",
-  "image": "reflecting-ice-zion-national-park.jpg",
-  "image-biz": "reflecting-ice-zion-national-park-biz.jpg",
-  "image-home": "reflecting-ice-zion-national-park-home.jpg",
+  "title": "Reflecting Ice",
   "thumb": "reflecting-ice-zion-national-park.jpg",
-  "location": "Pine Creek",
+  "image": "reflecting-ice-zion-national-park.jpg",
+  "image-home": "reflecting-ice-zion-national-park-home.jpg",
+  "image-biz": "reflecting-ice-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Pine Creek",
+  "year": 2015,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1980,
+  "order": 7
 }

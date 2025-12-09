@@ -1,17 +1,18 @@
 {
-  "title": "Leaves on Sandstone",
   "slug": "leaves-on-sandstone-zion-national-park",
-  "image": "leaves-on-sandstone-zion-national-park.jpg",
-  "image-biz": "leaves-on-sandstone-zion-national-park-biz.jpg",
-  "image-home": "leaves-on-sandstone-zion-national-park-home.jpg",
+  "title": "Leaves on Sandstone",
   "thumb": "leaves-on-sandstone-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "leaves-on-sandstone-zion-national-park.jpg",
+  "image-home": "leaves-on-sandstone-zion-national-park-home.jpg",
+  "image-biz": "leaves-on-sandstone-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 17,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 17
 }

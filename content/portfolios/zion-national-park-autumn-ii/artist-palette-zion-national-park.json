@@ -1,17 +1,18 @@
 {
-  "title": "Artist Palette",
   "slug": "artist-palette-zion-national-park",
-  "image": "artist-palette-zion-national-park.jpg",
-  "image-biz": "artist-palette-zion-national-park-biz.jpg",
-  "image-home": "artist-palette-zion-national-park-home.jpg",
+  "title": "Artist Palette",
   "thumb": "artist-palette-zion-national-park.jpg",
-  "location": "Zion Canyon",
+  "image": "artist-palette-zion-national-park.jpg",
+  "image-home": "artist-palette-zion-national-park-home.jpg",
+  "image-biz": "artist-palette-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Zion Canyon",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 12,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 12
 }

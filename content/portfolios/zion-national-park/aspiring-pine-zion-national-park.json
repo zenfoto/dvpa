@@ -1,17 +1,18 @@
 {
-  "title": "Aspiring Pine",
   "slug": "aspiring-pine-zion-national-park",
-  "image": "aspiring-pine-zion-national-park.jpg",
-  "image-biz": "aspiring-pine-zion-national-park-biz.jpg",
-  "image-home": "aspiring-pine-zion-national-park-home.jpg",
+  "title": "Aspiring Pine",
   "thumb": "aspiring-pine-zion-national-park.jpg",
-  "location": "Kolob Canyons",
+  "image": "aspiring-pine-zion-national-park.jpg",
+  "image-home": "aspiring-pine-zion-national-park-home.jpg",
+  "image-biz": "aspiring-pine-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Kolob Canyons",
+  "year": 2015,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 14,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 14
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Fire Rock",
   "slug": "fire-rock-zion-national-park",
-  "image": "fire-rock-zion-national-park.jpg",
-  "image-biz": "fire-rock-zion-national-park-biz.jpg",
-  "image-home": "fire-rock-zion-national-park-home.jpg",
+  "title": "Fire Rock",
   "thumb": "fire-rock-zion-national-park.jpg",
-  "location": "Middle Taylor Creek",
+  "image": "fire-rock-zion-national-park.jpg",
+  "image-home": "fire-rock-zion-national-park-home.jpg",
+  "image-biz": "fire-rock-zion-national-park-biz.jpg",
   "place": "Kolob Canyons",
+  "location": "Middle Taylor Creek",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 4
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Maple Canopy",
   "slug": "maple-canopy-zion-national-park",
-  "image": "maple-canopy-zion-national-park.jpg",
-  "image-biz": "maple-canopy-zion-national-park-biz.jpg",
-  "image-home": "maple-canopy-zion-national-park-home.jpg",
+  "title": "Maple Canopy",
   "thumb": "maple-canopy-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "maple-canopy-zion-national-park.jpg",
+  "image-home": "maple-canopy-zion-national-park-home.jpg",
+  "image-biz": "maple-canopy-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2020,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 1,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 1
 }

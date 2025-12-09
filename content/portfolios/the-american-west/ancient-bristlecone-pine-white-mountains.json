@@ -1,17 +1,18 @@
 {
-  "title": "Ancient Bristlecone Pine",
   "slug": "ancient-bristlecone-pine-white-mountains",
-  "image": "ancient-bristlecone-pine-white-mountains.jpg",
-  "image-biz": "ancient-bristlecone-pine-white-mountains-biz.jpg",
-  "image-home": "ancient-bristlecone-pine-white-mountains-home.jpg",
+  "title": "Ancient Bristlecone Pine",
   "thumb": "ancient-bristlecone-pine-white-mountains.jpg",
-  "location": "Sheep Pass",
+  "image": "ancient-bristlecone-pine-white-mountains.jpg",
+  "image-home": "ancient-bristlecone-pine-white-mountains-home.jpg",
+  "image-biz": "ancient-bristlecone-pine-white-mountains-biz.jpg",
   "place": "White Mountains",
+  "location": "Sheep Pass",
+  "year": 2006,
+  "state": "California",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 10,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 10
 }

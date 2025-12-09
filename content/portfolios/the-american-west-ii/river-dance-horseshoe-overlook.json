@@ -1,17 +1,18 @@
 {
-  "title": "River Dance",
   "slug": "river-dance-horseshoe-overlook",
-  "image": "river-dance-horseshoe-overlook.jpg",
-  "image-biz": "river-dance-horseshoe-overlook-biz.jpg",
-  "image-home": "river-dance-horseshoe-overlook-home.jpg",
+  "title": "River Dance",
   "thumb": "river-dance-horseshoe-overlook.jpg",
-  "location": "Horseshoe Bend",
+  "image": "river-dance-horseshoe-overlook.jpg",
+  "image-home": "river-dance-horseshoe-overlook-home.jpg",
+  "image-biz": "river-dance-horseshoe-overlook-biz.jpg",
   "place": "Colorado River",
+  "location": "Horseshoe Bend",
+  "year": 1997,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 19,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 21
 }

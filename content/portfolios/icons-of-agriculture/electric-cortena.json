@@ -1,17 +1,18 @@
 {
-  "title": "Electric",
   "slug": "electric-cortena",
-  "image": "electric-cortena.jpg",
-  "image-biz": "electric-cortena-biz.jpg",
-  "image-home": "electric-cortena-home.jpg",
+  "title": "Electric",
   "thumb": "electric-cortena.jpg",
-  "location": "Cortena",
+  "image": "electric-cortena.jpg",
+  "image-home": "electric-cortena-home.jpg",
+  "image-biz": "electric-cortena-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Cortena",
+  "year": 2014,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 4
 }

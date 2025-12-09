@@ -1,17 +1,18 @@
 {
-  "title": "The Topography of Wood",
   "slug": "the-way-of-wood-zion-national-park",
-  "image": "the-way-of-wood-zion-national-park.jpg",
-  "image-biz": "the-way-of-wood-zion-national-park-biz.jpg",
-  "image-home": "the-way-of-wood-zion-national-park-home.jpg",
+  "title": "The Topography of Wood",
   "thumb": "the-way-of-wood-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "the-way-of-wood-zion-national-park.jpg",
+  "image-home": "the-way-of-wood-zion-national-park-home.jpg",
+  "image-biz": "the-way-of-wood-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2015,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 2,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 2
 }

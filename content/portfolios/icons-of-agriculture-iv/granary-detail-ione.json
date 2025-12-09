@@ -1,17 +1,18 @@
 {
-  "title": "Granary Detail",
   "slug": "granary-detail-ione",
-  "image": "granary-detail-ione.jpg",
-  "image-biz": "granary-detail-ione-biz.jpg",
-  "image-home": "granary-detail-ione-home.jpg",
+  "title": "Granary Detail",
   "thumb": "granary-detail-ione.jpg",
-  "location": "Ione",
+  "image": "granary-detail-ione.jpg",
+  "image-home": "granary-detail-ione-home.jpg",
+  "image-biz": "granary-detail-ione-biz.jpg",
   "place": "Morrow County",
+  "location": "Ione",
+  "year": 2014,
+  "state": "Oregon",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1140,
+  "image-height": 1600,
+  "order": 4
 }

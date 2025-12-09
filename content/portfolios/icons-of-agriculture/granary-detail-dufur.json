@@ -1,17 +1,18 @@
 {
-  "title": "Granary Ladder",
   "slug": "granary-detail-dufur",
-  "image": "granary-detail-dufur.jpg",
-  "image-biz": "granary-detail-dufur-biz.jpg",
-  "image-home": "granary-detail-dufur-home.jpg",
+  "title": "Granary Ladder",
   "thumb": "granary-detail-dufur.jpg",
-  "location": "Dufur",
+  "image": "granary-detail-dufur.jpg",
+  "image-home": "granary-detail-dufur-home.jpg",
+  "image-biz": "granary-detail-dufur-biz.jpg",
   "place": "Wasco County",
+  "location": "Dufur",
+  "year": 2019,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 7
 }

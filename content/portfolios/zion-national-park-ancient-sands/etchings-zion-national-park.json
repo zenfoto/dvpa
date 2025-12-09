@@ -1,17 +1,18 @@
 {
-  "title": "Etchings",
   "slug": "etchings-zion-national-park",
-  "image": "etchings-zion-national-park.jpg",
-  "image-biz": "etchings-zion-national-park-biz.jpg",
-  "image-home": "etchings-zion-national-park-home.jpg",
+  "title": "Etchings",
   "thumb": "etchings-zion-national-park.jpg",
-  "location": "Tunnel View",
+  "image": "etchings-zion-national-park.jpg",
+  "image-home": "etchings-zion-national-park-home.jpg",
+  "image-biz": "etchings-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Tunnel View",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 11,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 11
 }

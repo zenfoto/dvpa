@@ -1,17 +1,18 @@
 {
-  "title": "Granary in Grey",
   "slug": "granary-endicott",
-  "image": "granary-endicott.jpg",
-  "image-biz": "granary-endicott-biz.jpg",
-  "image-home": "granary-endicott-home.jpg",
+  "title": "Granary in Grey",
   "thumb": "granary-endicott.jpg",
-  "location": "Endicott",
+  "image": "granary-endicott.jpg",
+  "image-home": "granary-endicott-home.jpg",
+  "image-biz": "granary-endicott-biz.jpg",
   "place": "The Palouse",
+  "location": "Endicott",
+  "year": 2018,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 8,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 8
 }

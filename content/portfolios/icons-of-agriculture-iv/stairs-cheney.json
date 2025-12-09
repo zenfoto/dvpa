@@ -1,17 +1,18 @@
 {
-  "title": "Stairs",
   "slug": "stairs-cheney",
-  "image": "stairs-cheney.jpg",
-  "image-biz": "stairs-cheney-biz.jpg",
-  "image-home": "stairs-cheney-home.jpg",
+  "title": "Stairs",
   "thumb": "stairs-cheney.jpg",
-  "location": "Cheney",
+  "image": "stairs-cheney.jpg",
+  "image-home": "stairs-cheney-home.jpg",
+  "image-biz": "stairs-cheney-biz.jpg",
   "place": "Spokane County",
+  "location": "Cheney",
+  "year": 2020,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 1,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 1
 }

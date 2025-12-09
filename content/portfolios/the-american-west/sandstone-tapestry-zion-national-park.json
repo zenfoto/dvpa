@@ -1,17 +1,18 @@
 {
-  "title": "Sandstone Tapestry",
   "slug": "sandstone-tapestry-zion-national-park",
-  "image": "sandstone-tapestry-zion-national-park.jpg",
-  "image-biz": "sandstone-tapestry-zion-national-park-biz.jpg",
-  "image-home": "sandstone-tapestry-zion-national-park-home.jpg",
+  "title": "Sandstone Tapestry",
   "thumb": "sandstone-tapestry-zion-national-park.jpg",
-  "location": "Upper Pine Creek",
+  "image": "sandstone-tapestry-zion-national-park.jpg",
+  "image-home": "sandstone-tapestry-zion-national-park-home.jpg",
+  "image-biz": "sandstone-tapestry-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Upper Pine Creek",
+  "year": 2012,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 17,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 17
 }

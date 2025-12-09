@@ -1,17 +1,18 @@
 {
-  "title": "Cityscape",
   "slug": "cityscape-monument-valley",
-  "image": "cityscape-monument-valley.jpg",
-  "image-biz": "cityscape-monument-valley-biz.jpg",
-  "image-home": "cityscape-monument-valley-home.jpg",
+  "title": "Cityscape",
   "thumb": "cityscape-monument-valley.jpg",
-  "location": "Monument Valley",
+  "image": "cityscape-monument-valley.jpg",
+  "image-home": "cityscape-monument-valley-home.jpg",
+  "image-biz": "cityscape-monument-valley-biz.jpg",
   "place": "Monument Valley",
+  "location": "Monument Valley",
+  "year": 1996,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 13,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 13
 }

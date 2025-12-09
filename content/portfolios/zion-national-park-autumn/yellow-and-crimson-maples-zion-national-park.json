@@ -1,17 +1,18 @@
 {
-  "title": "Yellow and Crimson Maples",
   "slug": "yellow-and-crimson-maples-zion-national-park",
-  "image": "yellow-and-crimson-maples-zion-national-park.jpg",
-  "image-biz": "yellow-and-crimson-maples-zion-national-park-biz.jpg",
-  "image-home": "yellow-and-crimson-maples-zion-national-park-home.jpg",
+  "title": "Yellow and Crimson Maples",
   "thumb": "yellow-and-crimson-maples-zion-national-park.jpg",
-  "location": "Zion Canyon",
+  "image": "yellow-and-crimson-maples-zion-national-park.jpg",
+  "image-home": "yellow-and-crimson-maples-zion-national-park-home.jpg",
+  "image-biz": "yellow-and-crimson-maples-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Zion Canyon",
+  "year": 2012,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 20,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 20
 }

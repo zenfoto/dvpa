@@ -1,17 +1,18 @@
 {
-  "title": "Curling Sands",
   "slug": "curling-sands-zion-national-park",
-  "image": "curling-sands-zion-national-park.jpg",
-  "image-biz": "curling-sands-zion-national-park-biz.jpg",
-  "image-home": "curling-sands-zion-national-park-home.jpg",
+  "title": "Curling Sands",
   "thumb": "curling-sands-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "curling-sands-zion-national-park.jpg",
+  "image-home": "curling-sands-zion-national-park-home.jpg",
+  "image-biz": "curling-sands-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 9,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 9
 }

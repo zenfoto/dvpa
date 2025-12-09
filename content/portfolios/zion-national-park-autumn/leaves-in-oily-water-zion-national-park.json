@@ -1,17 +1,18 @@
 {
-  "title": "Leaves in Oily Water",
   "slug": "leaves-in-oily-water-zion-national-park",
-  "image": "leaves-in-oily-water-zion-national-park.jpg",
-  "image-biz": "leaves-in-oily-water-zion-national-park-biz.jpg",
-  "image-home": "leaves-in-oily-water-zion-national-park-home.jpg",
+  "title": "Leaves in Oily Water",
   "thumb": "leaves-in-oily-water-zion-national-park.jpg",
-  "location": "East Side Canyon",
+  "image": "leaves-in-oily-water-zion-national-park.jpg",
+  "image-home": "leaves-in-oily-water-zion-national-park-home.jpg",
+  "image-biz": "leaves-in-oily-water-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "East Side Canyon",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 14,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 14
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Cross Bedding #2",
   "slug": "cross-bedding-02-zion-national-park",
-  "image": "cross-bedding-02-zion-national-park.jpg",
-  "image-biz": "cross-bedding-02-zion-national-park-biz.jpg",
-  "image-home": "cross-bedding-02-zion-national-park-home.jpg",
+  "title": "Cross Bedding #2",
   "thumb": "cross-bedding-02-zion-national-park.jpg",
-  "location": "East Side Canyon",
+  "image": "cross-bedding-02-zion-national-park.jpg",
+  "image-home": "cross-bedding-02-zion-national-park-home.jpg",
+  "image-biz": "cross-bedding-02-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "East Side Canyon",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 8,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 8
 }

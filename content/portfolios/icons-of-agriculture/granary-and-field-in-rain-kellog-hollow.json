@@ -1,17 +1,18 @@
 {
-  "title": "Granary and Field in Rain",
   "slug": "granary-and-field-in-rain-kellog-hollow",
-  "image": "granary-and-field-in-rain-kellog-hollow.jpg",
-  "image-biz": "granary-and-field-in-rain-kellog-hollow-biz.jpg",
-  "image-home": "granary-and-field-in-rain-kellog-hollow-home.jpg",
+  "title": "Granary and Field in Rain",
   "thumb": "granary-and-field-in-rain-kellog-hollow.jpg",
-  "location": "Kellog Hollow",
+  "image": "granary-and-field-in-rain-kellog-hollow.jpg",
+  "image-home": "granary-and-field-in-rain-kellog-hollow-home.jpg",
+  "image-biz": "granary-and-field-in-rain-kellog-hollow-biz.jpg",
   "place": "The Palouse",
+  "location": "Kellog Hollow",
+  "year": 2013,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 11,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 11
 }

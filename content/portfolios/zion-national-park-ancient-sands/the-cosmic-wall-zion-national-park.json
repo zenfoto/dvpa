@@ -1,17 +1,18 @@
 {
-  "title": "The Cosmic Wall",
   "slug": "the-cosmic-wall-zion-national-park",
-  "image": "the-cosmic-wall-zion-national-park.jpg",
-  "image-biz": "the-cosmic-wall-zion-national-park-biz.jpg",
-  "image-home": "the-cosmic-wall-zion-national-park-home.jpg",
+  "title": "The Cosmic Wall",
   "thumb": "the-cosmic-wall-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "the-cosmic-wall-zion-national-park.jpg",
+  "image-home": "the-cosmic-wall-zion-national-park-home.jpg",
+  "image-biz": "the-cosmic-wall-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2017,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 3
 }

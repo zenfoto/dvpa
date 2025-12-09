@@ -1,17 +1,18 @@
 {
-  "title": "Clearing Storm",
   "slug": "clearing-storm-red-hawk-vineyard",
-  "image": "clearing-storm-red-hawk-vineyard.jpg",
-  "image-biz": "clearing-storm-red-hawk-vineyard-biz.jpg",
-  "image-home": "clearing-storm-red-hawk-vineyard-home.jpg",
+  "title": "Clearing Storm",
   "thumb": "clearing-storm-red-hawk-vineyard.jpg",
-  "location": "Red Hawk Vineyard",
+  "image": "clearing-storm-red-hawk-vineyard.jpg",
+  "image-home": "clearing-storm-red-hawk-vineyard-home.jpg",
+  "image-biz": "clearing-storm-red-hawk-vineyard-biz.jpg",
   "place": "Pope Valley",
+  "location": "Red Hawk Vineyard",
+  "year": 2010,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1600,
+  "image-height": 1600,
+  "order": 7
 }

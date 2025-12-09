@@ -1,17 +1,18 @@
 {
-  "title": "Granite Gone Wild",
   "slug": "granite-gone-wild-merced-canyon",
-  "image": "granite-gone-wild-merced-canyon.jpg",
-  "image-biz": "granite-gone-wild-merced-canyon-biz.jpg",
-  "image-home": "granite-gone-wild-merced-canyon-home.jpg",
+  "title": "Granite Gone Wild",
   "thumb": "granite-gone-wild-merced-canyon.jpg",
-  "location": "Merced Canyon",
+  "image": "granite-gone-wild-merced-canyon.jpg",
+  "image-home": "granite-gone-wild-merced-canyon-home.jpg",
+  "image-biz": "granite-gone-wild-merced-canyon-biz.jpg",
   "place": "Mariposa County",
+  "location": "Merced Canyon",
+  "year": 2012,
+  "state": "California",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 6,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 6
 }

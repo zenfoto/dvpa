@@ -1,17 +1,18 @@
 {
-  "title": "Granary Detail II",
   "slug": "granary-detail-ii-cortena",
-  "image": "granary-detail-ii-cortena.jpg",
-  "image-biz": "granary-detail-ii-cortena-biz.jpg",
-  "image-home": "granary-detail-ii-cortena-home.jpg",
+  "title": "Granary Detail II",
   "thumb": "granary-detail-ii-cortena.jpg",
-  "location": "Cortena",
+  "image": "granary-detail-ii-cortena.jpg",
+  "image-home": "granary-detail-ii-cortena-home.jpg",
+  "image-biz": "granary-detail-ii-cortena-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Cortena",
+  "year": 2021,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 3
 }

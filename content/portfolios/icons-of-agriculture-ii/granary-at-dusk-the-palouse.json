@@ -1,17 +1,18 @@
 {
-  "title": "Last Light",
   "slug": "granary-at-dusk-the-palouse",
-  "image": "granary-at-dusk-the-palouse.jpg",
-  "image-biz": "granary-at-dusk-the-palouse-biz.jpg",
-  "image-home": "granary-at-dusk-the-palouse-home.jpg",
+  "title": "Last Light",
   "thumb": "granary-at-dusk-the-palouse.jpg",
-  "location": "Lion's Ferry Road",
+  "image": "granary-at-dusk-the-palouse.jpg",
+  "image-home": "granary-at-dusk-the-palouse-home.jpg",
+  "image-biz": "granary-at-dusk-the-palouse-biz.jpg",
   "place": "The Palouse",
+  "location": "Lion's Ferry Road",
+  "year": 2014,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 11,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1720,
+  "order": 11
 }

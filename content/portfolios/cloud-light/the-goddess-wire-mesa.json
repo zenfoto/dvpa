@@ -1,17 +1,18 @@
 {
-  "title": "The Goddess",
   "slug": "the-goddess-wire-mesa",
-  "image": "the-goddess-wire-mesa.jpg",
-  "image-biz": "the-goddess-wire-mesa-biz.jpg",
-  "image-home": "the-goddess-wire-mesa-home.jpg",
+  "title": "The Goddess",
   "thumb": "the-goddess-wire-mesa.jpg",
-  "location": "Wire Mesa",
+  "image": "the-goddess-wire-mesa.jpg",
+  "image-home": "the-goddess-wire-mesa-home.jpg",
+  "image-biz": "the-goddess-wire-mesa-biz.jpg",
   "place": "Rockville",
+  "location": "Wire Mesa",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
-  "order": 11,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1600,
+  "image-height": 1600,
+  "order": 11
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Sahalie Falls",
   "slug": "sahalie-falls-mckenzie-river",
-  "image": "sahalie-falls-mckenzie-river.jpg",
-  "image-biz": "sahalie-falls-mckenzie-river-biz.jpg",
-  "image-home": "sahalie-falls-mckenzie-river-home.jpg",
+  "title": "Sahalie Falls",
   "thumb": "sahalie-falls-mckenzie-river.jpg",
-  "location": "McKenzie River",
+  "image": "sahalie-falls-mckenzie-river.jpg",
+  "image-home": "sahalie-falls-mckenzie-river-home.jpg",
+  "image-biz": "sahalie-falls-mckenzie-river-biz.jpg",
   "place": "Dechutes National Forest",
+  "location": "McKenzie River",
+  "year": 2014,
+  "state": "Oregon",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 15,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1737,
+  "image-height": 2160,
+  "order": 15
 }

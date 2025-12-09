@@ -1,17 +1,18 @@
 {
-  "title": "Silo 102",
   "slug": "silo-102-cortena",
-  "image": "silo-102-cortena.jpg",
-  "image-biz": "silo-102-cortena-biz.jpg",
-  "image-home": "silo-102-cortena-home.jpg",
+  "title": "Silo 102",
   "thumb": "silo-102-cortena.jpg",
-  "location": "Cortena",
+  "image": "silo-102-cortena.jpg",
+  "image-home": "silo-102-cortena-home.jpg",
+  "image-biz": "silo-102-cortena-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Cortena",
+  "year": 2016,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 4
 }

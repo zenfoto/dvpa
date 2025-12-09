@@ -1,17 +1,18 @@
 {
-  "title": "Raindrops on Leaves",
   "slug": "raindrops-on-leaves-sierra-nevada",
-  "image": "raindrops-on-leaves-sierra-nevada.jpg",
-  "image-biz": "raindrops-on-leaves-sierra-nevada-biz.jpg",
-  "image-home": "raindrops-on-leaves-sierra-nevada-home.jpg",
+  "title": "Raindrops on Leaves",
   "thumb": "raindrops-on-leaves-sierra-nevada.jpg",
-  "location": "Green Creek",
+  "image": "raindrops-on-leaves-sierra-nevada.jpg",
+  "image-home": "raindrops-on-leaves-sierra-nevada-home.jpg",
+  "image-biz": "raindrops-on-leaves-sierra-nevada-biz.jpg",
   "place": "Sierra Nevada",
+  "location": "Green Creek",
+  "year": 2011,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 8,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 8
 }

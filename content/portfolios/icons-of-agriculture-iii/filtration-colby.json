@@ -1,17 +1,18 @@
 {
-  "title": "Dryer, Large Granary",
   "slug": "filtration-colby",
-  "image": "filtration-colby.jpg",
-  "image-biz": "filtration-colby-biz.jpg",
-  "image-home": "filtration-colby-home.jpg",
+  "title": "Dryer, Large Granary",
   "thumb": "filtration-colby.jpg",
-  "location": "Cornerstone AG",
+  "image": "filtration-colby.jpg",
+  "image-home": "filtration-colby-home.jpg",
+  "image-biz": "filtration-colby-biz.jpg",
   "place": "Colby",
+  "location": "Cornerstone AG",
+  "year": 2021,
+  "state": "Kansas",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 3
 }

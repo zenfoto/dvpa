@@ -1,17 +1,18 @@
 {
-  "title": "Sunset, Moon, Clouds",
   "slug": "sunset-moon-clouds-paulina-peak",
-  "image": "sunset-moon-clouds-paulina-peak.jpg",
-  "image-biz": "sunset-moon-clouds-paulina-peak-biz.jpg",
-  "image-home": "sunset-moon-clouds-paulina-peak-home.jpg",
+  "title": "Sunset, Moon, Clouds",
   "thumb": "sunset-moon-clouds-paulina-peak.jpg",
-  "location": "Paulina Peak",
+  "image": "sunset-moon-clouds-paulina-peak.jpg",
+  "image-home": "sunset-moon-clouds-paulina-peak-home.jpg",
+  "image-biz": "sunset-moon-clouds-paulina-peak-biz.jpg",
   "place": "Newberry Volcano Monument",
+  "location": "Paulina Peak",
+  "year": 2014,
+  "state": "Oregon",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1600,
+  "image-height": 1600,
+  "order": 4
 }

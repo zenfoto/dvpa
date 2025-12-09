@@ -1,17 +1,18 @@
 {
-  "title": "Two Stones and a Moon",
   "slug": "two-stones-and-a-moon-zion-national-park",
-  "image": "two-stones-and-a-moon-zion-national-park.jpg",
-  "image-biz": "two-stones-and-a-moon-zion-national-park-biz.jpg",
-  "image-home": "two-stones-and-a-moon-zion-national-park-home.jpg",
+  "title": "Two Stones and a Moon",
   "thumb": "two-stones-and-a-moon-zion-national-park.jpg",
-  "location": "Center of the Universe",
+  "image": "two-stones-and-a-moon-zion-national-park.jpg",
+  "image-home": "two-stones-and-a-moon-zion-national-park-home.jpg",
+  "image-biz": "two-stones-and-a-moon-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Center of the Universe",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 2,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 2
 }

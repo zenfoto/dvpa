@@ -1,17 +1,18 @@
 {
-  "title": "Old Trunk and Maples",
   "slug": "old-trunk-and-maples-zion-national-park",
-  "image": "old-trunk-and-maples-zion-national-park.jpg",
-  "image-biz": "old-trunk-and-maples-zion-national-park-biz.jpg",
-  "image-home": "old-trunk-and-maples-zion-national-park-home.jpg",
+  "title": "Old Trunk and Maples",
   "thumb": "old-trunk-and-maples-zion-national-park.jpg",
-  "location": "East Side",
+  "image": "old-trunk-and-maples-zion-national-park.jpg",
+  "image-home": "old-trunk-and-maples-zion-national-park-home.jpg",
+  "image-biz": "old-trunk-and-maples-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "East Side",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 18,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 18
 }

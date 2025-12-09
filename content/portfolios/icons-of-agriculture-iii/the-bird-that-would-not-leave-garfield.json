@@ -1,17 +1,18 @@
 {
-  "title": "The Bird that Refused to Leave",
   "slug": "the-bird-that-would-not-leave-garfield",
-  "image": "the-bird-that-would-not-leave-garfield.jpg",
-  "image-biz": "the-bird-that-would-not-leave-garfield-biz.jpg",
-  "image-home": "the-bird-that-would-not-leave-garfield-home.jpg",
+  "title": "The Bird that Refused to Leave",
   "thumb": "the-bird-that-would-not-leave-garfield.jpg",
-  "location": "Garfield",
+  "image": "the-bird-that-would-not-leave-garfield.jpg",
+  "image-home": "the-bird-that-would-not-leave-garfield-home.jpg",
+  "image-biz": "the-bird-that-would-not-leave-garfield-biz.jpg",
   "place": "Whitman County",
+  "location": "Garfield",
+  "year": 2019,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 9,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 9
 }

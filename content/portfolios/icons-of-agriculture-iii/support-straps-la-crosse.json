@@ -1,17 +1,18 @@
 {
-  "title": "Exposed",
   "slug": "support-straps-la-crosse",
-  "image": "support-straps-la-crosse.jpg",
-  "image-biz": "support-straps-la-crosse-biz.jpg",
-  "image-home": "support-straps-la-crosse-home.jpg",
+  "title": "Exposed",
   "thumb": "support-straps-la-crosse.jpg",
-  "location": "La Crosse",
+  "image": "support-straps-la-crosse.jpg",
+  "image-home": "support-straps-la-crosse-home.jpg",
+  "image-biz": "support-straps-la-crosse-biz.jpg",
   "place": "The Palouse",
+  "location": "La Crosse",
+  "year": 2018,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 10,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 10
 }

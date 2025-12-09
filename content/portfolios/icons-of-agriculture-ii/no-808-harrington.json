@@ -1,17 +1,18 @@
 {
-  "title": "No. 808",
   "slug": "no-808-harrington",
-  "image": "no-808-harrington.jpg",
-  "image-biz": "no-808-harrington-biz.jpg",
-  "image-home": "no-808-harrington-home.jpg",
+  "title": "No. 808",
   "thumb": "no-808-harrington.jpg",
-  "location": "Harrington",
+  "image": "no-808-harrington.jpg",
+  "image-home": "no-808-harrington-home.jpg",
+  "image-biz": "no-808-harrington-biz.jpg",
   "place": "Lincoln County",
+  "location": "Harrington",
+  "year": 2020,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 9,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 9
 }

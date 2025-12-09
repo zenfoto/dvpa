@@ -1,17 +1,18 @@
 {
-  "title": "Details",
   "slug": "details-cheyenne",
-  "image": "details-cheyenne.jpg",
-  "image-biz": "details-cheyenne-biz.jpg",
-  "image-home": "details-cheyenne-home.jpg",
+  "title": "Details",
   "thumb": "details-cheyenne.jpg",
-  "location": "Cheyenne Wells",
+  "image": "details-cheyenne.jpg",
+  "image-home": "details-cheyenne-home.jpg",
+  "image-biz": "details-cheyenne-biz.jpg",
   "place": "Cheyenne County",
+  "location": "Cheyenne Wells",
+  "year": 2021,
+  "state": "Colorado",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 1,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 1
 }

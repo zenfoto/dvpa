@@ -1,17 +1,18 @@
 {
-  "title": "Glowing Sandstone",
   "slug": "glowing-sandstone-zion-national-park",
-  "image": "glowing-sandstone-zion-national-park.jpg",
-  "image-biz": "glowing-sandstone-zion-national-park-biz.jpg",
-  "image-home": "glowing-sandstone-zion-national-park-home.jpg",
+  "title": "Glowing Sandstone",
   "thumb": "glowing-sandstone-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "glowing-sandstone-zion-national-park.jpg",
+  "image-home": "glowing-sandstone-zion-national-park-home.jpg",
+  "image-biz": "glowing-sandstone-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 13,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1720,
+  "order": 13
 }

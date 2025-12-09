@@ -1,17 +1,18 @@
 {
-  "title": "Silos, Reflected",
   "slug": "silos-reflected-willows",
-  "image": "silos-reflected-willows.jpg",
-  "image-biz": "silos-reflected-willows-biz.jpg",
-  "image-home": "silos-reflected-willows-home.jpg",
+  "title": "Silos, Reflected",
   "thumb": "silos-reflected-willows.jpg",
-  "location": "Willows",
+  "image": "silos-reflected-willows.jpg",
+  "image-home": "silos-reflected-willows-home.jpg",
+  "image-biz": "silos-reflected-willows-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Willows",
+  "year": 2016,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 12,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 12
 }

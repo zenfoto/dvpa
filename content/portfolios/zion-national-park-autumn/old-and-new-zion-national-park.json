@@ -1,17 +1,18 @@
 {
-  "title": "Old and New",
   "slug": "old-and-new-zion-national-park",
-  "image": "old-and-new-zion-national-park.jpg",
-  "image-biz": "old-and-new-zion-national-park-biz.jpg",
-  "image-home": "old-and-new-zion-national-park-home.jpg",
+  "title": "Old and New",
   "thumb": "old-and-new-zion-national-park.jpg",
-  "location": "Center of the Universe",
+  "image": "old-and-new-zion-national-park.jpg",
+  "image-home": "old-and-new-zion-national-park-home.jpg",
+  "image-biz": "old-and-new-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Center of the Universe",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 17,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 17
 }

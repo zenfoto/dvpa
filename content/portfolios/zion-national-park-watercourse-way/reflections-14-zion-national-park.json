@@ -1,17 +1,18 @@
 {
-  "title": "Reflections #14",
   "slug": "reflections-14-zion-national-park",
-  "image": "reflections-14-zion-national-park.jpg",
-  "image-biz": "reflections-14-zion-national-park-biz.jpg",
-  "image-home": "reflections-14-zion-national-park-home.jpg",
+  "title": "Reflections #14",
   "thumb": "reflections-14-zion-national-park.jpg",
-  "location": "Virgin River",
+  "image": "reflections-14-zion-national-park.jpg",
+  "image-home": "reflections-14-zion-national-park-home.jpg",
+  "image-biz": "reflections-14-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Virgin River",
+  "year": 2012,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 3
 }

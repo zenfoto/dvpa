@@ -1,17 +1,18 @@
 {
-  "title": "Twilight",
   "slug": "granary-detail-cortena",
-  "image": "granary-detail-cortena.jpg",
-  "image-biz": "granary-detail-cortena-biz.jpg",
-  "image-home": "granary-detail-cortena-home.jpg",
+  "title": "Twilight",
   "thumb": "granary-detail-cortena.jpg",
-  "location": "Cortena",
+  "image": "granary-detail-cortena.jpg",
+  "image-home": "granary-detail-cortena-home.jpg",
+  "image-biz": "granary-detail-cortena-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Cortena",
+  "year": 2019,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1100,
+  "image-height": 1600,
+  "order": 4
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Maples in Rain",
   "slug": "maples-in-rain-zion-national-park",
-  "image": "maples-in-rain-zion-national-park.jpg",
-  "image-biz": "maples-in-rain-zion-national-park-biz.jpg",
-  "image-home": "maples-in-rain-zion-national-park-home.jpg",
+  "title": "Maples in Rain",
   "thumb": "maples-in-rain-zion-national-park.jpg",
-  "location": "Main Canyon",
+  "image": "maples-in-rain-zion-national-park.jpg",
+  "image-home": "maples-in-rain-zion-national-park-home.jpg",
+  "image-biz": "maples-in-rain-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Main Canyon",
+  "year": 2016,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 6,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 6
 }

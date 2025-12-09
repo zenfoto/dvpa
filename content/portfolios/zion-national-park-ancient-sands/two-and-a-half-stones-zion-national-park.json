@@ -1,17 +1,18 @@
 {
-  "title": "Two and a Half Stones",
   "slug": "two-and-a-half-stones-zion-national-park",
-  "image": "two-and-a-half-stones-zion-national-park.jpg",
-  "image-biz": "two-and-a-half-stones-zion-national-park-biz.jpg",
-  "image-home": "two-and-a-half-stones-zion-national-park-home.jpg",
+  "title": "Two and a Half Stones",
   "thumb": "two-and-a-half-stones-zion-national-park.jpg",
-  "location": "Wilderness",
+  "image": "two-and-a-half-stones-zion-national-park.jpg",
+  "image-home": "two-and-a-half-stones-zion-national-park-home.jpg",
+  "image-biz": "two-and-a-half-stones-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Wilderness",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 16,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 16
 }

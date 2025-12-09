@@ -1,17 +1,18 @@
 {
-  "title": "Leaf and Yucca",
   "slug": "leaf-and-yucca-zion-national-park",
-  "image": "leaf-and-yucca-zion-national-park.jpg",
-  "image-biz": "leaf-and-yucca-zion-national-park-biz.jpg",
-  "image-home": "leaf-and-yucca-zion-national-park-home.jpg",
+  "title": "Leaf and Yucca",
   "thumb": "leaf-and-yucca-zion-national-park.jpg",
-  "location": "Kolob Canyons",
+  "image": "leaf-and-yucca-zion-national-park.jpg",
+  "image-home": "leaf-and-yucca-zion-national-park-home.jpg",
+  "image-biz": "leaf-and-yucca-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Kolob Canyons",
+  "year": 2016,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 4
 }

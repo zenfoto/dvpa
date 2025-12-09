@@ -1,17 +1,18 @@
 {
-  "title": "Swirls",
   "slug": "clouds-kanab",
-  "image": "clouds-kanab.jpg",
-  "image-biz": "clouds-kanab-biz.jpg",
-  "image-home": "clouds-kanab-home.jpg",
+  "title": "Swirls",
   "thumb": "clouds-kanab.jpg",
-  "location": "Along Hwy 89",
+  "image": "clouds-kanab.jpg",
+  "image-home": "clouds-kanab-home.jpg",
+  "image-biz": "clouds-kanab-biz.jpg",
   "place": "Kanab",
+  "location": "Along Hwy 89",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
-  "order": 2,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1600,
+  "image-height": 1600,
+  "order": 2
 }

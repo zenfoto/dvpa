@@ -1,17 +1,18 @@
 {
-  "title": "In the Shadow of Stone",
   "slug": "in-the-shadow-of-stone-zion-national-park",
-  "image": "in-the-shadow-of-stone-zion-national-park.jpg",
-  "image-biz": "in-the-shadow-of-stone-zion-national-park-biz.jpg",
-  "image-home": "in-the-shadow-of-stone-zion-national-park-home.jpg",
+  "title": "In the Shadow of Stone",
   "thumb": "in-the-shadow-of-stone-zion-national-park.jpg",
-  "location": "Above Clear Creek",
+  "image": "in-the-shadow-of-stone-zion-national-park.jpg",
+  "image-home": "in-the-shadow-of-stone-zion-national-park-home.jpg",
+  "image-biz": "in-the-shadow-of-stone-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Above Clear Creek",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 3
 }

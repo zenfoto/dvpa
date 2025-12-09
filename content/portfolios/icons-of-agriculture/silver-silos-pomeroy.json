@@ -1,17 +1,18 @@
 {
-  "title": "Silver Silos",
   "slug": "silver-silos-pomeroy",
-  "image": "silver-silos-pomeroy.jpg",
-  "image-biz": "silver-silos-pomeroy-biz.jpg",
-  "image-home": "silver-silos-pomeroy-home.jpg",
+  "title": "Silver Silos",
   "thumb": "silver-silos-pomeroy.jpg",
-  "location": "Pomeroy",
+  "image": "silver-silos-pomeroy.jpg",
+  "image-home": "silver-silos-pomeroy-home.jpg",
+  "image-biz": "silver-silos-pomeroy-biz.jpg",
   "place": "Garfield County",
+  "location": "Pomeroy",
+  "year": 2017,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 16,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 16
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Aspen Canopy at Dusk",
   "slug": "aspen-canopy-crested-butte",
-  "image": "aspen-canopy-crested-butte.jpg",
-  "image-biz": "aspen-canopy-crested-butte-biz.jpg",
-  "image-home": "aspen-canopy-crested-butte-home.jpg",
+  "title": "Aspen Canopy at Dusk",
   "thumb": "aspen-canopy-crested-butte.jpg",
-  "location": "Kebler Pass",
+  "image": "aspen-canopy-crested-butte.jpg",
+  "image-home": "aspen-canopy-crested-butte-home.jpg",
+  "image-biz": "aspen-canopy-crested-butte-biz.jpg",
   "place": "Crested Butte",
+  "location": "Kebler Pass",
+  "year": 2020,
+  "state": "Colorado",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 4,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1820,
+  "order": 4
 }

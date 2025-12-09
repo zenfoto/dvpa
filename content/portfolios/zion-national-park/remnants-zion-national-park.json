@@ -1,17 +1,18 @@
 {
-  "title": "Remnants",
   "slug": "remnants-zion-national-park",
-  "image": "remnants-zion-national-park.jpg",
-  "image-biz": "remnants-zion-national-park-biz.jpg",
-  "image-home": "remnants-zion-national-park-home.jpg",
+  "title": "Remnants",
   "thumb": "remnants-zion-national-park.jpg",
-  "location": "Virgin River",
+  "image": "remnants-zion-national-park.jpg",
+  "image-home": "remnants-zion-national-park-home.jpg",
+  "image-biz": "remnants-zion-national-park-biz.jpg",
   "place": "Zion Canyon",
+  "location": "Virgin River",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 9,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 9
 }

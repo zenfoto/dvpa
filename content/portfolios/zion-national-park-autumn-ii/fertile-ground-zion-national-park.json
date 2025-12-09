@@ -1,17 +1,18 @@
 {
-  "title": "Fertile Ground",
   "slug": "fertile-ground-zion-national-park",
-  "image": "fertile-ground-zion-national-park.jpg",
-  "image-biz": "fertile-ground-zion-national-park-biz.jpg",
-  "image-home": "fertile-ground-zion-national-park-home.jpg",
+  "title": "Fertile Ground",
   "thumb": "fertile-ground-zion-national-park.jpg",
-  "location": "Main Canyon",
+  "image": "fertile-ground-zion-national-park.jpg",
+  "image-home": "fertile-ground-zion-national-park-home.jpg",
+  "image-biz": "fertile-ground-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Main Canyon",
+  "year": 2018,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 5,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 5
 }

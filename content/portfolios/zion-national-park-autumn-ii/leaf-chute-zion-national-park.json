@@ -1,17 +1,18 @@
 {
-  "title": "Leaf Chute",
   "slug": "leaf-chute-zion-national-park",
-  "image": "leaf-chute-zion-national-park.jpg",
-  "image-biz": "leaf-chute-zion-national-park-biz.jpg",
-  "image-home": "leaf-chute-zion-national-park-home.jpg",
+  "title": "Leaf Chute",
   "thumb": "leaf-chute-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "leaf-chute-zion-national-park.jpg",
+  "image-home": "leaf-chute-zion-national-park-home.jpg",
+  "image-biz": "leaf-chute-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 15,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 15
 }

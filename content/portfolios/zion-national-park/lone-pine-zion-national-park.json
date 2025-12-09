@@ -1,17 +1,18 @@
 {
-  "title": "Lone Pine",
   "slug": "lone-pine-zion-national-park",
-  "image": "lone-pine-zion-national-park.jpg",
-  "image-biz": "lone-pine-zion-national-park-biz.jpg",
-  "image-home": "lone-pine-zion-national-park-home.jpg",
+  "title": "Lone Pine",
   "thumb": "lone-pine-zion-national-park.jpg",
-  "location": "Echo Canyon",
+  "image": "lone-pine-zion-national-park.jpg",
+  "image-home": "lone-pine-zion-national-park-home.jpg",
+  "image-biz": "lone-pine-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Echo Canyon",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 16,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 16
 }

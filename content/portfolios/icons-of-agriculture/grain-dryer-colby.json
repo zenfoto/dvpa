@@ -1,17 +1,18 @@
 {
-  "title": "Grain Dryer",
   "slug": "grain-dryer-colby",
-  "image": "grain-dryer-colby.jpg",
-  "image-biz": "grain-dryer-colby-biz.jpg",
-  "image-home": "grain-dryer-colby-home.jpg",
+  "title": "Grain Dryer",
   "thumb": "grain-dryer-colby.jpg",
-  "location": "Cornerstone AG",
+  "image": "grain-dryer-colby.jpg",
+  "image-home": "grain-dryer-colby-home.jpg",
+  "image-biz": "grain-dryer-colby-biz.jpg",
   "place": "Colby",
+  "location": "Cornerstone AG",
+  "year": 2021,
+  "state": "Kansas",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 3,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 3
 }

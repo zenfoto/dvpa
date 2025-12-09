@@ -1,17 +1,18 @@
 {
-  "title": "Emergency Use Only",
   "slug": "emergency-use-only-ritzville",
-  "image": "emergency-use-only-ritzville.jpg",
-  "image-biz": "emergency-use-only-ritzville-biz.jpg",
-  "image-home": "emergency-use-only-ritzville-home.jpg",
+  "title": "Emergency Use Only",
   "thumb": "emergency-use-only-ritzville.jpg",
-  "location": "Ritzville",
+  "image": "emergency-use-only-ritzville.jpg",
+  "image-home": "emergency-use-only-ritzville-home.jpg",
+  "image-biz": "emergency-use-only-ritzville-biz.jpg",
   "place": "Adams County",
+  "location": "Ritzville",
+  "year": 2020,
+  "state": "Oregon",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 17,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 17
 }

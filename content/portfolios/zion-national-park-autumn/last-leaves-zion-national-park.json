@@ -1,17 +1,18 @@
 {
-  "title": "Last Leaves",
   "slug": "last-leaves-zion-national-park",
-  "image": "last-leaves-zion-national-park.jpg",
-  "image-biz": "last-leaves-zion-national-park-biz.jpg",
-  "image-home": "last-leaves-zion-national-park-home.jpg",
+  "title": "Last Leaves",
   "thumb": "last-leaves-zion-national-park.jpg",
-  "location": "Taylor Creek",
+  "image": "last-leaves-zion-national-park.jpg",
+  "image-home": "last-leaves-zion-national-park-home.jpg",
+  "image-biz": "last-leaves-zion-national-park-biz.jpg",
   "place": "Kolob Canyons",
+  "location": "Taylor Creek",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 7,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 7
 }

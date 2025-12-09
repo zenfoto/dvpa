@@ -1,17 +1,18 @@
 {
-  "title": "A Good Resting Place",
   "slug": "a-good-resting-place-zion-national-park",
-  "image": "a-good-resting-place-zion-national-park.jpg",
-  "image-biz": "a-good-resting-place-zion-national-park-biz.jpg",
-  "image-home": "a-good-resting-place-zion-national-park-home.jpg",
+  "title": "A Good Resting Place",
   "thumb": "a-good-resting-place-zion-national-park.jpg",
-  "location": "Wilderness",
+  "image": "a-good-resting-place-zion-national-park.jpg",
+  "image-home": "a-good-resting-place-zion-national-park-home.jpg",
+  "image-biz": "a-good-resting-place-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Wilderness",
+  "year": 2000,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 13,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 13
 }

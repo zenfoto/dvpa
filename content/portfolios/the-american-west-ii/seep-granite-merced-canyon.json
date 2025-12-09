@@ -1,17 +1,18 @@
 {
-  "title": "Seep in Granite",
   "slug": "seep-granite-merced-canyon",
-  "image": "seep-granite-merced-canyon.jpg",
-  "image-biz": "seep-granite-merced-canyon-biz.jpg",
-  "image-home": "seep-granite-merced-canyon-home.jpg",
+  "title": "Seep in Granite",
   "thumb": "seep-granite-merced-canyon.jpg",
-  "location": "Merced Canyon",
+  "image": "seep-granite-merced-canyon.jpg",
+  "image-home": "seep-granite-merced-canyon-home.jpg",
+  "image-biz": "seep-granite-merced-canyon-biz.jpg",
   "place": "Mariposa County",
+  "location": "Merced Canyon",
+  "year": 2010,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 21,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1140,
+  "image-height": 1600,
+  "order": 23
 }

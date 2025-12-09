@@ -1,17 +1,18 @@
 {
-  "title": "Leaves Reflecting Sky",
   "slug": "leaves-reflecting-sky-zion-national-park",
-  "image": "leaves-reflecting-sky-zion-national-park.jpg",
-  "image-biz": "leaves-reflecting-sky-zion-national-park-biz.jpg",
-  "image-home": "leaves-reflecting-sky-zion-national-park-home.jpg",
+  "title": "Leaves Reflecting Sky",
   "thumb": "leaves-reflecting-sky-zion-national-park.jpg",
-  "location": "Upper East Side",
+  "image": "leaves-reflecting-sky-zion-national-park.jpg",
+  "image-home": "leaves-reflecting-sky-zion-national-park-home.jpg",
+  "image-biz": "leaves-reflecting-sky-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Upper East Side",
+  "year": 2017,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 9,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 9
 }

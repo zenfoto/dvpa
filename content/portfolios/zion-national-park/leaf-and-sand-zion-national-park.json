@@ -1,17 +1,18 @@
 {
-  "title": "Leaf and Sand",
   "slug": "leaf-and-sand-zion-national-park",
-  "image": "leaf-and-sand-zion-national-park.jpg",
-  "image-biz": "leaf-and-sand-zion-national-park-biz.jpg",
-  "image-home": "leaf-and-sand-zion-national-park-home.jpg",
+  "title": "Leaf and Sand",
   "thumb": "leaf-and-sand-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "leaf-and-sand-zion-national-park.jpg",
+  "image-home": "leaf-and-sand-zion-national-park-home.jpg",
+  "image-biz": "leaf-and-sand-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2015,
+  "state": "Utah",
   "print-type": "Handmade Cibachrome",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 1,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 1
 }

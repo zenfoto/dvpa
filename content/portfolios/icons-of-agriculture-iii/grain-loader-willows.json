@@ -1,17 +1,18 @@
 {
-  "title": "Grain Loader",
   "slug": "grain-loader-willows",
-  "image": "grain-loader-willows.jpg",
-  "image-biz": "grain-loader-willows-biz.jpg",
-  "image-home": "grain-loader-willows-home.jpg",
+  "title": "Grain Loader",
   "thumb": "grain-loader-willows.jpg",
-  "location": "Willows",
+  "image": "grain-loader-willows.jpg",
+  "image-home": "grain-loader-willows-home.jpg",
+  "image-biz": "grain-loader-willows-biz.jpg",
   "place": "Sacramento Valley",
+  "location": "Willows",
+  "year": 2016,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 16,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 16
 }

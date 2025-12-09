@@ -1,17 +1,18 @@
 {
-  "title": "Leaves and Sky",
   "slug": "leaves-and-sky-zion-national-park",
-  "image": "leaves-and-sky-zion-national-park.jpg",
-  "image-biz": "leaves-and-sky-zion-national-park-biz.jpg",
-  "image-home": "leaves-and-sky-zion-national-park-home.jpg",
+  "title": "Leaves and Sky",
   "thumb": "leaves-and-sky-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "leaves-and-sky-zion-national-park.jpg",
+  "image-home": "leaves-and-sky-zion-national-park-home.jpg",
+  "image-biz": "leaves-and-sky-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Clear Creek",
+  "year": 2014,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 16,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 16
 }

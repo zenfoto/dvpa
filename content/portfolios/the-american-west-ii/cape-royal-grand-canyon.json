@@ -1,17 +1,18 @@
 {
-  "title": "Cape Royal",
   "slug": "cape-royal-grand-canyon",
-  "image": "cape-royal-grand-canyon.jpg",
-  "image-biz": "cape-royal-grand-canyon-biz.jpg",
-  "image-home": "cape-royal-grand-canyon-home.jpg",
+  "title": "Cape Royal",
   "thumb": "cape-royal-grand-canyon.jpg",
-  "location": "Grand Canyon",
+  "image": "cape-royal-grand-canyon.jpg",
+  "image-home": "cape-royal-grand-canyon-home.jpg",
+  "image-biz": "cape-royal-grand-canyon-biz.jpg",
   "place": "Cape Royal",
+  "location": "Grand Canyon",
+  "year": 1999,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 14,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1920,
+  "order": 14
 }

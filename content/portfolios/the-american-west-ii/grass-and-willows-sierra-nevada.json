@@ -1,17 +1,18 @@
 {
-  "title": "Grass & Willows",
   "slug": "grass-and-willows-sierra-nevada",
-  "image": "grass-and-willows-sierra-nevada.jpg",
-  "image-biz": "grass-and-willows-sierra-nevada-biz.jpg",
-  "image-home": "grass-and-willows-sierra-nevada-home.jpg",
+  "title": "Grass & Willows",
   "thumb": "grass-and-willows-sierra-nevada.jpg",
-  "location": "Sierra Nevada",
+  "image": "grass-and-willows-sierra-nevada.jpg",
+  "image-home": "grass-and-willows-sierra-nevada-home.jpg",
+  "image-biz": "grass-and-willows-sierra-nevada-biz.jpg",
   "place": "Grass & Willows",
+  "location": "Sierra Nevada",
+  "year": 2008,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
-  "field-notes": "",
-  "order": 16,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "field-notes": "This image came about by accident. Literally. After a week long workshop in the White Mountains, a small group spent some time with Stuart Scofield at his cabin in Twin Lakes, California. Our goal was to photograph Aspens at the height of fall color but one rather blustery day we visited some natural hot springs for a change of pace. After a good hot soak, I was climbing out, got a bit dizzy and stumbled hitting a rock with my left foot and taring my pinky toenail completely off. That was some serious ouch!\n \nThe next couple days we visited a lovely area called Soldier's Meadow. My sore foot could only manage sandals so I was largely confined to our base camp which soured my photographic mood. But as I settled down and began to actually see what was around me, I was drawn to a section of willows and grasses along a little stream. Contemplating the scene on and off for almost an entire afternoon, I settled into the chosen composition with the realization my injury had forced a new quieter way of seeing compositional possibilities.",
+  "image-width": 1280,
+  "image-height": 1600,
+  "order": 16
 }

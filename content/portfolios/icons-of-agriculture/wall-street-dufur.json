@@ -1,17 +1,18 @@
 {
-  "title": "Wall Street",
   "slug": "wall-street-dufur",
-  "image": "wall-street-dufur.jpg",
-  "image-biz": "wall-street-dufur-biz.jpg",
-  "image-home": "wall-street-dufur-home.jpg",
+  "title": "Wall Street",
   "thumb": "wall-street-dufur.jpg",
-  "location": "Dufur",
+  "image": "wall-street-dufur.jpg",
+  "image-home": "wall-street-dufur-home.jpg",
+  "image-biz": "wall-street-dufur-biz.jpg",
   "place": "Wasco County",
+  "location": "Dufur",
+  "year": 2018,
+  "state": "Oregon",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 8,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 8
 }

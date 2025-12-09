@@ -1,17 +1,18 @@
 {
-  "title": "Twilight Cascade",
   "slug": "twilight-cascade-sierra-nevada",
-  "image": "twilight-cascade-sierra-nevada.jpg",
-  "image-biz": "twilight-cascade-sierra-nevada-biz.jpg",
-  "image-home": "twilight-cascade-sierra-nevada-home.jpg",
+  "title": "Twilight Cascade",
   "thumb": "twilight-cascade-sierra-nevada.jpg",
-  "location": "Sonora Pass",
+  "image": "twilight-cascade-sierra-nevada.jpg",
+  "image-home": "twilight-cascade-sierra-nevada-home.jpg",
+  "image-biz": "twilight-cascade-sierra-nevada-biz.jpg",
   "place": "Sierra Nevada",
+  "location": "Sonora Pass",
+  "year": 2011,
+  "state": "California",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 20,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1140,
+  "image-height": 1600,
+  "order": 22
 }

@@ -1,17 +1,18 @@
 {
-  "title": "Pink and Yellow Maples",
   "slug": "pink-and-yellow-maple-zion-national-park",
-  "image": "pink-and-yellow-maple-zion-national-park.jpg",
-  "image-biz": "pink-and-yellow-maple-zion-national-park-biz.jpg",
-  "image-home": "pink-and-yellow-maple-zion-national-park-home.jpg",
+  "title": "Pink and Yellow Maples",
   "thumb": "pink-and-yellow-maple-zion-national-park.jpg",
-  "location": "Clear Creek",
+  "image": "pink-and-yellow-maple-zion-national-park.jpg",
+  "image-home": "pink-and-yellow-maple-zion-national-park-home.jpg",
+  "image-biz": "pink-and-yellow-maple-zion-national-park-biz.jpg",
   "place": "Zion's East Side",
+  "location": "Clear Creek",
+  "year": 2013,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 2,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1920,
+  "image-height": 1600,
+  "order": 2
 }

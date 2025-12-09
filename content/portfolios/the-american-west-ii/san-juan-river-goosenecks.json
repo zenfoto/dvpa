@@ -1,17 +1,18 @@
 {
-  "title": "San Juan River",
   "slug": "san-juan-river-goosenecks",
-  "image": "san-juan-river-goosenecks.jpg",
-  "image-biz": "san-juan-river-goosenecks-biz.jpg",
-  "image-home": "san-juan-river-goosenecks-home.jpg",
+  "title": "San Juan River",
   "thumb": "san-juan-river-goosenecks.jpg",
-  "location": "Goosenecks State Park",
+  "image": "san-juan-river-goosenecks.jpg",
+  "image-home": "san-juan-river-goosenecks-home.jpg",
+  "image-biz": "san-juan-river-goosenecks-biz.jpg",
   "place": "Colorado Plateau",
+  "location": "Goosenecks State Park",
+  "year": 2013,
+  "state": "Arizona",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 6,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 2400,
+  "image-height": 1600,
+  "order": 6
 }

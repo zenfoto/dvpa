@@ -1,17 +1,18 @@
 {
-  "title": "Swooping Cloud & Bat",
   "slug": "swooping-cloud-and-bat-zion-national-park",
-  "image": "swooping-cloud-and-bat-zion-national-park.jpg",
-  "image-biz": "swooping-cloud-and-bat-zion-national-park-biz.jpg",
-  "image-home": "swooping-cloud-and-bat-zion-national-park-home.jpg",
+  "title": "Swooping Cloud & Bat",
   "thumb": "swooping-cloud-and-bat-zion-national-park.jpg",
-  "location": "Pine Creek",
+  "image": "swooping-cloud-and-bat-zion-national-park.jpg",
+  "image-home": "swooping-cloud-and-bat-zion-national-park-home.jpg",
+  "image-biz": "swooping-cloud-and-bat-zion-national-park-biz.jpg",
   "place": "Zion National Park",
+  "location": "Pine Creek",
+  "year": 2015,
+  "state": "Utah",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
-  "order": 5,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1600,
+  "image-height": 1600,
+  "order": 5
 }

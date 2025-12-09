@@ -1,17 +1,18 @@
 {
-  "title": "Waste Bin",
   "slug": "waste-bin-palouse-city",
-  "image": "waste-bin-palouse-city.jpg",
-  "image-biz": "waste-bin-palouse-city-biz.jpg",
-  "image-home": "waste-bin-palouse-city-home.jpg",
+  "title": "Waste Bin",
   "thumb": "waste-bin-palouse-city.jpg",
-  "location": "Palouse City",
+  "image": "waste-bin-palouse-city.jpg",
+  "image-home": "waste-bin-palouse-city-home.jpg",
+  "image-biz": "waste-bin-palouse-city-biz.jpg",
   "place": "Whitman County",
+  "location": "Palouse City",
+  "year": 2019,
+  "state": "Washington",
   "print-type": "Pigment Ink",
   "edition-type": "Limited",
   "field-notes": "",
-  "order": 14,
-  "image-width": "",
-  "image-height": "",
-  "data-height": ""
+  "image-width": 1200,
+  "image-height": 1600,
+  "order": 14
 }
