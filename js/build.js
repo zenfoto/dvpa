@@ -1,24 +1,21 @@
+// build.js - Static site generator for DVPA with modular templates
+
 const fs = require("fs");
 const path = require("path");
 
-// Paths
 const contentDir = path.join(__dirname, "../content/portfolios");
 const pageDir = path.join(__dirname, "../content/pages");
 const outputDir = path.join(__dirname, "../public/portfolios");
 const pageOutputDir = path.join(__dirname, "../public");
-
 const photoTemplatePath = path.join(__dirname, "../templates/photograph.html");
 const pageTemplatePath = path.join(__dirname, "../templates/page.html");
-const sectionTemplatePath = path.join(__dirname, "../templates/single.html");
-
+const sectionTemplatePath = path.join(__dirname, "../templates/section.html");
 const headerPath = path.join(__dirname, "../templates/header.html");
 const footerPath = path.join(__dirname, "../templates/footer.html");
 
-// Templates
 const photoTemplate = fs.readFileSync(photoTemplatePath, "utf-8");
 const pageTemplate = fs.readFileSync(pageTemplatePath, "utf-8");
 const sectionTemplate = fs.readFileSync(sectionTemplatePath, "utf-8");
-
 const header = fs.readFileSync(headerPath, "utf-8");
 const footer = fs.readFileSync(footerPath, "utf-8");
 
@@ -35,6 +32,7 @@ function buildImagePages() {
       return { data, fileName: file };
     });
 
+    // Sort by the 'order' field
     dataObjects.sort((a, b) => a.data.order - b.data.order);
 
     dataObjects.forEach((entry, index) => {
@@ -74,80 +72,101 @@ function buildImagePages() {
 }
 
 function buildSectionPages() {
-  const files = fs.readdirSync(pageDir);
+  const files = fs.readdirSync(pageDir, { withFileTypes: true });
 
-  files.forEach((file) => {
-    if (file.endsWith(".json")) {
-      const data = JSON.parse(fs.readFileSync(path.join(pageDir, file), "utf-8"));
+  files.forEach(file => {
+    if (file.isDirectory()) {
+      const sectionFolder = file.name;
+      const sectionPath = path.join(pageDir, sectionFolder);
+      const sectionIndexPath = path.join(sectionPath, "index.json");
 
-      const html = pageTemplate
-        .replace(/{{header}}/g, header)
-        .replace(/{{footer}}/g, footer)
-        .replace(/{{title}}/g, data.title)
-        .replace(/{{body}}/g, data.body);
+      if (!fs.existsSync(sectionIndexPath)) return;
 
-      const sectionDir = path.join(pageOutputDir, data.slug);
-      if (!fs.existsSync(sectionDir)) fs.mkdirSync(sectionDir, { recursive: true });
+      const sectionData = JSON.parse(fs.readFileSync(sectionIndexPath, "utf-8"));
+      const allFiles = fs.readdirSync(sectionPath).filter(f => f.endsWith(".json") && f !== "index.json");
 
-      const outputFile = path.join(sectionDir, "index.html");
-      fs.writeFileSync(outputFile, html);
-      console.log(`Generated section page: ${outputFile}`);
+      // Sort by title for now (or modify as needed)
+      const pages = allFiles.map(file => {
+        const pageData = JSON.parse(fs.readFileSync(path.join(sectionPath, file), "utf-8"));
+        return { ...pageData, fileName: file };
+      }).sort((a, b) => (a.title || "").localeCompare(b.title || ""));
+
+      // Build navigation structure
+      pages.forEach((page, index) => {
+        const prev = index > 0 ? pages[index - 1] : null;
+        const next = index < pages.length - 1 ? pages[index + 1] : null;
+
+        const outputPath = path.join(pageOutputDir, sectionFolder);
+        if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
+
+        const html = pageTemplate
+          .replace(/{{header}}/g, header)
+          .replace(/{{footer}}/g, footer)
+          .replace(/{{title}}/g, page.title || "")
+          .replace(/{{body-id}}/g, page["body-id"] || "")
+          .replace(/{{sections}}/g, (page.sections || []).map(section => {
+            const imgBlock = section["html-image"] || "";
+            const textBlock = section["html-text"] || "";
+            return imgBlock + textBlock;
+          }).join("\n"))
+          
+          .replace(/{{bottomNav}}/g, `
+            <div id="prevnext">
+              <ul class="piped">
+                <li>${sectionData.title}</li>
+                <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+                ${prev ? `<li><a class="prev" href="/${sectionFolder}/${prev.slug}.html">${prev.title}</a></li>` : ""}
+                ${next ? `<li><span class="next"><a href="/${sectionFolder}/${next.slug}.html">${next.title}</a></span></li>` : ""}
+              </ul>
+            </div>`);
+
+        const outputFile = path.join(outputPath, `${page.slug}.html`);
+        fs.writeFileSync(outputFile, html);
+        console.log(`Generated page: ${outputFile}`);
+      });
     }
   });
 }
 
-function buildSinglePages() {
-  const singleDirs = fs.readdirSync(pageDir).filter(dir => {
-    const fullPath = path.join(pageDir, dir);
-    return fs.statSync(fullPath).isDirectory();
-  });
+function buildPortfolioIndexes() {
+  const categories = fs.readdirSync(contentDir);
 
-  singleDirs.forEach((dir) => {
-    const dirPath = path.join(pageDir, dir);
-    const files = fs.readdirSync(dirPath).filter(file => file.endsWith(".json"));
+  categories.forEach((category) => {
+    const categoryPath = path.join(contentDir, category);
+    const indexJsonPath = path.join(pageDir, category, "index.json");
 
-    files.forEach(file => {
-      const data = JSON.parse(fs.readFileSync(path.join(dirPath, file), "utf-8"));
+    if (!fs.existsSync(indexJsonPath)) return;
 
-      const sectionHTML = (data.sections || []).map(section => {
-  const imageBlock = section["html-image"] || "";
-  const textBlock = section["html-text"] || "";
+    const indexData = JSON.parse(fs.readFileSync(indexJsonPath, "utf-8"));
+    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json"));
 
-  return `
-    <div class="section">
-      ${imageBlock}
-      ${textBlock}
-    </div>
-  `;
-}).join("\n");
+    const thumbnails = files.map(file => {
+      const data = JSON.parse(fs.readFileSync(path.join(categoryPath, file), "utf-8"));
+      return `<div class="thumb">
+        <a href="/portfolios/${category}/${data.slug}.html">
+          <img src="/assets/photographs/thumbs/${data.thumb}" alt="${data.title}">
+          <h4>${data.title}</h4>
+        </a>
+      </div>`;
+    }).join("\n");
 
-      const navHTML = `
-        <div id="prevnext">
-          <ul class="piped">
-            ${data.navigation?.prev ? `<li><a class="prev" href="/${data.navigation.prev.slug}">${data.navigation.prev.label}</a></li>` : ""}
-             <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
-           ${data.navigation?.next ? `<li><span class="next"><a href="/${data.navigation.next.slug}">${data.navigation.next.label}</a></span></li>` : ""}
-          </ul>
-        </div>`;
+    const html = sectionTemplate
+      .replace(/{{header}}/g, header)
+      .replace(/{{footer}}/g, footer)
+      .replace(/{{title}}/g, indexData.title || "")
+      .replace(/{{intro}}/g, indexData.intro || "")
+      .replace(/{{body-id}}/g, indexData["body-id"] || "")
+      .replace(/{{thumbnails}}/g, thumbnails);
 
-      const html = sectionTemplate
-        .replace(/{{header}}/g, header)
-        .replace(/{{footer}}/g, footer)
-        .replace(/{{title}}/g, data.title)
-        .replace(/{{body-id}}/g, data["body-id"] || data.title)
-        .replace(/{{sections}}/g, sectionHTML)
-        .replace(/{{bottomNav}}/g, navHTML);
+    const outputCategoryDir = path.join(outputDir, category);
+    if (!fs.existsSync(outputCategoryDir)) fs.mkdirSync(outputCategoryDir, { recursive: true });
 
-      const outputPath = path.join(pageOutputDir, dir);
-      if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
-
-      const outputFile = path.join(outputPath, file.replace(".json", ".html"));
-      fs.writeFileSync(outputFile, html);
-      console.log(`Generated single content page: ${outputFile}`);
-    });
+    const outputFile = path.join(outputCategoryDir, "index.html");
+    fs.writeFileSync(outputFile, html);
+    console.log(`Generated portfolio index: ${outputFile}`);
   });
 }
 
 buildImagePages();
 buildSectionPages();
-buildSinglePages();
+buildPortfolioIndexes();
