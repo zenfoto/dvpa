@@ -133,7 +133,7 @@ function buildPortfolioIndexes() {
 
   categories.forEach((category) => {
     const categoryPath = path.join(contentDir, category);
-    const indexJsonPath = path.join(pageDir, category, "index.json");
+    const indexJsonPath = path.join(contentDir, category, "index.json");
 
     if (!fs.existsSync(indexJsonPath)) return;
 
