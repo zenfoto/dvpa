@@ -24,7 +24,8 @@ function buildImagePages() {
 
   categories.forEach((category) => {
     const categoryPath = path.join(contentDir, category);
-    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json"));
+    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json") && file !== "index.json");
+
 
     const dataObjects = files.map(file => {
       const filePath = path.join(categoryPath, file);
