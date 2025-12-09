@@ -1,16 +1,17 @@
 {
   "title": "Blushing Brides",
   "slug": "blushing-brides-zion-national-park",
-  "image": "/assets/photographs/blushing-brides-zion-national-park.jpg",
-  "image-home": "/assets/photographs/blushing-brides-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/blushing-brides-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/blushing-brides-zion-national-park.jpg",
+  "image": "blushing-brides-zion-national-park.jpg",
+  "image-biz": "blushing-brides-zion-national-park-biz.jpg",
+  "image-home": "blushing-brides-zion-national-park-home.jpg",
+  "thumb": "blushing-brides-zion-national-park.jpg",
   "location": "Zion Canyon",
-  "place": "Zion National Park, Utah 2005",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 10,
-  "image-width": 1280,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Cottonwood Creek Aspens",
   "slug": "cottonwood-creek-aspens-white-mountains",
-  "image": "/assets/photographs/cottonwood-creek-aspens-white-mountains.jpg",
-  "image-home": "/assets/photographs/cottonwood-creek-aspens-white-mountains-home.jpg",
-  "image-biz": "/assets/photographs/cottonwood-creek-aspens-white-mountains-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/cottonwood-creek-aspens-white-mountains.jpg",
+  "image": "cottonwood-creek-aspens-white-mountains.jpg",
+  "image-biz": "cottonwood-creek-aspens-white-mountains-biz.jpg",
+  "image-home": "cottonwood-creek-aspens-white-mountains-home.jpg",
+  "thumb": "cottonwood-creek-aspens-white-mountains.jpg",
   "location": "White Mountains",
-  "place": "",
+  "place": "Cottonwood Canyon",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 14,
-  "image-width": 2729,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

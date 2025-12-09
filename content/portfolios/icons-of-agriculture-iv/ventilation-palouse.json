@@ -1,16 +1,17 @@
 {
   "title": "Ventilation",
   "slug": "ventilation-palouse",
-  "image": "/assets/photographs/ventilation-palouse.jpg",
-  "image-home": "/assets/photographs/ventilation-palouse-home.jpg",
-  "image-biz": "/assets/photographs/ventilation-palouse-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/ventilation-palouse.jpg",
+  "image": "ventilation-palouse.jpg",
+  "image-biz": "ventilation-palouse-biz.jpg",
+  "image-home": "ventilation-palouse-home.jpg",
+  "thumb": "ventilation-palouse.jpg",
   "location": "Palouse City",
-  "place": "Whitman County, Washington 2022",
+  "place": "Whitman County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 5,
-  "image-width": 2400,
-  "image-height": 1720
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

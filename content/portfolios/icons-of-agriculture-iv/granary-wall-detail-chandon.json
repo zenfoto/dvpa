@@ -1,16 +1,17 @@
 {
   "title": "Cement Silos",
   "slug": "granary-wall-detail-chandon",
-  "image": "/assets/photographs/granary-wall-detail-chandon.jpg",
-  "image-home": "/assets/photographs/granary-wall-detail-chandon-home.jpg",
-  "image-biz": "/assets/photographs/granary-wall-detail-chandon-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/granary-wall-detail-chandon.jpg",
+  "image": "granary-wall-detail-chandon.jpg",
+  "image-biz": "granary-wall-detail-chandon-biz.jpg",
+  "image-home": "granary-wall-detail-chandon-home.jpg",
+  "thumb": "granary-wall-detail-chandon.jpg",
   "location": "Condon",
-  "place": "Gilliam County, Oregon 2015",
+  "place": "Gilliam County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 2,
-  "image-width": 1200,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

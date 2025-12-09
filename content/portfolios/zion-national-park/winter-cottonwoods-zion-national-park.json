@@ -1,16 +1,17 @@
 {
   "title": "Winter Cottonwoods",
   "slug": "winter-cottonwoods-zion-national-park",
-  "image": "/assets/photographs/winter-cottonwoods-zion-national-park.jpg",
-  "image-home": "/assets/photographs/winter-cottonwoods-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/winter-cottonwoods-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/winter-cottonwoods-zion-national-park.jpg",
+  "image": "winter-cottonwoods-zion-national-park.jpg",
+  "image-biz": "winter-cottonwoods-zion-national-park-biz.jpg",
+  "image-home": "winter-cottonwoods-zion-national-park-home.jpg",
+  "thumb": "winter-cottonwoods-zion-national-park.jpg",
   "location": "Virgin River",
-  "place": "Zion National Park, Utah 2016",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 10,
-  "image-width": 2400,
-  "image-height": 1720
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

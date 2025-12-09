@@ -1,16 +1,17 @@
 {
   "title": "Clearing Storm",
   "slug": "clearing-storm-the-palouse",
-  "image": "/assets/photographs/clearing-storm-the-palouse.jpg",
-  "image-home": "/assets/photographs/clearing-storm-the-palouse-home.jpg",
-  "image-biz": "/assets/photographs/clearing-storm-the-palouse-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/clearing-storm-the-palouse.jpg",
+  "image": "clearing-storm-the-palouse.jpg",
+  "image-biz": "clearing-storm-the-palouse-biz.jpg",
+  "image-home": "clearing-storm-the-palouse-home.jpg",
+  "thumb": "clearing-storm-the-palouse.jpg",
   "location": "Lion's Ferry Road",
-  "place": "The Palouse, Washington 2018",
+  "place": "The Palouse",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 13,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Dream Clouds II",
   "slug": "dream-clouds-ii-zion-national-park",
-  "image": "/assets/photographs/dream-clouds-ii-zion-national-park.jpg",
-  "image-home": "/assets/photographs/dream-clouds-ii-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/dream-clouds-ii-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/dream-clouds-ii-zion-national-park.jpg",
+  "image": "dream-clouds-ii-zion-national-park.jpg",
+  "image-biz": "dream-clouds-ii-zion-national-park-biz.jpg",
+  "image-home": "dream-clouds-ii-zion-national-park-home.jpg",
+  "thumb": "dream-clouds-ii-zion-national-park.jpg",
   "location": "East Side",
-  "place": "Zion National Park, Utah 2014",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
   "order": 3,
-  "image-width": 1600,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

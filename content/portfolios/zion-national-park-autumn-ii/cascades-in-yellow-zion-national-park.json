@@ -1,16 +1,17 @@
 {
   "title": "Cascades in Yellow",
   "slug": "cascades-in-yellow-zion-national-park",
-  "image": "/assets/photographs/cascades-in-yellow-zion-national-park.jpg",
-  "image-home": "/assets/photographs/cascades-in-yellow-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/cascades-in-yellow-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/cascades-in-yellow-zion-national-park.jpg",
+  "image": "cascades-in-yellow-zion-national-park.jpg",
+  "image-biz": "cascades-in-yellow-zion-national-park-biz.jpg",
+  "image-home": "cascades-in-yellow-zion-national-park-home.jpg",
+  "thumb": "cascades-in-yellow-zion-national-park.jpg",
   "location": "Kolob Canyons",
-  "place": "Zion National Park, Utah 2012",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 13,
-  "image-width": 1750,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Inside View",
   "slug": "inside-view-kennedy-ford",
-  "image": "/assets/photographs/inside-view-kennedy-ford.jpg",
-  "image-home": "/assets/photographs/inside-view-kennedy-ford-home.jpg",
-  "image-biz": "/assets/photographs/inside-view-kennedy-ford-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/inside-view-kennedy-ford.jpg",
+  "image": "inside-view-kennedy-ford.jpg",
+  "image-biz": "inside-view-kennedy-ford-biz.jpg",
+  "image-home": "inside-view-kennedy-ford-home.jpg",
+  "thumb": "inside-view-kennedy-ford.jpg",
   "location": "Kennedy Ford",
-  "place": "Potlatch, Idaho 2022",
+  "place": "Potlatch",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 12,
-  "image-width": 1200,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Ending Storm",
   "slug": "ending-storm-steens-wilderness",
-  "image": "/assets/photographs/ending-storm-steens-wilderness.jpg",
-  "image-home": "/assets/photographs/ending-storm-steens-wilderness-home.jpg",
-  "image-biz": "/assets/photographs/ending-storm-steens-wilderness-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/ending-storm-steens-wilderness.jpg",
+  "image": "ending-storm-steens-wilderness.jpg",
+  "image-biz": "ending-storm-steens-wilderness-biz.jpg",
+  "image-home": "ending-storm-steens-wilderness-home.jpg",
+  "thumb": "ending-storm-steens-wilderness.jpg",
   "location": "Along a Dirt Road",
-  "place": "Steen's Junction, Oregon 2013",
+  "place": "Steen's Junction",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
   "order": 1,
-  "image-width": 1600,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

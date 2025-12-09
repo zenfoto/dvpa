@@ -1,16 +1,17 @@
 {
   "title": "Glowing Silos and Moon",
   "slug": "glowing-silos-and-moon-willows",
-  "image": "/assets/photographs/glowing-silos-and-moon-willows.jpg",
-  "image-home": "/assets/photographs/glowing-silos-and-moon-willows-home.jpg",
-  "image-biz": "/assets/photographs/glowing-silos-and-moon-willows-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/glowing-silos-and-moon-willows.jpg",
+  "image": "glowing-silos-and-moon-willows.jpg",
+  "image-biz": "glowing-silos-and-moon-willows-biz.jpg",
+  "image-home": "glowing-silos-and-moon-willows-home.jpg",
+  "thumb": "glowing-silos-and-moon-willows.jpg",
   "location": "Willows",
-  "place": "Sacramento Valley, California 2016",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 15,
-  "image-width": 1100,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Glowing Silos",
   "slug": "glowing-silos-willows",
-  "image": "/assets/photographs/glowing-silos-willows.jpg",
-  "image-home": "/assets/photographs/glowing-silos-willows-home.jpg",
-  "image-biz": "/assets/photographs/glowing-silos-willows-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/glowing-silos-willows.jpg",
+  "image": "glowing-silos-willows.jpg",
+  "image-biz": "glowing-silos-willows-biz.jpg",
+  "image-home": "glowing-silos-willows-home.jpg",
+  "thumb": "glowing-silos-willows.jpg",
   "location": "Willows",
-  "place": "Sacramento Valley, California 2014",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
-  "order": 16,
-  "image-width": 721,
-  "image-height": 1080
+  "order": 13,
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

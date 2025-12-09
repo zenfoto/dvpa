@@ -1,16 +1,17 @@
 {
   "title": "Four Aspens, Twilight",
   "slug": "four-aspens-crested-butte",
-  "image": "/assets/photographs/four-aspens-crested-butte.jpg",
-  "image-home": "/assets/photographs/four-aspens-crested-butte-home.jpg",
-  "image-biz": "/assets/photographs/four-aspens-crested-butte-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/four-aspens-crested-butte.jpg",
+  "image": "four-aspens-crested-butte.jpg",
+  "image-biz": "four-aspens-crested-butte-biz.jpg",
+  "image-home": "four-aspens-crested-butte-home.jpg",
+  "thumb": "four-aspens-crested-butte.jpg",
   "location": "Kebler Pass",
-  "place": "Crested Butte, Colorado 2020",
+  "place": "Crested Butte",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 11,
-  "image-width": 1280,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

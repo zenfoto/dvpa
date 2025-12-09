@@ -1,16 +1,17 @@
 {
   "title": "Solemnity",
   "slug": "solemnity-zion-national-park",
-  "image": "/assets/photographs/solemnity-zion-national-park.jpg",
-  "image-home": "/assets/photographs/solemnity-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/solemnity-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/solemnity-zion-national-park.jpg",
+  "image": "solemnity-zion-national-park.jpg",
+  "image-biz": "solemnity-zion-national-park-biz.jpg",
+  "image-home": "solemnity-zion-national-park-home.jpg",
+  "thumb": "solemnity-zion-national-park.jpg",
   "location": "Temple of Sinawava",
-  "place": "Zion National Park, Utah 2019",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 9,
-  "image-width": 2400,
-  "image-height": 1613
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

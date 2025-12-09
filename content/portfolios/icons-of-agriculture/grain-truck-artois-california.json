@@ -1,16 +1,17 @@
 {
   "title": "Grain Truck",
   "slug": "grain-truck-artois-california",
-  "image": "/assets/photographs/grain-truck-artois-california.jpg",
-  "image-home": "/assets/photographs/grain-truck-artois-california-home.jpg",
-  "image-biz": "/assets/photographs/grain-truck-artois-california-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/grain-truck-artois-california.jpg",
+  "image": "grain-truck-artois-california.jpg",
+  "image-biz": "grain-truck-artois-california-biz.jpg",
+  "image-home": "grain-truck-artois-california-home.jpg",
+  "thumb": "grain-truck-artois-california.jpg",
   "location": "Artois",
-  "place": "Sacramento Valley, California 2016",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 1,
-  "image-width": 2400,
-  "image-height": 1639
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Lightning",
   "slug": "lightning-white-mountains",
-  "image": "/assets/photographs/lightning-white-mountains.jpg",
-  "image-home": "/assets/photographs/lightning-white-mountains-home.jpg",
-  "image-biz": "/assets/photographs/lightning-white-mountains-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/lightning-white-mountains.jpg",
+  "image": "lightning-white-mountains.jpg",
+  "image-biz": "lightning-white-mountains-biz.jpg",
+  "image-home": "lightning-white-mountains-home.jpg",
+  "thumb": "lightning-white-mountains.jpg",
   "location": "White Mountains",
-  "place": "Wilderness, California 2012",
+  "place": "Wilderness",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 18,
-  "image-width": 2979,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

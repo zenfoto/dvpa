@@ -1,16 +1,17 @@
 {
   "title": "Reflections #12",
   "slug": "reflections-12-zion-national-park",
-  "image": "/assets/photographs/reflections-12-zion-national-park.jpg",
-  "image-home": "/assets/photographs/reflections-12-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/reflections-12-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/reflections-12-zion-national-park.jpg",
+  "image": "reflections-12-zion-national-park.jpg",
+  "image-biz": "reflections-12-zion-national-park-biz.jpg",
+  "image-home": "reflections-12-zion-national-park-home.jpg",
+  "thumb": "reflections-12-zion-national-park.jpg",
   "location": "Virgin River",
-  "place": "Zion National Park, Utah 2015",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
-  "order": 12,
-  "image-width": 3237,
-  "image-height": 2160
+  "order": 11,
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

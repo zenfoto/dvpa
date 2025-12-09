@@ -1,16 +1,17 @@
 {
   "title": "Lightning",
   "slug": "lightning-china-hat-road-oregon",
-  "image": "/assets/photographs/lightning-china-hat-road-oregon.jpg",
-  "image-home": "/assets/photographs/lightning-china-hat-road-oregon-home.jpg",
-  "image-biz": "/assets/photographs/lightning-china-hat-road-oregon-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/lightning-china-hat-road-oregon.jpg",
+  "image": "lightning-china-hat-road-oregon.jpg",
+  "image-biz": "lightning-china-hat-road-oregon-biz.jpg",
+  "image-home": "lightning-china-hat-road-oregon-home.jpg",
+  "thumb": "lightning-china-hat-road-oregon.jpg",
   "location": "China Hat Road",
-  "place": "Bend, Oregon 2014",
+  "place": "Bend",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 2,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

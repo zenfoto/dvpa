@@ -1,16 +1,17 @@
 {
   "title": "Sand People",
   "slug": "sand-people-monument-valley",
-  "image": "/assets/photographs/sand-people-monument-valley.jpg",
-  "image-home": "/assets/photographs/sand-people-monument-valley-home.jpg",
-  "image-biz": "/assets/photographs/sand-people-monument-valley-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/sand-people-monument-valley.jpg",
+  "image": "sand-people-monument-valley.jpg",
+  "image-biz": "sand-people-monument-valley-biz.jpg",
+  "image-home": "sand-people-monument-valley-home.jpg",
+  "thumb": "sand-people-monument-valley.jpg",
   "location": "Monument Valley",
-  "place": "Monument Valley, Arizona 1997",
+  "place": "Monument Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 16,
-  "image-width": 1728,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

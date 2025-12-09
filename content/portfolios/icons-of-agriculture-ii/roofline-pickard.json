@@ -1,16 +1,17 @@
 {
   "title": "Roofline",
   "slug": "roofline-pickard",
-  "image": "/assets/photographs/roofline-pickard.jpg",
-  "image-home": "/assets/photographs/roofline-pickard-home.jpg",
-  "image-biz": "/assets/photographs/roofline-pickard-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/roofline-pickard.jpg",
+  "image": "roofline-pickard.jpg",
+  "image-biz": "roofline-pickard-biz.jpg",
+  "image-home": "roofline-pickard-home.jpg",
+  "thumb": "roofline-pickard.jpg",
   "location": "Near Pickard",
-  "place": "The Palouse, Washington 2014",
+  "place": "The Palouse",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 12,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

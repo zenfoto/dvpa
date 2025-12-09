@@ -1,16 +1,17 @@
 {
   "title": "Morning Maples",
   "slug": "morning-maples-zion-national-park",
-  "image": "/assets/photographs/morning-maples-zion-national-park.jpg",
-  "image-home": "/assets/photographs/morning-maples-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/morning-maples-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/morning-maples-zion-national-park.jpg",
+  "image": "morning-maples-zion-national-park.jpg",
+  "image-biz": "morning-maples-zion-national-park-biz.jpg",
+  "image-home": "morning-maples-zion-national-park-home.jpg",
+  "thumb": "morning-maples-zion-national-park.jpg",
   "location": "Zion Canyon",
-  "place": "Zion National Park, Utah 2019",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (20)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 11,
-  "image-width": 1280,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

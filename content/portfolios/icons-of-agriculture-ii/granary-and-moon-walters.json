@@ -1,16 +1,17 @@
 {
   "title": "Granary and Moon",
   "slug": "granary-and-moon-walters",
-  "image": "/assets/photographs/granary-and-moon-walters.jpg",
-  "image-home": "/assets/photographs/granary-and-moon-walters-home.jpg",
-  "image-biz": "/assets/photographs/granary-and-moon-walters-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/granary-and-moon-walters.jpg",
+  "image": "granary-and-moon-walters.jpg",
+  "image-biz": "granary-and-moon-walters-biz.jpg",
+  "image-home": "granary-and-moon-walters-home.jpg",
+  "thumb": "granary-and-moon-walters.jpg",
   "location": "Walters Road",
-  "place": "Garfield, Washington 2022",
+  "place": "Garfield",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 15,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Dusk, Painted Hills",
   "slug": "dusk-painted-hills",
-  "image": "/assets/photographs/dusk-painted-hills.jpg",
-  "image-home": "/assets/photographs/dusk-painted-hills-home.jpg",
-  "image-biz": "/assets/photographs/dusk-painted-hills-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/dusk-painted-hills.jpg",
+  "image": "dusk-painted-hills.jpg",
+  "image-biz": "dusk-painted-hills-biz.jpg",
+  "image-home": "dusk-painted-hills-home.jpg",
+  "thumb": "dusk-painted-hills.jpg",
   "location": "John Day Fossil Beds",
-  "place": "Mitchell, Oregon 2012",
+  "place": "Mitchell",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 9,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

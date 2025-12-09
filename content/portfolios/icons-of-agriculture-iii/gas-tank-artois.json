@@ -1,16 +1,17 @@
 {
   "title": "Gas Tank",
   "slug": "gas-tank-artois",
-  "image": "/assets/photographs/gas-tank-artois.jpg",
-  "image-home": "/assets/photographs/gas-tank-artois-home.jpg",
-  "image-biz": "/assets/photographs/gas-tank-artois-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/gas-tank-artois.jpg",
+  "image": "gas-tank-artois.jpg",
+  "image-biz": "gas-tank-artois-biz.jpg",
+  "image-home": "gas-tank-artois-home.jpg",
+  "thumb": "gas-tank-artois.jpg",
   "location": "Artois",
-  "place": "Sacramento Valley, California 2015",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 1,
-  "image-width": 1100,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

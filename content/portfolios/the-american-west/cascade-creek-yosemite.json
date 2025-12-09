@@ -1,16 +1,17 @@
 {
   "title": "Cascade Creek",
   "slug": "cascade-creek-yosemite",
-  "image": "/assets/photographs/cascade-creek-yosemite.jpg",
-  "image-home": "/assets/photographs/cascade-creek-yosemite-home.jpg",
-  "image-biz": "/assets/photographs/cascade-creek-yosemite-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/cascade-creek-yosemite.jpg",
+  "image": "cascade-creek-yosemite.jpg",
+  "image-biz": "cascade-creek-yosemite-biz.jpg",
+  "image-home": "cascade-creek-yosemite-home.jpg",
+  "thumb": "cascade-creek-yosemite.jpg",
   "location": "Yosemite National Park",
-  "place": "Cascade Creek, California 2010",
+  "place": "Cascade Creek",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 12,
-  "image-width": 2746,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

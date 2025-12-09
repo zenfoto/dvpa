@@ -1,16 +1,17 @@
 {
   "title": "Transitions",
   "slug": "transitions-zion-national-park",
-  "image": "/assets/photographs/transitions-zion-national-park.jpg",
-  "image-home": "/assets/photographs/transitions-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/transitions-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/transitions-zion-national-park.jpg",
+  "image": "transitions-zion-national-park.jpg",
+  "image-biz": "transitions-zion-national-park-biz.jpg",
+  "image-home": "transitions-zion-national-park-home.jpg",
+  "thumb": "transitions-zion-national-park.jpg",
   "location": "Pine Creek",
-  "place": "Zion National Park, Utah 2009",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 6,
-  "image-width": 1280,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

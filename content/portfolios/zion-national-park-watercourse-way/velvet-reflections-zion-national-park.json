@@ -1,16 +1,17 @@
 {
   "title": "Velvet Reflections",
   "slug": "velvet-reflections-zion-national-park",
-  "image": "/assets/photographs/velvet-reflections-zion-national-park.jpg",
-  "image-home": "/assets/photographs/velvet-reflections-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/velvet-reflections-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/velvet-reflections-zion-national-park.jpg",
+  "image": "velvet-reflections-zion-national-park.jpg",
+  "image-biz": "velvet-reflections-zion-national-park-biz.jpg",
+  "image-home": "velvet-reflections-zion-national-park-home.jpg",
+  "thumb": "velvet-reflections-zion-national-park.jpg",
   "location": "Virgin River",
-  "place": "Zion National Park, Utah 2006",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 5,
-  "image-width": 2400,
-  "image-height": 1920
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

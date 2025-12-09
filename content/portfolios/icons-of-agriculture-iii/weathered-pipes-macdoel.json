@@ -1,16 +1,17 @@
 {
   "title": "Weathered Pipes",
   "slug": "weathered-pipes-macdoel",
-  "image": "/assets/photographs/weathered-pipes-macdoel.jpg",
-  "image-home": "/assets/photographs/weathered-pipes-macdoel-home.jpg",
-  "image-biz": "/assets/photographs/weathered-pipes-macdoel-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/weathered-pipes-macdoel.jpg",
+  "image": "weathered-pipes-macdoel.jpg",
+  "image-biz": "weathered-pipes-macdoel-biz.jpg",
+  "image-home": "weathered-pipes-macdoel-home.jpg",
+  "thumb": "weathered-pipes-macdoel.jpg",
   "location": "Macdoel",
-  "place": "Siskiyou County, California 2014",
+  "place": "Siskiyou County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 12,
-  "image-width": 1200,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Red Coupler",
   "slug": "red-coupler-palouse",
-  "image": "/assets/photographs/red-coupler-palouse.jpg",
-  "image-home": "/assets/photographs/red-coupler-palouse-home.jpg",
-  "image-biz": "/assets/photographs/red-coupler-palouse-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/red-coupler-palouse.jpg",
+  "image": "red-coupler-palouse.jpg",
+  "image-biz": "red-coupler-palouse-biz.jpg",
+  "image-home": "red-coupler-palouse-home.jpg",
+  "thumb": "red-coupler-palouse.jpg",
   "location": "Palouse City",
-  "place": "Whitman County, Washington 2022",
+  "place": "Whitman County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 13,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

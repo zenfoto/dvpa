@@ -1,16 +1,17 @@
 {
   "title": "Air Pipes",
   "slug": "air-pipes-chandon",
-  "image": "/assets/photographs/air-pipes-chandon.jpg",
-  "image-home": "/assets/photographs/air-pipes-chandon-home.jpg",
-  "image-biz": "/assets/photographs/air-pipes-chandon-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/air-pipes-chandon.jpg",
+  "image": "air-pipes-chandon.jpg",
+  "image-biz": "air-pipes-chandon-biz.jpg",
+  "image-home": "air-pipes-chandon-home.jpg",
+  "thumb": "air-pipes-chandon.jpg",
   "location": "Condon",
-  "place": "Gilliam County, Oregon 2018",
+  "place": "Gilliam County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 3,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

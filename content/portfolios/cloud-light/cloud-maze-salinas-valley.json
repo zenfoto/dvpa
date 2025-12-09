@@ -1,16 +1,17 @@
 {
   "title": "Cloud Maze",
   "slug": "cloud-maze-salinas-valley",
-  "image": "/assets/photographs/cloud-maze-salinas-valley.jpg",
-  "image-home": "/assets/photographs/cloud-maze-salinas-valley-home.jpg",
-  "image-biz": "/assets/photographs/cloud-maze-salinas-valley-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/cloud-maze-salinas-valley.jpg",
+  "image": "cloud-maze-salinas-valley.jpg",
+  "image-biz": "cloud-maze-salinas-valley-biz.jpg",
+  "image-home": "cloud-maze-salinas-valley-home.jpg",
+  "thumb": "cloud-maze-salinas-valley.jpg",
   "location": "Soledad",
-  "place": "Salinas Valley, California 2010",
+  "place": "Salinas Valley",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
   "order": 9,
-  "image-width": 1600,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

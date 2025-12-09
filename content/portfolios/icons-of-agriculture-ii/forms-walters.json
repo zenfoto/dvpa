@@ -1,16 +1,17 @@
 {
   "title": "Forms",
   "slug": "forms-walters",
-  "image": "/assets/photographs/forms-walters.jpg",
-  "image-home": "/assets/photographs/forms-walters-home.jpg",
-  "image-biz": "/assets/photographs/forms-walters-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/forms-walters.jpg",
+  "image": "forms-walters.jpg",
+  "image-biz": "forms-walters-biz.jpg",
+  "image-home": "forms-walters-home.jpg",
+  "thumb": "forms-walters.jpg",
   "location": "Walters Road",
-  "place": "Garfield, Washington 2022",
+  "place": "Garfield",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 14,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Granary Detail",
   "slug": "granary-detail-ione",
-  "image": "/assets/photographs/granary-detail-ione.jpg",
-  "image-home": "/assets/photographs/granary-detail-ione-home.jpg",
-  "image-biz": "/assets/photographs/granary-detail-ione-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/granary-detail-ione.jpg",
+  "image": "granary-detail-ione.jpg",
+  "image-biz": "granary-detail-ione-biz.jpg",
+  "image-home": "granary-detail-ione-home.jpg",
+  "thumb": "granary-detail-ione.jpg",
   "location": "Ione",
-  "place": "Morrow County, Oregon 2014",
+  "place": "Morrow County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 4,
-  "image-width": 1140,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

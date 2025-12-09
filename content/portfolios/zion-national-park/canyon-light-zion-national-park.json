@@ -1,16 +1,17 @@
 {
   "title": "Canyon Light",
   "slug": "canyon-light-zion-national-park",
-  "image": "/assets/photographs/canyon-light-zion-national-park.jpg",
-  "image-home": "/assets/photographs/canyon-light-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/canyon-light-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/canyon-light-zion-national-park.jpg",
+  "image": "canyon-light-zion-national-park.jpg",
+  "image-biz": "canyon-light-zion-national-park-biz.jpg",
+  "image-home": "canyon-light-zion-national-park-home.jpg",
+  "thumb": "canyon-light-zion-national-park.jpg",
   "location": "Echo Canyon",
-  "place": "Zion National Park, Utah 2014",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 4,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

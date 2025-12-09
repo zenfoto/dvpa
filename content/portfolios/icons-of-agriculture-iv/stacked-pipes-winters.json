@@ -1,16 +1,17 @@
 {
   "title": "Stacked Pipes",
   "slug": "stacked-pipes-winters",
-  "image": "/assets/photographs/stacked-pipes-winters.jpg",
-  "image-home": "/assets/photographs/stacked-pipes-winters-home.jpg",
-  "image-biz": "/assets/photographs/stacked-pipes-winters-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/stacked-pipes-winters.jpg",
+  "image": "stacked-pipes-winters.jpg",
+  "image-biz": "stacked-pipes-winters-biz.jpg",
+  "image-home": "stacked-pipes-winters-home.jpg",
+  "thumb": "stacked-pipes-winters.jpg",
   "location": "Winters",
-  "place": "Sacramento Valley, California 2013",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
-  "order": 9,
-  "image-width": 1100,
-  "image-height": 1600
+  "order": 8,
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

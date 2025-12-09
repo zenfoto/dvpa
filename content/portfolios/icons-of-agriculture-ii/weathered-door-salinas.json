@@ -1,16 +1,17 @@
 {
   "title": "Fractures",
   "slug": "weathered-door-salinas",
-  "image": "/assets/photographs/weathered-door-salinas.jpg",
-  "image-home": "/assets/photographs/weathered-door-salinas-home.jpg",
-  "image-biz": "/assets/photographs/weathered-door-salinas-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/weathered-door-salinas.jpg",
+  "image": "weathered-door-salinas.jpg",
+  "image-biz": "weathered-door-salinas-biz.jpg",
+  "image-home": "weathered-door-salinas-home.jpg",
+  "thumb": "weathered-door-salinas.jpg",
   "location": "Chualar",
-  "place": "Salinas Valley, California 2011",
+  "place": "Salinas Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 2,
-  "image-width": 1100,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

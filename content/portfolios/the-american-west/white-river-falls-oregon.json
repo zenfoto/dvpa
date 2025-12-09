@@ -1,16 +1,17 @@
 {
   "title": "White River Falls",
   "slug": "white-river-falls-oregon",
-  "image": "/assets/photographs/white-river-falls-oregon.jpg",
-  "image-home": "/assets/photographs/white-river-falls-oregon-home.jpg",
-  "image-biz": "/assets/photographs/white-river-falls-oregon-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/white-river-falls-oregon.jpg",
+  "image": "white-river-falls-oregon.jpg",
+  "image-biz": "white-river-falls-oregon-biz.jpg",
+  "image-home": "white-river-falls-oregon-home.jpg",
+  "thumb": "white-river-falls-oregon.jpg",
   "location": "White River",
-  "place": "Central Oregon, Oregon 2013",
+  "place": "Central Oregon",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 9,
-  "image-width": 1280,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

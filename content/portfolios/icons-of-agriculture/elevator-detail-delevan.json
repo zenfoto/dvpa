@@ -1,16 +1,17 @@
 {
   "title": "Glowing Stack",
   "slug": "elevator-detail-delevan",
-  "image": "/assets/photographs/elevator-detail-delevan.jpg",
-  "image-home": "/assets/photographs/elevator-detail-delevan-home.jpg",
-  "image-biz": "/assets/photographs/elevator-detail-delevan-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/elevator-detail-delevan.jpg",
+  "image": "elevator-detail-delevan.jpg",
+  "image-biz": "elevator-detail-delevan-biz.jpg",
+  "image-home": "elevator-detail-delevan-home.jpg",
+  "thumb": "elevator-detail-delevan.jpg",
   "location": "Delevan",
-  "place": "Sacramento Valley, California 2013",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 6,
-  "image-width": 1140,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

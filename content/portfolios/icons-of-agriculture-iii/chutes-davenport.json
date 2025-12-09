@@ -1,16 +1,17 @@
 {
   "title": "Chutes and Ladders",
   "slug": "chutes-davenport",
-  "image": "/assets/photographs/chutes-davenport.jpg",
-  "image-home": "/assets/photographs/chutes-davenport-home.jpg",
-  "image-biz": "/assets/photographs/chutes-davenport-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/chutes-davenport.jpg",
+  "image": "chutes-davenport.jpg",
+  "image-biz": "chutes-davenport-biz.jpg",
+  "image-home": "chutes-davenport-home.jpg",
+  "thumb": "chutes-davenport.jpg",
   "location": "Davenport",
-  "place": "Lincoln County, Washington 2020",
+  "place": "Lincoln County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 5,
-  "image-width": 1200,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

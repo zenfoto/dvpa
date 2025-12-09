@@ -1,16 +1,17 @@
 {
   "title": "Three Maples",
   "slug": "three-maples-zion-national-park",
-  "image": "/assets/photographs/three-maples-zion-national-park.jpg",
-  "image-home": "/assets/photographs/three-maples-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/three-maples-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/three-maples-zion-national-park.jpg",
+  "image": "three-maples-zion-national-park.jpg",
+  "image-biz": "three-maples-zion-national-park-biz.jpg",
+  "image-home": "three-maples-zion-national-park-home.jpg",
+  "thumb": "three-maples-zion-national-park.jpg",
   "location": "Zion Canyon",
-  "place": "Zion National Park, Utah 2013",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 11,
-  "image-width": 1280,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

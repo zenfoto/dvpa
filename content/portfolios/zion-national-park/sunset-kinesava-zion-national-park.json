@@ -1,16 +1,17 @@
 {
   "title": "Sunset, Kinesava",
   "slug": "sunset-kinesava-zion-national-park",
-  "image": "/assets/photographs/sunset-kinesava-zion-national-park.jpg",
-  "image-home": "/assets/photographs/sunset-kinesava-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/sunset-kinesava-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/sunset-kinesava-zion-national-park.jpg",
+  "image": "sunset-kinesava-zion-national-park.jpg",
+  "image-biz": "sunset-kinesava-zion-national-park-biz.jpg",
+  "image-home": "sunset-kinesava-zion-national-park-home.jpg",
+  "thumb": "sunset-kinesava-zion-national-park.jpg",
   "location": "Zion Canyon",
-  "place": "Zion National Park, Utah 2011",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 12,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Twilight Maples",
   "slug": "twilight-maples-zion-national-park",
-  "image": "/assets/photographs/twilight-maples-zion-national-park.jpg",
-  "image-home": "/assets/photographs/twilight-maples-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/twilight-maples-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/twilight-maples-zion-national-park.jpg",
+  "image": "twilight-maples-zion-national-park.jpg",
+  "image-biz": "twilight-maples-zion-national-park-biz.jpg",
+  "image-home": "twilight-maples-zion-national-park-home.jpg",
+  "thumb": "twilight-maples-zion-national-park.jpg",
   "location": "Clear Creek",
-  "place": "Zion National Park, Utah 2014",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 1,
-  "image-width": 2400,
-  "image-height": 1920
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

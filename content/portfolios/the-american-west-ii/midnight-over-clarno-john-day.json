@@ -1,16 +1,17 @@
 {
   "title": "Midnight over Clarno",
   "slug": "midnight-over-clarno-john-day",
-  "image": "/assets/photographs/midnight-over-clarno-john-day.jpg",
-  "image-home": "/assets/photographs/midnight-over-clarno-john-day-home.jpg",
-  "image-biz": "/assets/photographs/midnight-over-clarno-john-day-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/midnight-over-clarno-john-day.jpg",
+  "image": "midnight-over-clarno-john-day.jpg",
+  "image-biz": "midnight-over-clarno-john-day-biz.jpg",
+  "image-home": "midnight-over-clarno-john-day-home.jpg",
+  "thumb": "midnight-over-clarno-john-day.jpg",
   "location": "Clarno Unit",
-  "place": "John Day National Monument, Oregon 2014",
+  "place": "John Day National Monument",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 4,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

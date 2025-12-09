@@ -1,16 +1,17 @@
 {
   "title": "Water Sculpted Sand",
   "slug": "water-sculpted-sand-zion-national-park",
-  "image": "/assets/photographs/water-sculpted-sand-zion-national-park.jpg",
-  "image-home": "/assets/photographs/water-sculpted-sand-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/water-sculpted-sand-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/water-sculpted-sand-zion-national-park.jpg",
+  "image": "water-sculpted-sand-zion-national-park.jpg",
+  "image-biz": "water-sculpted-sand-zion-national-park-biz.jpg",
+  "image-home": "water-sculpted-sand-zion-national-park-home.jpg",
+  "thumb": "water-sculpted-sand-zion-national-park.jpg",
   "location": "East Side",
-  "place": "Zion National Park, Utah 2014",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
-  "order": 20,
-  "image-width": 2718,
-  "image-height": 2160
+  "order": 17,
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Hillside Oak and Flowers",
   "slug": "hillside-oak-and-flowers-monterey",
-  "image": "/assets/photographs/hillside-oak-and-flowers-monterey.jpg",
-  "image-home": "/assets/photographs/hillside-oak-and-flowers-monterey-home.jpg",
-  "image-biz": "/assets/photographs/hillside-oak-and-flowers-monterey-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/hillside-oak-and-flowers-monterey.jpg",
+  "image": "hillside-oak-and-flowers-monterey.jpg",
+  "image-biz": "hillside-oak-and-flowers-monterey-biz.jpg",
+  "image-home": "hillside-oak-and-flowers-monterey-home.jpg",
+  "thumb": "hillside-oak-and-flowers-monterey.jpg",
   "location": "Monterey County",
-  "place": "",
+  "place": "Carmel Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 17,
-  "image-width": 3206,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

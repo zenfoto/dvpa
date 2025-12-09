@@ -1,16 +1,17 @@
 {
   "title": "Five Stones",
   "slug": "five-stones-zion-national-park",
-  "image": "/assets/photographs/five-stones-zion-national-park.jpg",
-  "image-home": "/assets/photographs/five-stones-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/five-stones-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/five-stones-zion-national-park.jpg",
+  "image": "five-stones-zion-national-park.jpg",
+  "image-biz": "five-stones-zion-national-park-biz.jpg",
+  "image-home": "five-stones-zion-national-park-home.jpg",
+  "thumb": "five-stones-zion-national-park.jpg",
   "location": "Center of the Universe",
-  "place": "Zion National Park, Utah 2013",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 12,
-  "image-width": 1720,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

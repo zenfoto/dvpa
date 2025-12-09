@@ -1,16 +1,17 @@
 {
   "title": "Bristlecone Pine Detail",
   "slug": "bristlecone-pine-detail-white-mountains",
-  "image": "/assets/photographs/bristlecone-pine-detail-white-mountains.jpg",
-  "image-home": "/assets/photographs/bristlecone-pine-detail-white-mountains-home.jpg",
-  "image-biz": "/assets/photographs/bristlecone-pine-detail-white-mountains-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/bristlecone-pine-detail-white-mountains.jpg",
+  "image": "bristlecone-pine-detail-white-mountains.jpg",
+  "image-biz": "bristlecone-pine-detail-white-mountains-biz.jpg",
+  "image-home": "bristlecone-pine-detail-white-mountains-home.jpg",
+  "thumb": "bristlecone-pine-detail-white-mountains.jpg",
   "location": "White Mountains",
-  "place": "Wilderness, California 2011",
+  "place": "Wilderness",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 11,
-  "image-width": 1447,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

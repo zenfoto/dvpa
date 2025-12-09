@@ -1,16 +1,17 @@
 {
   "title": "Twilight, Garrapata",
   "slug": "twilight-garrapata",
-  "image": "/assets/photographs/twilight-garrapata.jpg",
-  "image-home": "/assets/photographs/twilight-garrapata-home.jpg",
-  "image-biz": "/assets/photographs/twilight-garrapata-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/twilight-garrapata.jpg",
+  "image": "twilight-garrapata.jpg",
+  "image-biz": "twilight-garrapata-biz.jpg",
+  "image-home": "twilight-garrapata-home.jpg",
+  "thumb": "twilight-garrapata.jpg",
   "location": "Pacific Coast",
-  "place": "Carmel, California 1999",
+  "place": "Carmel",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 12,
-  "image-width": 1200,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

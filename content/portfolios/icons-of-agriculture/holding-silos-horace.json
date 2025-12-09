@@ -1,16 +1,17 @@
 {
   "title": "Holding Silos",
   "slug": "holding-silos-horace",
-  "image": "/assets/photographs/holding-silos-horace.jpg",
-  "image-home": "/assets/photographs/holding-silos-horace-home.jpg",
-  "image-biz": "/assets/photographs/holding-silos-horace-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/holding-silos-horace.jpg",
+  "image": "holding-silos-horace.jpg",
+  "image-biz": "holding-silos-horace-biz.jpg",
+  "image-home": "holding-silos-horace-home.jpg",
+  "thumb": "holding-silos-horace.jpg",
   "location": "Horace",
-  "place": "Greeley County, Kansas 2021",
+  "place": "Greeley County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 9,
-  "image-width": 1200,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

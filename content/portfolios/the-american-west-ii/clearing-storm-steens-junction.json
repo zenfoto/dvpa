@@ -1,16 +1,17 @@
 {
   "title": "Clearing Storm",
   "slug": "clearing-storm-steens-junction",
-  "image": "/assets/photographs/clearing-storm-steens-junction.jpg",
-  "image-home": "/assets/photographs/clearing-storm-steens-junction-home.jpg",
-  "image-biz": "/assets/photographs/clearing-storm-steens-junction-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/clearing-storm-steens-junction.jpg",
+  "image": "clearing-storm-steens-junction.jpg",
+  "image-biz": "clearing-storm-steens-junction-biz.jpg",
+  "image-home": "clearing-storm-steens-junction-home.jpg",
+  "thumb": "clearing-storm-steens-junction.jpg",
   "location": "A Dirt Road",
-  "place": "Steens Mountain Wilderness, Oregon 2013",
+  "place": "Steens Mountain Wilderness",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 1,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

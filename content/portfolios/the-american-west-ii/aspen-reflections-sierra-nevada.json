@@ -1,16 +1,17 @@
 {
   "title": "Aspen Reflections",
   "slug": "aspen-reflections-sierra-nevada",
-  "image": "/assets/photographs/aspen-reflections-sierra-nevada.jpg",
-  "image-home": "/assets/photographs/aspen-reflections-sierra-nevada-home.jpg",
-  "image-biz": "/assets/photographs/aspen-reflections-sierra-nevada-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/aspen-reflections-sierra-nevada.jpg",
+  "image": "aspen-reflections-sierra-nevada.jpg",
+  "image-biz": "aspen-reflections-sierra-nevada-biz.jpg",
+  "image-home": "aspen-reflections-sierra-nevada-home.jpg",
+  "thumb": "aspen-reflections-sierra-nevada.jpg",
   "location": "Green Creek",
-  "place": "Sierra Nevada, California 2012",
+  "place": "Sierra Nevada",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 7,
-  "image-width": 2400,
-  "image-height": 1940
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

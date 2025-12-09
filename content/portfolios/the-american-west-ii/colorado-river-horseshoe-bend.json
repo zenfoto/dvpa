@@ -1,16 +1,17 @@
 {
   "title": "Colorado River",
   "slug": "colorado-river-horseshoe-bend",
-  "image": "/assets/photographs/colorado-river-horseshoe-bend.jpg",
-  "image-home": "/assets/photographs/colorado-river-horseshoe-bend-home.jpg",
-  "image-biz": "/assets/photographs/colorado-river-horseshoe-bend-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/colorado-river-horseshoe-bend.jpg",
+  "image": "colorado-river-horseshoe-bend.jpg",
+  "image-biz": "colorado-river-horseshoe-bend-biz.jpg",
+  "image-home": "colorado-river-horseshoe-bend-home.jpg",
+  "thumb": "colorado-river-horseshoe-bend.jpg",
   "location": "Big Bend",
-  "place": "Page, Arizona 2012",
+  "place": "Page",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 2,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Along the River",
   "slug": "along-the-river-zion-national-park",
-  "image": "/assets/photographs/along-the-river-zion-national-park.jpg",
-  "image-home": "/assets/photographs/along-the-river-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/along-the-river-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/along-the-river-zion-national-park.jpg",
+  "image": "along-the-river-zion-national-park.jpg",
+  "image-biz": "along-the-river-zion-national-park-biz.jpg",
+  "image-home": "along-the-river-zion-national-park-home.jpg",
+  "thumb": "along-the-river-zion-national-park.jpg",
   "location": "Virgin River",
-  "place": "Zion National Park, Utah 2006",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 2,
-  "image-width": 2400,
-  "image-height": 1940
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

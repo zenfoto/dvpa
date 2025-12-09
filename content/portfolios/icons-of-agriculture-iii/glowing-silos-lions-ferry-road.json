@@ -1,16 +1,17 @@
 {
   "title": "Glowing Silos",
   "slug": "glowing-silos-lions-ferry-road",
-  "image": "/assets/photographs/glowing-silos-lions-ferry-road.jpg",
-  "image-home": "/assets/photographs/glowing-silos-lions-ferry-road-home.jpg",
-  "image-biz": "/assets/photographs/glowing-silos-lions-ferry-road-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/glowing-silos-lions-ferry-road.jpg",
+  "image": "glowing-silos-lions-ferry-road.jpg",
+  "image-biz": "glowing-silos-lions-ferry-road-biz.jpg",
+  "image-home": "glowing-silos-lions-ferry-road-home.jpg",
+  "thumb": "glowing-silos-lions-ferry-road.jpg",
   "location": "Lions Ferry Road",
-  "place": "The Palouse, Washington 2018",
+  "place": "The Palouse",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 11,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

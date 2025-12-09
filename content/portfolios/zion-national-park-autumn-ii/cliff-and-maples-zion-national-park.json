@@ -1,16 +1,17 @@
 {
   "title": "Cliff & Maples",
   "slug": "cliff-and-maples-zion-national-park",
-  "image": "/assets/photographs/cliff-and-maples-zion-national-park.jpg",
-  "image-home": "/assets/photographs/cliff-and-maples-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/cliff-and-maples-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/cliff-and-maples-zion-national-park.jpg",
+  "image": "cliff-and-maples-zion-national-park.jpg",
+  "image-biz": "cliff-and-maples-zion-national-park-biz.jpg",
+  "image-home": "cliff-and-maples-zion-national-park-home.jpg",
+  "thumb": "cliff-and-maples-zion-national-park.jpg",
   "location": "Tunnel View",
-  "place": "Zion National Park, Utah 2000",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 14,
-  "image-width": 1661,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

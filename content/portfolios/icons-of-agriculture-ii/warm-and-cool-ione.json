@@ -1,16 +1,17 @@
 {
   "title": "Warm and Cool",
   "slug": "warm-and-cool-ione",
-  "image": "/assets/photographs/warm-and-cool-ione.jpg",
-  "image-home": "/assets/photographs/warm-and-cool-ione-home.jpg",
-  "image-biz": "/assets/photographs/warm-and-cool-ione-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/warm-and-cool-ione.jpg",
+  "image": "warm-and-cool-ione.jpg",
+  "image-biz": "warm-and-cool-ione-biz.jpg",
+  "image-home": "warm-and-cool-ione-home.jpg",
+  "thumb": "warm-and-cool-ione.jpg",
   "location": "Ione",
-  "place": "Morrow County, Oregon 2019",
+  "place": "Morrow County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 10,
-  "image-width": 1100,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

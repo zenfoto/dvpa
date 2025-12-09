@@ -1,16 +1,17 @@
 {
   "title": "Conveyance",
   "slug": "conveyance-delevan",
-  "image": "/assets/photographs/conveyance-delevan.jpg",
-  "image-home": "/assets/photographs/conveyance-delevan-home.jpg",
-  "image-biz": "/assets/photographs/conveyance-delevan-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/conveyance-delevan.jpg",
+  "image": "conveyance-delevan.jpg",
+  "image-biz": "conveyance-delevan-biz.jpg",
+  "image-home": "conveyance-delevan-home.jpg",
+  "thumb": "conveyance-delevan.jpg",
   "location": "Delevan",
-  "place": "Sacramento Valley, California 2017",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 5,
-  "image-width": 2400,
-  "image-height": 1720
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

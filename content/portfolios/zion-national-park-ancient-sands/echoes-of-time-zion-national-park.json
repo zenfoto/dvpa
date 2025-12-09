@@ -1,16 +1,17 @@
 {
   "title": "Echoes of Time",
   "slug": "echoes-of-time-zion-national-park",
-  "image": "/assets/photographs/echoes-of-time-zion-national-park.jpg",
-  "image-home": "/assets/photographs/echoes-of-time-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/echoes-of-time-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/echoes-of-time-zion-national-park.jpg",
+  "image": "echoes-of-time-zion-national-park.jpg",
+  "image-biz": "echoes-of-time-zion-national-park-biz.jpg",
+  "image-home": "echoes-of-time-zion-national-park-home.jpg",
+  "thumb": "echoes-of-time-zion-national-park.jpg",
   "location": "Echo Canyon",
-  "place": "Zion National Park, Utah 2000",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 10,
-  "image-width": 2680,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

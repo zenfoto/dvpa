@@ -1,16 +1,17 @@
 {
   "title": "Tapestry in Yellow",
   "slug": "tapestry-in-yellow-zion-national-park",
-  "image": "/assets/photographs/tapestry-in-yellow-zion-national-park.jpg",
-  "image-home": "/assets/photographs/tapestry-in-yellow-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/tapestry-in-yellow-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/tapestry-in-yellow-zion-national-park.jpg",
+  "image": "tapestry-in-yellow-zion-national-park.jpg",
+  "image-biz": "tapestry-in-yellow-zion-national-park-biz.jpg",
+  "image-home": "tapestry-in-yellow-zion-national-park-home.jpg",
+  "thumb": "tapestry-in-yellow-zion-national-park.jpg",
   "location": "Kolob Canyons",
-  "place": "Zion National Park, Utah 2012",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 19,
-  "image-width": 1743,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

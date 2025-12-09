@@ -1,16 +1,17 @@
 {
   "title": "Fiery Skies",
   "slug": "fiery-skies-cortena",
-  "image": "/assets/photographs/fiery-skies-cortena.jpg",
-  "image-home": "/assets/photographs/fiery-skies-cortena-home.jpg",
-  "image-biz": "/assets/photographs/fiery-skies-cortena-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/fiery-skies-cortena.jpg",
+  "image": "fiery-skies-cortena.jpg",
+  "image-biz": "fiery-skies-cortena-biz.jpg",
+  "image-home": "fiery-skies-cortena-home.jpg",
+  "thumb": "fiery-skies-cortena.jpg",
   "location": "Roadside",
-  "place": "Cortena, California 2016",
+  "place": "Cortena",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
   "order": 8,
-  "image-width": 1600,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

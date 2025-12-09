@@ -1,16 +1,17 @@
 {
   "title": "Union",
   "slug": "cooperative-davenport",
-  "image": "/assets/photographs/cooperative-davenport.jpg",
-  "image-home": "/assets/photographs/cooperative-davenport-home.jpg",
-  "image-biz": "/assets/photographs/cooperative-davenport-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/cooperative-davenport.jpg",
+  "image": "cooperative-davenport.jpg",
+  "image-biz": "cooperative-davenport-biz.jpg",
+  "image-home": "cooperative-davenport-home.jpg",
+  "thumb": "cooperative-davenport.jpg",
   "location": "Davenport",
-  "place": "Lincoln County, Washington 2020",
+  "place": "Lincoln County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 6,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

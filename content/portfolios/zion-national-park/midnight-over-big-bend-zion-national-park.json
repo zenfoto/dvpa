@@ -1,16 +1,17 @@
 {
   "title": "Midnight over Big Bend",
   "slug": "midnight-over-big-bend-zion-national-park",
-  "image": "/assets/photographs/midnight-over-big-bend-zion-national-park.jpg",
-  "image-home": "/assets/photographs/midnight-over-big-bend-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/midnight-over-big-bend-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/midnight-over-big-bend-zion-national-park.jpg",
+  "image": "midnight-over-big-bend-zion-national-park.jpg",
+  "image-biz": "midnight-over-big-bend-zion-national-park-biz.jpg",
+  "image-home": "midnight-over-big-bend-zion-national-park-home.jpg",
+  "thumb": "midnight-over-big-bend-zion-national-park.jpg",
   "location": "Virgin River",
-  "place": "Zion National Park, Utah 2018",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 8,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

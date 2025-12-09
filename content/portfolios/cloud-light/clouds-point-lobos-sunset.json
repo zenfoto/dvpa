@@ -1,16 +1,17 @@
 {
   "title": "Winter Sunset",
   "slug": "clouds-point-lobos-sunset",
-  "image": "/assets/photographs/clouds-point-lobos-sunset.jpg",
-  "image-home": "/assets/photographs/clouds-point-lobos-sunset-home.jpg",
-  "image-biz": "/assets/photographs/clouds-point-lobos-sunset-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/clouds-point-lobos-sunset.jpg",
+  "image": "clouds-point-lobos-sunset.jpg",
+  "image-biz": "clouds-point-lobos-sunset-biz.jpg",
+  "image-home": "clouds-point-lobos-sunset-home.jpg",
+  "thumb": "clouds-point-lobos-sunset.jpg",
   "location": "Point Lobos State Park",
-  "place": "Carmel, California 2011",
+  "place": "Carmel",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
   "order": 6,
-  "image-width": 1600,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

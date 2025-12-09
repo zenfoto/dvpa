@@ -1,16 +1,17 @@
 {
   "title": "Grain Truck",
   "slug": "grain-truck-endicott",
-  "image": "/assets/photographs/grain-truck-endicott.jpg",
-  "image-home": "/assets/photographs/grain-truck-endicott-home.jpg",
-  "image-biz": "/assets/photographs/grain-truck-endicott-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/grain-truck-endicott.jpg",
+  "image": "grain-truck-endicott.jpg",
+  "image-biz": "grain-truck-endicott-biz.jpg",
+  "image-home": "grain-truck-endicott-home.jpg",
+  "thumb": "grain-truck-endicott.jpg",
   "location": "Endicott",
-  "place": "Whitman County, Washington 2019",
+  "place": "Whitman County",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 7,
-  "image-width": 2400,
-  "image-height": 1820
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Two Oaks",
   "slug": "two-oaks-sierra-foothills",
-  "image": "/assets/photographs/two-oaks-sierra-foothills.jpg",
-  "image-home": "/assets/photographs/two-oaks-sierra-foothills-home.jpg",
-  "image-biz": "/assets/photographs/two-oaks-sierra-foothills-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/two-oaks-sierra-foothills.jpg",
+  "image": "two-oaks-sierra-foothills.jpg",
+  "image-biz": "two-oaks-sierra-foothills-biz.jpg",
+  "image-home": "two-oaks-sierra-foothills-home.jpg",
+  "thumb": "two-oaks-sierra-foothills.jpg",
   "location": "Cathey's Valley",
-  "place": "Sierra Foothills, California 2011",
+  "place": "Sierra Foothills",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 3,
-  "image-width": 2400,
-  "image-height": 1720
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

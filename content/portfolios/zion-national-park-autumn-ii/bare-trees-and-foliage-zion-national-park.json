@@ -1,16 +1,17 @@
 {
   "title": "Bare Trees and Foliage",
   "slug": "bare-trees-and-foliage-zion-national-park",
-  "image": "/assets/photographs/bare-trees-and-foliage-zion-national-park.jpg",
-  "image-home": "/assets/photographs/bare-trees-and-foliage-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/bare-trees-and-foliage-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/bare-trees-and-foliage-zion-national-park.jpg",
+  "image": "bare-trees-and-foliage-zion-national-park.jpg",
+  "image-biz": "bare-trees-and-foliage-zion-national-park-biz.jpg",
+  "image-home": "bare-trees-and-foliage-zion-national-park-home.jpg",
+  "thumb": "bare-trees-and-foliage-zion-national-park.jpg",
   "location": "Temple of Sinawava",
-  "place": "Zion National Park, Utah 2016",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 8,
-  "image-width": 2400,
-  "image-height": 1920
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

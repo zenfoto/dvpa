@@ -1,16 +1,17 @@
 {
   "title": "Dream Clouds",
   "slug": "dream-clouds-zion-national-park",
-  "image": "/assets/photographs/dream-clouds-zion-national-park.jpg",
-  "image-home": "/assets/photographs/dream-clouds-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/dream-clouds-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/dream-clouds-zion-national-park.jpg",
+  "image": "dream-clouds-zion-national-park.jpg",
+  "image-biz": "dream-clouds-zion-national-park-biz.jpg",
+  "image-home": "dream-clouds-zion-national-park-home.jpg",
+  "thumb": "dream-clouds-zion-national-park.jpg",
   "location": "Wilderness",
-  "place": "Colorado Plateau, Utah 2014",
+  "place": "Colorado Plateau",
   "print-type": "Pigment Ink",
   "edition-type": "Open",
   "field-notes": "",
   "order": 10,
-  "image-width": 1600,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Moonrise",
   "slug": "moonrise-waitsburg",
-  "image": "/assets/photographs/moonrise-waitsburg.jpg",
-  "image-home": "/assets/photographs/moonrise-waitsburg-home.jpg",
-  "image-biz": "/assets/photographs/moonrise-waitsburg-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/moonrise-waitsburg.jpg",
+  "image": "moonrise-waitsburg.jpg",
+  "image-biz": "moonrise-waitsburg-biz.jpg",
+  "image-home": "moonrise-waitsburg-home.jpg",
+  "thumb": "moonrise-waitsburg.jpg",
   "location": "Along Hwy 12",
-  "place": "Waitsburg, Washington 2013",
+  "place": "Waitsburg",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 13,
-  "image-width": 2400,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

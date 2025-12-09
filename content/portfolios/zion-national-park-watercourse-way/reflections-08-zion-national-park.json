@@ -1,16 +1,17 @@
 {
   "title": "Reflections #8",
   "slug": "reflections-08-zion-national-park",
-  "image": "/assets/photographs/reflections-08-zion-national-park.jpg",
-  "image-home": "/assets/photographs/reflections-08-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/reflections-08-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/reflections-08-zion-national-park.jpg",
+  "image": "reflections-08-zion-national-park.jpg",
+  "image-biz": "reflections-08-zion-national-park-biz.jpg",
+  "image-home": "reflections-08-zion-national-park-home.jpg",
+  "thumb": "reflections-08-zion-national-park.jpg",
   "location": "Virgin River",
-  "place": "Zion National Park, Utah 2013",
+  "place": "Zion National Park",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
-  "order": 19,
-  "image-width": 3256,
-  "image-height": 2160
+  "order": 16,
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

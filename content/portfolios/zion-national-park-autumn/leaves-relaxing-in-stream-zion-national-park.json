@@ -1,16 +1,17 @@
 {
   "title": "Leaves Relaxing in Stream",
   "slug": "leaves-relaxing-in-stream-zion-national-park",
-  "image": "/assets/photographs/leaves-relaxing-in-stream-zion-national-park.jpg",
-  "image-home": "/assets/photographs/leaves-relaxing-in-stream-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/leaves-relaxing-in-stream-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/leaves-relaxing-in-stream-zion-national-park.jpg",
+  "image": "leaves-relaxing-in-stream-zion-national-park.jpg",
+  "image-biz": "leaves-relaxing-in-stream-zion-national-park-biz.jpg",
+  "image-home": "leaves-relaxing-in-stream-zion-national-park-home.jpg",
+  "thumb": "leaves-relaxing-in-stream-zion-national-park.jpg",
   "location": "East Side Canyon",
-  "place": "Zion National Park, Utah 2005",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 15,
-  "image-width": 2786,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

@@ -1,16 +1,17 @@
 {
   "title": "Stacks and Stairs",
   "slug": "stacks-and-stairs-delevan",
-  "image": "/assets/photographs/stacks-and-stairs-delevan.jpg",
-  "image-home": "/assets/photographs/stacks-and-stairs-delevan-home.jpg",
-  "image-biz": "/assets/photographs/stacks-and-stairs-delevan-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/stacks-and-stairs-delevan.jpg",
+  "image": "stacks-and-stairs-delevan.jpg",
+  "image-biz": "stacks-and-stairs-delevan-biz.jpg",
+  "image-home": "stacks-and-stairs-delevan-home.jpg",
+  "thumb": "stacks-and-stairs-delevan.jpg",
   "location": "Delevan",
-  "place": "Sacramento Valley, California 2015",
+  "place": "Sacramento Valley",
   "print-type": "Pigment Ink",
-  "edition-type": "Limited (25)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 14,
-  "image-width": 1140,
-  "image-height": 1600
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }

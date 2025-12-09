@@ -1,16 +1,17 @@
 {
   "title": "Leaves, Water, Stone",
   "slug": "leaves-water-stone-zion-national-park",
-  "image": "/assets/photographs/leaves-water-stone-zion-national-park.jpg",
-  "image-home": "/assets/photographs/leaves-water-stone-zion-national-park-home.jpg",
-  "image-biz": "/assets/photographs/leaves-water-stone-zion-national-park-biz.jpg",
-  "thumb": "/assets/photographs/thumbs/leaves-water-stone-zion-national-park.jpg",
+  "image": "leaves-water-stone-zion-national-park.jpg",
+  "image-biz": "leaves-water-stone-zion-national-park-biz.jpg",
+  "image-home": "leaves-water-stone-zion-national-park-home.jpg",
+  "thumb": "leaves-water-stone-zion-national-park.jpg",
   "location": "Pine Creek",
-  "place": "Zion National Park, Utah 2007",
+  "place": "Zion National Park",
   "print-type": "Handmade Cibachrome",
-  "edition-type": "Limited (30)",
+  "edition-type": "Limited",
   "field-notes": "",
   "order": 18,
-  "image-width": 1719,
-  "image-height": 2160
+  "image-width": "",
+  "image-height": "",
+  "data-height": ""
 }
