@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 8,
+  "order": "8",
   "slug": "midnight-over-big-bend-zion-national-park",
   "title": "Midnight over Big Bend",
   "state": "Utah",
-  "year": 2018,
+  "year": "2018",
   "place": "Zion National Park",
   "location": "Virgin River",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "midnight-over-big-bend-zion-national-park.jpg",
   "image-home": "midnight-over-big-bend-zion-national-park-home.jpg",
   "image-biz": "midnight-over-big-bend-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

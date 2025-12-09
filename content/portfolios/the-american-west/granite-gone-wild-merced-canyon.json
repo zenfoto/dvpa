@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 6,
+  "order": "6",
   "slug": "granite-gone-wild-merced-canyon",
   "title": "Granite Gone Wild",
   "state": "California",
-  "year": 2012,
+  "year": "2012",
   "place": "Mariposa County",
   "location": "Merced Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "granite-gone-wild-merced-canyon.jpg",
   "image-home": "granite-gone-wild-merced-canyon-home.jpg",
   "image-biz": "granite-gone-wild-merced-canyon-biz.jpg",
-  "width": 2400,
-  "height": 1920
+  "width": "2400",
+  "height": "1920"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 5,
+  "order": "5",
   "slug": "ferns-and-aspens-crested-butte",
   "title": "Ferns and Aspens",
   "state": "Colorado",
-  "year": 2020,
+  "year": "2020",
   "place": "Crested Butte",
   "location": "Kebler Pass",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "ferns-and-aspens-crested-butte.jpg",
   "image-home": "ferns-and-aspens-crested-butte-home.jpg",
   "image-biz": "ferns-and-aspens-crested-butte-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

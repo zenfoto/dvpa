@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn-ii",
-  "order": 13,
+  "order": "13",
   "slug": "cascades-in-yellow-zion-national-park",
   "title": "Cascades in Yellow",
   "state": "Utah",
-  "year": 2012,
+  "year": "2012",
   "place": "Zion National Park",
   "location": "Kolob Canyons",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "cascades-in-yellow-zion-national-park.jpg",
   "image-home": "cascades-in-yellow-zion-national-park-home.jpg",
   "image-biz": "cascades-in-yellow-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

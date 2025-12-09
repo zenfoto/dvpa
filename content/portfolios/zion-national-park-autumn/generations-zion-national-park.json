@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn",
-  "order": 8,
+  "order": "8",
   "slug": "generations-zion-national-park",
   "title": "Generations",
   "state": "Utah",
-  "year": 2019,
+  "year": "2019",
   "place": "Zion National Park",
   "location": "Upper East Side",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "generations-zion-national-park.jpg",
   "image-home": "generations-zion-national-park-home.jpg",
   "image-biz": "generations-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

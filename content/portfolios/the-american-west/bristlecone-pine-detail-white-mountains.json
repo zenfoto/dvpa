@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 11,
+  "order": "11",
   "slug": "bristlecone-pine-detail-white-mountains",
   "title": "Bristlecone Pine Detail",
   "state": "California",
-  "year": 2011,
+  "year": "2011",
   "place": "Wilderness",
   "location": "White Mountains",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "bristlecone-pine-detail-white-mountains.jpg",
   "image-home": "bristlecone-pine-detail-white-mountains-home.jpg",
   "image-biz": "bristlecone-pine-detail-white-mountains-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

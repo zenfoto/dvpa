@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iii",
-  "order": 3,
+  "order": "3",
   "slug": "filtration-colby",
   "title": "Dryer, Large Granary",
   "state": "Kansas",
-  "year": 2021,
+  "year": "2021",
   "place": "Colby",
   "location": "Cornerstone AG",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "filtration-colby.jpg",
   "image-home": "filtration-colby-home.jpg",
   "image-biz": "filtration-colby-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "cloud-light",
-  "order": 5,
+  "order": "5",
   "slug": "swooping-cloud-and-bat-zion-national-park",
   "title": "Swooping Cloud & Bat",
   "state": "Utah",
-  "year": 2015,
+  "year": "2015",
   "place": "Zion National Park",
   "location": "Pine Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "swooping-cloud-and-bat-zion-national-park.jpg",
   "image-home": "swooping-cloud-and-bat-zion-national-park-home.jpg",
   "image-biz": "swooping-cloud-and-bat-zion-national-park-biz.jpg",
-  "width": 1600,
-  "height": 1600
+  "width": "1600",
+  "height": "1600"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "cloud-light",
-  "order": 1,
+  "order": "1",
   "slug": "ending-storm-steens-wilderness",
   "title": "Ending Storm",
   "state": "Oregon",
-  "year": 2013,
+  "year": "2013",
   "place": "Steen's Junction",
   "location": "Along a Dirt Road",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "ending-storm-steens-wilderness.jpg",
   "image-home": "ending-storm-steens-wilderness-home.jpg",
   "image-biz": "ending-storm-steens-wilderness-biz.jpg",
-  "width": 1600,
-  "height": 1600
+  "width": "1600",
+  "height": "1600"
 }

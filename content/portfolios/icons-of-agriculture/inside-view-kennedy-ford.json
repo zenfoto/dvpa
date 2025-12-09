@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 12,
+  "order": "12",
   "slug": "inside-view-kennedy-ford",
   "title": "Inside View",
   "state": "Idaho",
-  "year": 2022,
+  "year": "2022",
   "place": "Potlatch",
   "location": "Kennedy Ford",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "inside-view-kennedy-ford.jpg",
   "image-home": "inside-view-kennedy-ford-home.jpg",
   "image-biz": "inside-view-kennedy-ford-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

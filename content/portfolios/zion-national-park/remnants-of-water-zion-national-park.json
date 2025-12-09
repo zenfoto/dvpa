@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 19,
+  "order": "19",
   "slug": "remnants-of-water-zion-national-park",
   "title": "Remnants of Water",
   "state": "Utah",
-  "year": 2013,
+  "year": "2013",
   "place": "Zion National Park",
   "location": "East Side",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "remnants-of-water-zion-national-park.jpg",
   "image-home": "remnants-of-water-zion-national-park-home.jpg",
   "image-biz": "remnants-of-water-zion-national-park-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

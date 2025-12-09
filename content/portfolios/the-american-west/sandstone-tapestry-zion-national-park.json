@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 17,
+  "order": "17",
   "slug": "sandstone-tapestry-zion-national-park",
   "title": "Sandstone Tapestry",
   "state": "Utah",
-  "year": 2012,
+  "year": "2012",
   "place": "Zion National Park",
   "location": "Upper Pine Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "sandstone-tapestry-zion-national-park.jpg",
   "image-home": "sandstone-tapestry-zion-national-park-home.jpg",
   "image-biz": "sandstone-tapestry-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

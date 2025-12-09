@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 3,
+  "order": "3",
   "slug": "air-pipes-chandon",
   "title": "Air Pipes",
   "state": "Oregon",
-  "year": 2018,
+  "year": "2018",
   "place": "Gilliam County",
   "location": "Condon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "air-pipes-chandon.jpg",
   "image-home": "air-pipes-chandon-home.jpg",
   "image-biz": "air-pipes-chandon-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

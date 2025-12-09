@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 16,
+  "order": "16",
   "slug": "lone-pine-zion-national-park",
   "title": "Lone Pine",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Zion National Park",
   "location": "Echo Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "lone-pine-zion-national-park.jpg",
   "image-home": "lone-pine-zion-national-park-home.jpg",
   "image-biz": "lone-pine-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

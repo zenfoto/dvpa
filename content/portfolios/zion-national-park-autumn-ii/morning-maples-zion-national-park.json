@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn-ii",
-  "order": 11,
+  "order": "11",
   "slug": "morning-maples-zion-national-park",
   "title": "Morning Maples",
   "state": "Utah",
-  "year": 2019,
+  "year": "2019",
   "place": "Zion National Park",
   "location": "Zion Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "morning-maples-zion-national-park.jpg",
   "image-home": "morning-maples-zion-national-park-home.jpg",
   "image-biz": "morning-maples-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

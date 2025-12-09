@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iv",
-  "order": 8,
+  "order": "8",
   "slug": "stacked-pipes-winters",
   "title": "Stacked Pipes",
   "state": "California",
-  "year": 2013,
+  "year": "2013",
   "place": "Sacramento Valley",
   "location": "Winters",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "stacked-pipes-winters.jpg",
   "image-home": "stacked-pipes-winters-home.jpg",
   "image-biz": "stacked-pipes-winters-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

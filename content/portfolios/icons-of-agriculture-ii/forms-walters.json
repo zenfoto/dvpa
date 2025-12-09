@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 14,
+  "order": "14",
   "slug": "forms-walters",
   "title": "Forms",
   "state": "Washington",
-  "year": 2022,
+  "year": "2022",
   "place": "Garfield",
   "location": "Walters Road",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "forms-walters.jpg",
   "image-home": "forms-walters-home.jpg",
   "image-biz": "forms-walters-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

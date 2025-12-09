@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn",
-  "order": 9,
+  "order": "9",
   "slug": "leaves-reflecting-sky-zion-national-park",
   "title": "Leaves Reflecting Sky",
   "state": "Utah",
-  "year": 2017,
+  "year": "2017",
   "place": "Zion National Park",
   "location": "Upper East Side",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "leaves-reflecting-sky-zion-national-park.jpg",
   "image-home": "leaves-reflecting-sky-zion-national-park-home.jpg",
   "image-biz": "leaves-reflecting-sky-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

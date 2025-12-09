@@ -1,10 +1,10 @@
 {
   "portfolio": "cloud-light",
-  "order": 7,
+  "order": "7",
   "slug": "clearing-storm-red-hawk-vineyard",
   "title": "Clearing Storm",
   "state": "California",
-  "year": 2010,
+  "year": "2010",
   "place": "Pope Valley",
   "location": "Red Hawk Vineyard",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "clearing-storm-red-hawk-vineyard.jpg",
   "image-home": "clearing-storm-red-hawk-vineyard-home.jpg",
   "image-biz": "clearing-storm-red-hawk-vineyard-biz.jpg",
-  "width": 1600,
-  "height": 1600
+  "width": "1600",
+  "height": "1600"
 }

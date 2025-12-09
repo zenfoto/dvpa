@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iv",
-  "order": 5,
+  "order": "5",
   "slug": "ventilation-palouse",
   "title": "Ventilation",
   "state": "Washington",
-  "year": 2022,
+  "year": "2022",
   "place": "Whitman County",
   "location": "Palouse City",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "ventilation-palouse.jpg",
   "image-home": "ventilation-palouse-home.jpg",
   "image-biz": "ventilation-palouse-biz.jpg",
-  "width": 2400,
-  "height": 1720
+  "width": "2400",
+  "height": "1720"
 }

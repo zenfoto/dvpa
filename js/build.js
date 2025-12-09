@@ -1,43 +1,128 @@
-// build.js - Static site generator for DVPA with modular templates
-
+// -------------------------------------------------------------
+// Load modules first
+// -------------------------------------------------------------
 const fs = require("fs");
 const path = require("path");
+const parse = require("csv-parse/sync").parse;
 
+// -------------------------------------------------------------
+// Define all directory paths BEFORE any functions use them
+// -------------------------------------------------------------
 const contentDir = path.join(__dirname, "../content/portfolios");
 const pageDir = path.join(__dirname, "../content/pages");
 const outputDir = path.join(__dirname, "../public/portfolios");
 const pageOutputDir = path.join(__dirname, "../public");
+
 const photoTemplatePath = path.join(__dirname, "../templates/photograph.html");
 const pageTemplatePath = path.join(__dirname, "../templates/page.html");
 const sectionTemplatePath = path.join(__dirname, "../templates/section.html");
 const headerPath = path.join(__dirname, "../templates/header.html");
 const footerPath = path.join(__dirname, "../templates/footer.html");
 
+// Load templates
 const photoTemplate = fs.readFileSync(photoTemplatePath, "utf-8");
 const pageTemplate = fs.readFileSync(pageTemplatePath, "utf-8");
 const sectionTemplate = fs.readFileSync(sectionTemplatePath, "utf-8");
 const header = fs.readFileSync(headerPath, "utf-8");
 const footer = fs.readFileSync(footerPath, "utf-8");
 
+// -------------------------------------------------------------
+// convertCSVtoJSON
+// -------------------------------------------------------------
+function convertCSVtoJSON() {
+  const csvPath = path.join(contentDir, "master.csv");
+  if (!fs.existsSync(csvPath)) {
+    console.error("❌ master.csv not found:", csvPath);
+    return;
+  }
+
+ let rawCSV = fs.readFileSync(csvPath, "utf-8");
+
+  // Remove BOM (Byte-Order Mark)
+  rawCSV = rawCSV.replace(/^\uFEFF/, "");
+  
+  const records = parse(rawCSV, {
+    columns: true,
+    skip_empty_lines: true,
+    trim: true
+  });
+
+  const seen = new Set();
+
+  records.forEach(row => {
+    const slug = row.slug;
+    const portfolio = row.portfolio;
+    if (!slug || !portfolio) return;
+
+    const outputDir = path.join(contentDir, portfolio);
+    const outputFile = path.join(outputDir, `${slug}.json`);
+
+    seen.add(`${portfolio}/${slug}.json`);
+
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+    fs.writeFileSync(outputFile, JSON.stringify(row, null, 2));
+  });
+
+  // -------------------------------------------------------------
+  // SAFETY CHECK — abort cleanup if nothing was generated
+  // -------------------------------------------------------------
+  if (seen.size === 0) {
+    console.error("❌ No JSON generated — aborting cleanup.");
+    return;
+  }
+
+  // -------------------------------------------------------------
+  // Cleanup of obsolete JSON files
+  // -------------------------------------------------------------
+  const portfolios = fs.readdirSync(contentDir);
+
+  portfolios.forEach(portfolio => {
+    const folder = path.join(contentDir, portfolio);
+
+    // Skip master.csv or any non-folder
+    if (!fs.statSync(folder).isDirectory()) return;
+
+    const files = fs
+      .readdirSync(folder)
+      .filter(f => f.endsWith(".json") && f !== "index.json");
+
+    files.forEach(file => {
+      const relativePath = `${portfolio}/${file}`;
+      if (!seen.has(relativePath)) {
+        fs.unlinkSync(path.join(folder, file));
+        console.log(`🗑️ Deleted obsolete JSON: ${relativePath}`);
+      }
+    });
+  });
+}
+
+// -------------------------------------------------------------
+// buildImagePages
+// -------------------------------------------------------------
 function buildImagePages() {
   const categories = fs.readdirSync(contentDir);
 
-  categories.forEach((category) => {
+  categories.forEach(category => {
     const categoryPath = path.join(contentDir, category);
-    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json") && file !== "index.json");
 
+    // Skip master.csv or anything not a directory
+    if (!fs.statSync(categoryPath).isDirectory()) return;
+
+    const files = fs
+      .readdirSync(categoryPath)
+      .filter(file => file.endsWith(".json") && file !== "index.json");
 
     const dataObjects = files.map(file => {
       const filePath = path.join(categoryPath, file);
-      const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-      return { data, fileName: file };
+      return { data: JSON.parse(fs.readFileSync(filePath, "utf-8")), fileName: file };
     });
 
-    // Sort by the 'order' field
+    // Sort by order field
     dataObjects.sort((a, b) => a.data.order - b.data.order);
 
     dataObjects.forEach((entry, index) => {
       const data = entry.data;
+
       const prev = index > 0 ? dataObjects[index - 1].data.slug : null;
       const next = index < dataObjects.length - 1 ? dataObjects[index + 1].data.slug : null;
 
@@ -73,83 +158,88 @@ function buildImagePages() {
   });
 }
 
+// -------------------------------------------------------------
+// buildSectionPages
+// -------------------------------------------------------------
 function buildSectionPages() {
   const files = fs.readdirSync(pageDir, { withFileTypes: true });
 
   files.forEach(file => {
-    if (file.isDirectory()) {
-      const sectionFolder = file.name;
-      const sectionPath = path.join(pageDir, sectionFolder);
-      const sectionIndexPath = path.join(sectionPath, "index.json");
+    if (!file.isDirectory()) return;
 
-      if (!fs.existsSync(sectionIndexPath)) return;
+    const sectionFolder = file.name;
+    const sectionPath = path.join(pageDir, sectionFolder);
+    const sectionIndexPath = path.join(sectionPath, "index.json");
 
-      const sectionData = JSON.parse(fs.readFileSync(sectionIndexPath, "utf-8"));
-      const allFiles = fs.readdirSync(sectionPath).filter(f => f.endsWith(".json") && f !== "index.json");
+    if (!fs.existsSync(sectionIndexPath)) return;
 
-      // Sort by title for now (or modify as needed)
-      const pages = allFiles.map(file => {
-        const pageData = JSON.parse(fs.readFileSync(path.join(sectionPath, file), "utf-8"));
-        return { ...pageData, fileName: file };
-      }).sort((a, b) => (a.title || "").localeCompare(b.title || ""));
+    const sectionData = JSON.parse(fs.readFileSync(sectionIndexPath, "utf-8"));
+    const allFiles = fs.readdirSync(sectionPath).filter(f => f.endsWith(".json") && f !== "index.json");
 
-      // Build navigation structure
-      pages.forEach((page, index) => {
-        const prev = index > 0 ? pages[index - 1] : null;
-        const next = index < pages.length - 1 ? pages[index + 1] : null;
+    const pages = allFiles.map(file => {
+      const pageData = JSON.parse(fs.readFileSync(path.join(sectionPath, file), "utf-8"));
+      return { ...pageData, fileName: file };
+    }).sort((a, b) => (a.title || "").localeCompare(b.title || ""));
 
-        const outputPath = path.join(pageOutputDir, sectionFolder);
-        if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
+    pages.forEach((page, index) => {
+      const prev = index > 0 ? pages[index - 1] : null;
+      const next = index < pages.length - 1 ? pages[index + 1] : null;
 
-        const html = pageTemplate
-          .replace(/{{header}}/g, header)
-          .replace(/{{footer}}/g, footer)
-          .replace(/{{title}}/g, page.title || "")
-          .replace(/{{body-id}}/g, page["body-id"] || "")
-          .replace(/{{sections}}/g, (page.sections || []).map(section => {
-            const imgBlock = section["html-image"] || "";
-            const textBlock = section["html-text"] || "";
-            return imgBlock + textBlock;
-          }).join("\n"))
-          
-          .replace(/{{bottomNav}}/g, `
-            <div id="prevnext">
-              <ul class="piped">
-                <li>${sectionData.title}</li>
-                <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
-                ${prev ? `<li><a class="prev" href="/${sectionFolder}/${prev.slug}.html">${prev.title}</a></li>` : ""}
-                ${next ? `<li><span class="next"><a href="/${sectionFolder}/${next.slug}.html">${next.title}</a></span></li>` : ""}
-              </ul>
-            </div>`);
+      const outputPath = path.join(pageOutputDir, sectionFolder);
+      if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath, { recursive: true });
 
-        const outputFile = path.join(outputPath, `${page.slug}.html`);
-        fs.writeFileSync(outputFile, html);
-        console.log(`Generated page: ${outputFile}`);
-      });
-    }
+      const html = pageTemplate
+        .replace(/{{header}}/g, header)
+        .replace(/{{footer}}/g, footer)
+        .replace(/{{title}}/g, page.title || "")
+        .replace(/{{body-id}}/g, page["body-id"] || "")
+        .replace(/{{sections}}/g, (page.sections || []).map(section =>
+          (section["html-image"] || "") + (section["html-text"] || "")
+        ).join("\n"))
+        .replace(/{{bottomNav}}/g, `
+          <div id="prevnext">
+            <ul class="piped">
+              <li>${sectionData.title}</li>
+              <li><a href="#top" class="scrollToTop"><span class="icon up"></span></a></li>
+              ${prev ? `<li><a class="prev" href="/${sectionFolder}/${prev.slug}.html">${prev.title}</a></li>` : ""}
+              ${next ? `<li><span class="next"><a href="/${sectionFolder}/${next.slug}.html">${next.title}</a></span></li>` : ""}
+            </ul>
+          </div>`);
+
+      const outputFile = path.join(outputPath, `${page.slug}.html`);
+      fs.writeFileSync(outputFile, html);
+      console.log(`Generated page: ${outputFile}`);
+    });
   });
 }
 
+// -------------------------------------------------------------
+// buildPortfolioIndexes
+// -------------------------------------------------------------
 function buildPortfolioIndexes() {
   const categories = fs.readdirSync(contentDir);
 
-  categories.forEach((category) => {
+  categories.forEach(category => {
     const categoryPath = path.join(contentDir, category);
-    const indexJsonPath = path.join(contentDir, category, "index.json");
+    const indexJsonPath = path.join(categoryPath, "index.json");
 
     if (!fs.existsSync(indexJsonPath)) return;
 
     const indexData = JSON.parse(fs.readFileSync(indexJsonPath, "utf-8"));
-    const files = fs.readdirSync(categoryPath).filter(file => file.endsWith(".json") && file !== "index.json");
+
+    const files = fs
+      .readdirSync(categoryPath)
+      .filter(f => f.endsWith(".json") && f !== "index.json");
 
     const thumbnails = files.map(file => {
       const data = JSON.parse(fs.readFileSync(path.join(categoryPath, file), "utf-8"));
-      return `<div class="thumb">
-        <a href="/portfolios/${category}/${data.slug}.html">
-          <img src="/assets/photographs/thumbs/${data.thumb}" alt="${data.title}">
-          <h4>${data.title}</h4>
-        </a>
-      </div>`;
+      return `
+        <div class="thumb">
+          <a href="/portfolios/${category}/${data.slug}.html">
+            <img src="/assets/photographs/thumbs/${data.thumb}" alt="${data.title}">
+            <h4>${data.title}</h4>
+          </a>
+        </div>`;
     }).join("\n");
 
     const html = sectionTemplate
@@ -163,12 +253,15 @@ function buildPortfolioIndexes() {
     const outputCategoryDir = path.join(outputDir, category);
     if (!fs.existsSync(outputCategoryDir)) fs.mkdirSync(outputCategoryDir, { recursive: true });
 
-    const outputFile = path.join(outputCategoryDir, "index.html");
-    fs.writeFileSync(outputFile, html);
-    console.log(`Generated portfolio index: ${outputFile}`);
+    fs.writeFileSync(path.join(outputCategoryDir, "index.html"), html);
+    console.log(`Generated portfolio index: ${path.join(outputCategoryDir, "index.html")}`);
   });
 }
 
+// -------------------------------------------------------------
+// Run everything
+// -------------------------------------------------------------
+convertCSVtoJSON();
 buildImagePages();
 buildSectionPages();
 buildPortfolioIndexes();

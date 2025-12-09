@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 18,
+  "order": "18",
   "slug": "sandstone-tsunami-arizona",
   "title": "Sandstone Tsunami",
   "state": "Arizona",
-  "year": 1997,
+  "year": "1997",
   "place": "Colorado Plateau",
   "location": "A Slot Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "sandstone-tsunami-arizona.jpg",
   "image-home": "sandstone-tsunami-arizona-home.jpg",
   "image-biz": "sandstone-tsunami-arizona-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

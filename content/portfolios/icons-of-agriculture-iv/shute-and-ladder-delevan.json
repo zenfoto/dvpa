@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iv",
-  "order": 6,
+  "order": "6",
   "slug": "shute-and-ladder-delevan",
   "title": "Shute and Ladder",
   "state": "California",
-  "year": 2016,
+  "year": "2016",
   "place": "Sacramento Valley",
   "location": "Delevan",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "shute-and-ladder-delevan.jpg",
   "image-home": "shute-and-ladder-delevan-home.jpg",
   "image-biz": "shute-and-ladder-delevan-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

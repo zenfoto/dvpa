@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iv",
-  "order": 4,
+  "order": "4",
   "slug": "granary-detail-ione",
   "title": "Granary Detail",
   "state": "Oregon",
-  "year": 2014,
+  "year": "2014",
   "place": "Morrow County",
   "location": "Ione",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "granary-detail-ione.jpg",
   "image-home": "granary-detail-ione-home.jpg",
   "image-biz": "granary-detail-ione-biz.jpg",
-  "width": 1140,
-  "height": 1600
+  "width": "1140",
+  "height": "1600"
 }

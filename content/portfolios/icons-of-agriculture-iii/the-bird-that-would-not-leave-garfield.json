@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iii",
-  "order": 9,
+  "order": "9",
   "slug": "the-bird-that-would-not-leave-garfield",
   "title": "The Bird that Refused to Leave",
   "state": "Washington",
-  "year": 2019,
+  "year": "2019",
   "place": "Whitman County",
   "location": "Garfield",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "the-bird-that-would-not-leave-garfield.jpg",
   "image-home": "the-bird-that-would-not-leave-garfield-home.jpg",
   "image-biz": "the-bird-that-would-not-leave-garfield-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

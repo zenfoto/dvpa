@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 7,
+  "order": "7",
   "slug": "grain-truck-endicott",
   "title": "Grain Truck",
   "state": "Washington",
-  "year": 2019,
+  "year": "2019",
   "place": "Whitman County",
   "location": "Endicott",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "grain-truck-endicott.jpg",
   "image-home": "grain-truck-endicott-home.jpg",
   "image-biz": "grain-truck-endicott-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iv",
-  "order": 12,
+  "order": "12",
   "slug": "silos-reflected-willows",
   "title": "Silos, Reflected",
   "state": "California",
-  "year": 2016,
+  "year": "2016",
   "place": "Sacramento Valley",
   "location": "Willows",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "silos-reflected-willows.jpg",
   "image-home": "silos-reflected-willows-home.jpg",
   "image-biz": "silos-reflected-willows-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

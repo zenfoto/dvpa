@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 10,
+  "order": "10",
   "slug": "winter-cottonwoods-zion-national-park",
   "title": "Winter Cottonwoods",
   "state": "Utah",
-  "year": 2016,
+  "year": "2016",
   "place": "Zion National Park",
   "location": "Virgin River",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "winter-cottonwoods-zion-national-park.jpg",
   "image-home": "winter-cottonwoods-zion-national-park-home.jpg",
   "image-biz": "winter-cottonwoods-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1720
+  "width": "2400",
+  "height": "1720"
 }

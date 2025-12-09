@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 5,
+  "order": "5",
   "slug": "stacks-and-ladder-cortena",
   "title": "Stacks and Ladder",
   "state": "California",
-  "year": 2016,
+  "year": "2016",
   "place": "Sacramento Valley",
   "location": "Cortena",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "stacks-and-ladder-cortena.jpg",
   "image-home": "stacks-and-ladder-cortena-home.jpg",
   "image-biz": "stacks-and-ladder-cortena-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

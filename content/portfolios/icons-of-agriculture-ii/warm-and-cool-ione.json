@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 10,
+  "order": "10",
   "slug": "warm-and-cool-ione",
   "title": "Warm and Cool",
   "state": "Oregon",
-  "year": 2019,
+  "year": "2019",
   "place": "Morrow County",
   "location": "Ione",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "warm-and-cool-ione.jpg",
   "image-home": "warm-and-cool-ione-home.jpg",
   "image-biz": "warm-and-cool-ione-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

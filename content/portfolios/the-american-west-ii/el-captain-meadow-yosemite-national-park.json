@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 5,
+  "order": "5",
   "slug": "el-captain-meadow-yosemite-national-park",
   "title": "Winter Oak",
   "state": "California",
-  "year": 2008,
+  "year": "2008",
   "place": "Yosemite National Park",
   "location": "El Capitan Meadow",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "el-captain-meadow-yosemite-national-park.jpg",
   "image-home": "el-captain-meadow-yosemite-national-park-home.jpg",
   "image-biz": "el-captain-meadow-yosemite-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1720
+  "width": "2400",
+  "height": "1720"
 }

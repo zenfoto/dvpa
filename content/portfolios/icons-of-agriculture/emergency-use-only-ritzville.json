@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 17,
+  "order": "17",
   "slug": "emergency-use-only-ritzville",
   "title": "Emergency Use Only",
   "state": "Oregon",
-  "year": 2020,
+  "year": "2020",
   "place": "Adams County",
   "location": "Ritzville",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "emergency-use-only-ritzville.jpg",
   "image-home": "emergency-use-only-ritzville-home.jpg",
   "image-biz": "emergency-use-only-ritzville-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

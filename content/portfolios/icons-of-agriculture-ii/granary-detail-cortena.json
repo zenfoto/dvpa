@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 4,
+  "order": "4",
   "slug": "granary-detail-cortena",
   "title": "Twilight",
   "state": "California",
-  "year": 2019,
+  "year": "2019",
   "place": "Sacramento Valley",
   "location": "Cortena",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "granary-detail-cortena.jpg",
   "image-home": "granary-detail-cortena-home.jpg",
   "image-biz": "granary-detail-cortena-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

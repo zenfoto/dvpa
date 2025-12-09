@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 15,
+  "order": "15",
   "slug": "cliff-and-pines-zion-national-park",
   "title": "Cliff & Pines",
   "state": "Utah",
-  "year": 2000,
+  "year": "2000",
   "place": "Zion National Park",
   "location": "Echo Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "cliff-and-pines-zion-national-park.jpg",
   "image-home": "cliff-and-pines-zion-national-park-home.jpg",
   "image-biz": "cliff-and-pines-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

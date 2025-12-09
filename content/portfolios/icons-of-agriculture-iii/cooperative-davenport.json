@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iii",
-  "order": 6,
+  "order": "6",
   "slug": "cooperative-davenport",
   "title": "Union",
   "state": "Washington",
-  "year": 2020,
+  "year": "2020",
   "place": "Lincoln County",
   "location": "Davenport",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "cooperative-davenport.jpg",
   "image-home": "cooperative-davenport-home.jpg",
   "image-biz": "cooperative-davenport-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

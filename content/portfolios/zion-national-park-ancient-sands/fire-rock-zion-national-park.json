@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-ancient-sands",
-  "order": 4,
+  "order": "4",
   "slug": "fire-rock-zion-national-park",
   "title": "Fire Rock",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Kolob Canyons",
   "location": "Middle Taylor Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "fire-rock-zion-national-park.jpg",
   "image-home": "fire-rock-zion-national-park-home.jpg",
   "image-biz": "fire-rock-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

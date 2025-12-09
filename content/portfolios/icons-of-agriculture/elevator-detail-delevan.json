@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 6,
+  "order": "6",
   "slug": "elevator-detail-delevan",
   "title": "Glowing Stack",
   "state": "California",
-  "year": 2013,
+  "year": "2013",
   "place": "Sacramento Valley",
   "location": "Delevan",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "elevator-detail-delevan.jpg",
   "image-home": "elevator-detail-delevan-home.jpg",
   "image-biz": "elevator-detail-delevan-biz.jpg",
-  "width": 1140,
-  "height": 1600
+  "width": "1140",
+  "height": "1600"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 9,
+  "order": "9",
   "slug": "remnants-zion-national-park",
   "title": "Remnants",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Zion Canyon",
   "location": "Virgin River",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "remnants-zion-national-park.jpg",
   "image-home": "remnants-zion-national-park-home.jpg",
   "image-biz": "remnants-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 10,
+  "order": "10",
   "slug": "twilight-painted-hills",
   "title": "Twilight, Painted Hills",
   "state": "Oregon",
-  "year": 2012,
+  "year": "2012",
   "place": "Mitchell",
   "location": "John Day Fossil Beds",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "twilight-painted-hills.jpg",
   "image-home": "twilight-painted-hills-home.jpg",
   "image-biz": "twilight-painted-hills-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

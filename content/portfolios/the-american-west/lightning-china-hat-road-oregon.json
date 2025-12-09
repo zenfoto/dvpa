@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 2,
+  "order": "2",
   "slug": "lightning-china-hat-road-oregon",
   "title": "Lightning",
   "state": "Oregon",
-  "year": 2014,
+  "year": "2014",
   "place": "Bend",
   "location": "China Hat Road",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "lightning-china-hat-road-oregon.jpg",
   "image-home": "lightning-china-hat-road-oregon-home.jpg",
   "image-biz": "lightning-china-hat-road-oregon-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

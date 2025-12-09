@@ -1,13 +1,13 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 12,
+  "order": "12",
   "slug": "twilight-garrapata",
   "title": "Twilight, Garrapata",
   "state": "California",
-  "year": 1999,
+  "year": "1999",
   "place": "Carmel",
   "location": "Pacific Coast",
-  "field-notes": "Late Fall and early Winter are among the best times to photograph along the Pacific Coast. During the summer persistent fog can hug the coast for weeks at a time. Winds can be fierce and very cold (relative to the inland heat) and beach going tourists can be turned back less than 30 seconds out of their rental cars. But in October and November the fog subsides and warm calm days predominate. The winter storms can generate dramatic surf with swells as high as 15 ft or more. Standing on the bluffs during these storms, the earth shakes, the roar is deafening and your senses are overwhelmed by the awesome power of the sea.\n \nTwilight, Garrapata\u009d was taken on a relatively calm evening during a lull between a series of powerful winter storms. Id been exploring the Garrapata area (south of Carmel a few miles below Point Lobos) during the summer months and felt one particular extended sea bluff offered an excellent vantage point for a photograph. My intent was to photograph the sea under alpenglow light shortly after sunset.\n \nThe sea was still restless and waves were persistently pounding the rocks. I knew the required long exposure would help give a mystical quality to the water. The composition I chose emphasized a good portion of foreground rock and I elected to leave the moderate amount of convergence in the image hoping that the still agitated surf would help de-emphasize the rocks extensive detail. As the sun set and night began to take in, I waited until the sky was a deep purplish blue and made 3 long exposures, the second of which offered the best potential for the eventual print.",
+  "field-notes": "Late Fall and early Winter are among the best times to photograph along the Pacific Coast. During the summer persistent fog can hug the coast for weeks at a time. Winds can be fierce and very cold (relative to the inland heat) and beach going tourists can be turned back less than 30 seconds out of their rental cars. But in October and November the fog subsides and warm calm days predominate. The winter storms can generate dramatic surf with swells as high as 15 ft or more. Standing on the bluffs during these storms, the earth shakes, the roar is deafening and your senses are overwhelmed by the awesome power of the sea.\n \nTwilight, Garrapata was taken on a relatively calm evening during a lull between a series of powerful winter storms. Id been exploring the Garrapata area (south of Carmel a few miles below Point Lobos) during the summer months and felt one particular extended sea bluff offered an excellent vantage point for a photograph. My intent was to photograph the sea under alpenglow light shortly after sunset.\n \nThe sea was still restless and waves were persistently pounding the rocks. I knew the required long exposure would help give a mystical quality to the water. The composition I chose emphasized a good portion of foreground rock and I elected to leave the moderate amount of convergence in the image hoping that the still agitated surf would help de-emphasize the rocks extensive detail. As the sun set and night began to take in, I waited until the sky was a deep purplish blue and made 3 long exposures, the second of which offered the best potential for the eventual print.",
   "print-type": "Pigment Ink",
   "edition": "25",
   "edition-type": "Limited",
@@ -15,6 +15,6 @@
   "thumb": "twilight-garrapata.jpg",
   "image-home": "twilight-garrapata-home.jpg",
   "image-biz": "twilight-garrapata-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

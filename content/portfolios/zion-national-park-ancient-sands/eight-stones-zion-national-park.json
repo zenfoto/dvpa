@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-ancient-sands",
-  "order": 5,
+  "order": "5",
   "slug": "eight-stones-zion-national-park",
   "title": "Eight Stones",
   "state": "Utah",
-  "year": 2015,
+  "year": "2015",
   "place": "Zion National Park",
   "location": "Wilderness",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "eight-stones-zion-national-park.jpg",
   "image-home": "eight-stones-zion-national-park-home.jpg",
   "image-biz": "eight-stones-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

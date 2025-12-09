@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 1,
+  "order": "1",
   "slug": "grain-truck-artois-california",
   "title": "Grain Truck",
   "state": "California",
-  "year": 2016,
+  "year": "2016",
   "place": "Sacramento Valley",
   "location": "Artois",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "grain-truck-artois-california.jpg",
   "image-home": "grain-truck-artois-california-home.jpg",
   "image-biz": "grain-truck-artois-california-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

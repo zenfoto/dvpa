@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn-ii",
-  "order": 6,
+  "order": "6",
   "slug": "maples-in-rain-zion-national-park",
   "title": "Maples in Rain",
   "state": "Utah",
-  "year": 2016,
+  "year": "2016",
   "place": "Zion National Park",
   "location": "Main Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "maples-in-rain-zion-national-park.jpg",
   "image-home": "maples-in-rain-zion-national-park-home.jpg",
   "image-biz": "maples-in-rain-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

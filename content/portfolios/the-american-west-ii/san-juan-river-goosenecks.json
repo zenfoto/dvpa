@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 6,
+  "order": "6",
   "slug": "san-juan-river-goosenecks",
   "title": "San Juan River",
   "state": "Arizona",
-  "year": 2013,
+  "year": "2013",
   "place": "Colorado Plateau",
   "location": "Goosenecks State Park",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "san-juan-river-goosenecks.jpg",
   "image-home": "san-juan-river-goosenecks-home.jpg",
   "image-biz": "san-juan-river-goosenecks-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

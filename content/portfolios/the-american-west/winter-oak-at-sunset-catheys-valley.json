@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 1,
+  "order": "1",
   "slug": "winter-oak-at-sunset-catheys-valley",
   "title": "Winter Oak at Sunset",
   "state": "California",
-  "year": 2009,
+  "year": "2009",
   "place": "Sierra Foothills",
   "location": "Cathey's Valley",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "winter-oak-at-sunset-catheys-valley.jpg",
   "image-home": "winter-oak-at-sunset-catheys-valley-home.jpg",
   "image-biz": "winter-oak-at-sunset-catheys-valley-biz.jpg",
-  "width": 2400,
-  "height": 1720
+  "width": "2400",
+  "height": "1720"
 }

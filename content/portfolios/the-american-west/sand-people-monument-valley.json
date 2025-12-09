@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 16,
+  "order": "16",
   "slug": "sand-people-monument-valley",
   "title": "Sand People",
   "state": "Arizona",
-  "year": 1997,
+  "year": "1997",
   "place": "Monument Valley",
   "location": "Monument Valley",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "sand-people-monument-valley.jpg",
   "image-home": "sand-people-monument-valley-home.jpg",
   "image-biz": "sand-people-monument-valley-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

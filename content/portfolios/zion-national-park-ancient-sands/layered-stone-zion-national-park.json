@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-ancient-sands",
-  "order": 14,
+  "order": "14",
   "slug": "layered-stone-zion-national-park",
   "title": "Layered Stone",
   "state": "Utah",
-  "year": 2015,
+  "year": "2015",
   "place": "Zion National Park",
   "location": "Water Pockets",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "layered-stone-zion-national-park.jpg",
   "image-home": "layered-stone-zion-national-park-home.jpg",
   "image-biz": "layered-stone-zion-national-park-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iv",
-  "order": 7,
+  "order": "7",
   "slug": "irrigation-pipes-on-truck-williams",
   "title": "Pipes on Truck",
   "state": "California",
-  "year": 2014,
+  "year": "2014",
   "place": "Sacramento Valley",
   "location": "Williams",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "irrigation-pipes-on-truck-williams.jpg",
   "image-home": "irrigation-pipes-on-truck-williams-home.jpg",
   "image-biz": "irrigation-pipes-on-truck-williams-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

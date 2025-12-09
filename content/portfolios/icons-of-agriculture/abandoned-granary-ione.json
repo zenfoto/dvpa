@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 10,
+  "order": "10",
   "slug": "abandoned-granary-ione",
   "title": "Abandoned",
   "state": "Oregon",
-  "year": 2014,
+  "year": "2014",
   "place": "Morrow County",
   "location": "Ione",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "abandoned-granary-ione.jpg",
   "image-home": "abandoned-granary-ione-home.jpg",
   "image-biz": "abandoned-granary-ione-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

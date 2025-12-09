@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 1,
+  "order": "1",
   "slug": "leaf-and-sand-zion-national-park",
   "title": "Leaf and Sand",
   "state": "Utah",
-  "year": 2015,
+  "year": "2015",
   "place": "Zion National Park",
   "location": "Clear Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "leaf-and-sand-zion-national-park.jpg",
   "image-home": "leaf-and-sand-zion-national-park-home.jpg",
   "image-biz": "leaf-and-sand-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1920
+  "width": "2400",
+  "height": "1920"
 }

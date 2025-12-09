@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 20,
+  "order": "20",
   "slug": "evening-light-bryce-canyon",
   "title": "Evening Light",
   "state": "Utah",
-  "year": 1997,
+  "year": "1997",
   "place": "Bryce Canyon",
   "location": "Markagunt Plateau",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "evening-light-bryce-canyon.jpg",
   "image-home": "evening-light-bryce-canyon-home.jpg",
   "image-biz": "evening-light-bryce-canyon-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

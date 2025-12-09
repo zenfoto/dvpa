@@ -1,10 +1,10 @@
 {
   "portfolio": "cloud-light",
-  "order": 11,
+  "order": "11",
   "slug": "the-goddess-wire-mesa",
   "title": "The Goddess",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Rockville",
   "location": "Wire Mesa",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "the-goddess-wire-mesa.jpg",
   "image-home": "the-goddess-wire-mesa-home.jpg",
   "image-biz": "the-goddess-wire-mesa-biz.jpg",
-  "width": 1600,
-  "height": 1600
+  "width": "1600",
+  "height": "1600"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 17,
+  "order": "17",
   "slug": "hillside-oak-and-flowers-monterey",
   "title": "Hillside Oak and Flowers",
   "state": "California",
-  "year": 2011,
+  "year": "2011",
   "place": "Carmel Valley",
   "location": "Monterey County",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "hillside-oak-and-flowers-monterey.jpg",
   "image-home": "hillside-oak-and-flowers-monterey-home.jpg",
   "image-biz": "hillside-oak-and-flowers-monterey-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 6,
+  "order": "6",
   "slug": "luminance-dufur",
   "title": "Luminance",
   "state": "Oregon",
-  "year": 2018,
+  "year": "2018",
   "place": "Wasco County",
   "location": "Dufur",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "luminance-dufur.jpg",
   "image-home": "luminance-dufur-home.jpg",
   "image-biz": "luminance-dufur-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

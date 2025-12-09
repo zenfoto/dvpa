@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 16,
+  "order": "16",
   "slug": "silver-silos-pomeroy",
   "title": "Silver Silos",
   "state": "Washington",
-  "year": 2017,
+  "year": "2017",
   "place": "Garfield County",
   "location": "Pomeroy",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "silver-silos-pomeroy.jpg",
   "image-home": "silver-silos-pomeroy-home.jpg",
   "image-biz": "silver-silos-pomeroy-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

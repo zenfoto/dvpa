@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn-ii",
-  "order": 15,
+  "order": "15",
   "slug": "leaf-chute-zion-national-park",
   "title": "Leaf Chute",
   "state": "Utah",
-  "year": 2013,
+  "year": "2013",
   "place": "Zion National Park",
   "location": "Clear Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "leaf-chute-zion-national-park.jpg",
   "image-home": "leaf-chute-zion-national-park-home.jpg",
   "image-biz": "leaf-chute-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

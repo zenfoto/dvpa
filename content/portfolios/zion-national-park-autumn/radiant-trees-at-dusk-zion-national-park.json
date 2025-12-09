@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn",
-  "order": 5,
+  "order": "5",
   "slug": "radiant-trees-at-dusk-zion-national-park",
   "title": "Radiant Trees at Dusk",
   "state": "Utah",
-  "year": 2012,
+  "year": "2012",
   "place": "Zion National Park",
   "location": "Kolob Canyons",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "radiant-trees-at-dusk-zion-national-park.jpg",
   "image-home": "radiant-trees-at-dusk-zion-national-park-home.jpg",
   "image-biz": "radiant-trees-at-dusk-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1920
+  "width": "2400",
+  "height": "1920"
 }

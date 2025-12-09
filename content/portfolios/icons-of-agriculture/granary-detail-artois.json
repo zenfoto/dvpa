@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 2,
+  "order": "2",
   "slug": "granary-detail-artois",
   "title": "Pastels",
   "state": "California",
-  "year": 2015,
+  "year": "2015",
   "place": "Sacramento Valley",
   "location": "Artois",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "granary-detail-artois.jpg",
   "image-home": "granary-detail-artois-home.jpg",
   "image-biz": "granary-detail-artois-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

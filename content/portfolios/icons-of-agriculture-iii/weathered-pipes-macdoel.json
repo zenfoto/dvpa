@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iii",
-  "order": 12,
+  "order": "12",
   "slug": "weathered-pipes-macdoel",
   "title": "Weathered Pipes",
   "state": "California",
-  "year": 2014,
+  "year": "2014",
   "place": "Siskiyou County",
   "location": "Macdoel",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "weathered-pipes-macdoel.jpg",
   "image-home": "weathered-pipes-macdoel-home.jpg",
   "image-biz": "weathered-pipes-macdoel-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

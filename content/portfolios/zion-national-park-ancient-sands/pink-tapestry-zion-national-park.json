@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-ancient-sands",
-  "order": 1,
+  "order": "1",
   "slug": "pink-tapestry-zion-national-park",
   "title": "Pink Tapestry",
   "state": "Utah",
-  "year": 2015,
+  "year": "2015",
   "place": "Zion National Park",
   "location": "Center of the Universe",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "pink-tapestry-zion-national-park.jpg",
   "image-home": "pink-tapestry-zion-national-park-home.jpg",
   "image-biz": "pink-tapestry-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

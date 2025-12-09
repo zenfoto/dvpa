@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn-ii",
-  "order": 5,
+  "order": "5",
   "slug": "fertile-ground-zion-national-park",
   "title": "Fertile Ground",
   "state": "Utah",
-  "year": 2018,
+  "year": "2018",
   "place": "Zion National Park",
   "location": "Main Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "fertile-ground-zion-national-park.jpg",
   "image-home": "fertile-ground-zion-national-park-home.jpg",
   "image-biz": "fertile-ground-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iv",
-  "order": 2,
+  "order": "2",
   "slug": "granary-wall-detail-chandon",
   "title": "Cement Silos",
   "state": "Oregon",
-  "year": 2015,
+  "year": "2015",
   "place": "Gilliam County",
   "location": "Condon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "granary-wall-detail-chandon.jpg",
   "image-home": "granary-wall-detail-chandon-home.jpg",
   "image-biz": "granary-wall-detail-chandon-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

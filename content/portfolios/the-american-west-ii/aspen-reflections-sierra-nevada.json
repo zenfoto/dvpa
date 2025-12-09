@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 7,
+  "order": "7",
   "slug": "aspen-reflections-sierra-nevada",
   "title": "Aspen Reflections",
   "state": "California",
-  "year": 2012,
+  "year": "2012",
   "place": "Sierra Nevada",
   "location": "Green Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "aspen-reflections-sierra-nevada.jpg",
   "image-home": "aspen-reflections-sierra-nevada-home.jpg",
   "image-biz": "aspen-reflections-sierra-nevada-biz.jpg",
-  "width": 2400,
-  "height": 1920
+  "width": "2400",
+  "height": "1920"
 }

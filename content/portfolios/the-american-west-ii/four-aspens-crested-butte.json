@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 11,
+  "order": "11",
   "slug": "four-aspens-crested-butte",
   "title": "Four Aspens, Twilight",
   "state": "Colorado",
-  "year": 2020,
+  "year": "2020",
   "place": "Crested Butte",
   "location": "Kebler Pass",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "four-aspens-crested-butte.jpg",
   "image-home": "four-aspens-crested-butte-home.jpg",
   "image-biz": "four-aspens-crested-butte-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

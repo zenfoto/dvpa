@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn",
-  "order": 16,
+  "order": "16",
   "slug": "luminaries-zion-national-park",
   "title": "Luminaries",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Zion National Park",
   "location": "Zion Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "luminaries-zion-national-park.jpg",
   "image-home": "luminaries-zion-national-park-home.jpg",
   "image-biz": "luminaries-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

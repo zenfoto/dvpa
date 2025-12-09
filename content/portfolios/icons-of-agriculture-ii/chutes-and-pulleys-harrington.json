@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 8,
+  "order": "8",
   "slug": "chutes-and-pulleys-harrington",
   "title": "Chutes and Pulleys",
   "state": "Washington",
-  "year": 2020,
+  "year": "2020",
   "place": "Lincoln County",
   "location": "Harrington",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "chutes-and-pulleys-harrington.jpg",
   "image-home": "chutes-and-pulleys-harrington-home.jpg",
   "image-biz": "chutes-and-pulleys-harrington-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

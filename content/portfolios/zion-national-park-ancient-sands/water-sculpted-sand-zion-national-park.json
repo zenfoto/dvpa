@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-ancient-sands",
-  "order": 17,
+  "order": "17",
   "slug": "water-sculpted-sand-zion-national-park",
   "title": "Water Sculpted Sand",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Zion National Park",
   "location": "East Side",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "water-sculpted-sand-zion-national-park.jpg",
   "image-home": "water-sculpted-sand-zion-national-park-home.jpg",
   "image-biz": "water-sculpted-sand-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1920
+  "width": "2400",
+  "height": "1920"
 }

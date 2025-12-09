@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 8,
+  "order": "8",
   "slug": "storm-moving-over-mesa-big-water",
   "title": "Storm Moving Over Mesa",
   "state": "Arizona",
-  "year": 2010,
+  "year": "2010",
   "place": "Big Water",
   "location": "Paria Wilderness",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "storm-moving-over-mesa-big-water.jpg",
   "image-home": "storm-moving-over-mesa-big-water-home.jpg",
   "image-biz": "storm-moving-over-mesa-big-water-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

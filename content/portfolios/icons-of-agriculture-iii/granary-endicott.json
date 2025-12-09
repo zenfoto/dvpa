@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iii",
-  "order": 8,
+  "order": "8",
   "slug": "granary-endicott",
   "title": "Granary in Grey",
   "state": "Washington",
-  "year": 2018,
+  "year": "2018",
   "place": "The Palouse",
   "location": "Endicott",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "granary-endicott.jpg",
   "image-home": "granary-endicott-home.jpg",
   "image-biz": "granary-endicott-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

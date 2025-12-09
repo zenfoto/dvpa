@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park",
-  "order": 14,
+  "order": "14",
   "slug": "aspiring-pine-zion-national-park",
   "title": "Aspiring Pine",
   "state": "Utah",
-  "year": 2015,
+  "year": "2015",
   "place": "Zion National Park",
   "location": "Kolob Canyons",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "aspiring-pine-zion-national-park.jpg",
   "image-home": "aspiring-pine-zion-national-park-home.jpg",
   "image-biz": "aspiring-pine-zion-national-park-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

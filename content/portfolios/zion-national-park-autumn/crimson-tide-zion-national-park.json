@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn",
-  "order": 13,
+  "order": "13",
   "slug": "crimson-tide-zion-national-park",
   "title": "Crimson Tide",
   "state": "Utah",
-  "year": 2010,
+  "year": "2010",
   "place": "Zion National Park",
   "location": "Zion Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "crimson-tide-zion-national-park.jpg",
   "image-home": "crimson-tide-zion-national-park-home.jpg",
   "image-biz": "crimson-tide-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1920
+  "width": "2400",
+  "height": "1920"
 }

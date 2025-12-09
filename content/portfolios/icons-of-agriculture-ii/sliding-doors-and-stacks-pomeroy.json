@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 13,
+  "order": "13",
   "slug": "sliding-doors-and-stacks-pomeroy",
   "title": "Sliding Doors",
   "state": "Washington",
-  "year": 2017,
+  "year": "2017",
   "place": "Garfield County",
   "location": "Pomeroy",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "sliding-doors-and-stacks-pomeroy.jpg",
   "image-home": "sliding-doors-and-stacks-pomeroy-home.jpg",
   "image-biz": "sliding-doors-and-stacks-pomeroy-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

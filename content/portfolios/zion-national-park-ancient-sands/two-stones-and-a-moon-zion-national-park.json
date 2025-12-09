@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-ancient-sands",
-  "order": 2,
+  "order": "2",
   "slug": "two-stones-and-a-moon-zion-national-park",
   "title": "Two Stones and a Moon",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Zion National Park",
   "location": "Center of the Universe",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "two-stones-and-a-moon-zion-national-park.jpg",
   "image-home": "two-stones-and-a-moon-zion-national-park-home.jpg",
   "image-biz": "two-stones-and-a-moon-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

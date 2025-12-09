@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 15,
+  "order": "15",
   "slug": "sahalie-falls-mckenzie-river",
   "title": "Sahalie Falls",
   "state": "Oregon",
-  "year": 2014,
+  "year": "2014",
   "place": "Dechutes National Forest",
   "location": "McKenzie River",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "sahalie-falls-mckenzie-river.jpg",
   "image-home": "sahalie-falls-mckenzie-river-home.jpg",
   "image-biz": "sahalie-falls-mckenzie-river-biz.jpg",
-  "width": 1737,
-  "height": 2160
+  "width": "1737",
+  "height": "2160"
 }

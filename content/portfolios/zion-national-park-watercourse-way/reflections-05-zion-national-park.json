@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-watercourse-way",
-  "order": 13,
+  "order": "13",
   "slug": "reflections-05-zion-national-park",
   "title": "Reflections #5",
   "state": "Utah",
-  "year": 2011,
+  "year": "2011",
   "place": "Zion National Park",
   "location": "Virgin River",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "reflections-05-zion-national-park.jpg",
   "image-home": "reflections-05-zion-national-park-home.jpg",
   "image-biz": "reflections-05-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1720
+  "width": "2400",
+  "height": "1720"
 }

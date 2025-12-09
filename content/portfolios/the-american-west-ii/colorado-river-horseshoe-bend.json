@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 2,
+  "order": "2",
   "slug": "colorado-river-horseshoe-bend",
   "title": "Colorado River",
   "state": "Arizona",
-  "year": 2012,
+  "year": "2012",
   "place": "Page",
   "location": "Big Bend",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "colorado-river-horseshoe-bend.jpg",
   "image-home": "colorado-river-horseshoe-bend-home.jpg",
   "image-biz": "colorado-river-horseshoe-bend-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

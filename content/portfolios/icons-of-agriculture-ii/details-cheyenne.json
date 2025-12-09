@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-ii",
-  "order": 1,
+  "order": "1",
   "slug": "details-cheyenne",
   "title": "Details",
   "state": "Colorado",
-  "year": 2021,
+  "year": "2021",
   "place": "Cheyenne County",
   "location": "Cheyenne Wells",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "details-cheyenne.jpg",
   "image-home": "details-cheyenne-home.jpg",
   "image-biz": "details-cheyenne-biz.jpg",
-  "width": 1200,
-  "height": 1600
+  "width": "1200",
+  "height": "1600"
 }

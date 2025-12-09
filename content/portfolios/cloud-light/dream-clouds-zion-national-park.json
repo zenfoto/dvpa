@@ -1,10 +1,10 @@
 {
   "portfolio": "cloud-light",
-  "order": 10,
+  "order": "10",
   "slug": "dream-clouds-zion-national-park",
   "title": "Dream Clouds",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Colorado Plateau",
   "location": "Wilderness",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "dream-clouds-zion-national-park.jpg",
   "image-home": "dream-clouds-zion-national-park-home.jpg",
   "image-biz": "dream-clouds-zion-national-park-biz.jpg",
-  "width": 1600,
-  "height": 1600
+  "width": "1600",
+  "height": "1600"
 }

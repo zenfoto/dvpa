@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 15,
+  "order": "15",
   "slug": "colorado-river-navajo-bridge",
   "title": "Colorado River",
   "state": "Arizona",
-  "year": 2010,
+  "year": "2010",
   "place": "Vermillion Cliffs",
   "location": "Navajo Bridge",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "colorado-river-navajo-bridge.jpg",
   "image-home": "colorado-river-navajo-bridge-home.jpg",
   "image-biz": "colorado-river-navajo-bridge-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

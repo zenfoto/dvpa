@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west",
-  "order": 7,
+  "order": "7",
   "slug": "morning-light-monument-valley",
   "title": "Morning Light",
   "state": "Arizona",
-  "year": 1997,
+  "year": "1997",
   "place": "Monument Valley",
   "location": "North Window",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "morning-light-monument-valley.jpg",
   "image-home": "morning-light-monument-valley-home.jpg",
   "image-biz": "morning-light-monument-valley-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }

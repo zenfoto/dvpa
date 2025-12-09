@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture",
-  "order": 13,
+  "order": "13",
   "slug": "clearing-storm-the-palouse",
   "title": "Clearing Storm",
   "state": "Washington",
-  "year": 2018,
+  "year": "2018",
   "place": "The Palouse",
   "location": "Lion's Ferry Road",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "clearing-storm-the-palouse.jpg",
   "image-home": "clearing-storm-the-palouse-home.jpg",
   "image-biz": "clearing-storm-the-palouse-biz.jpg",
-  "width": 2400,
-  "height": 1820
+  "width": "2400",
+  "height": "1820"
 }

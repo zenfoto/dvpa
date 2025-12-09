@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 13,
+  "order": "13",
   "slug": "moonrise-waitsburg",
   "title": "Moonrise",
   "state": "Washington",
-  "year": 2013,
+  "year": "2013",
   "place": "Waitsburg",
   "location": "Along Hwy 12",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "moonrise-waitsburg.jpg",
   "image-home": "moonrise-waitsburg-home.jpg",
   "image-biz": "moonrise-waitsburg-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

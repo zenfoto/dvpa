@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iii",
-  "order": 4,
+  "order": "4",
   "slug": "silo-102-cortena",
   "title": "Silo 102",
   "state": "California",
-  "year": 2016,
+  "year": "2016",
   "place": "Sacramento Valley",
   "location": "Cortena",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "silo-102-cortena.jpg",
   "image-home": "silo-102-cortena-home.jpg",
   "image-biz": "silo-102-cortena-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

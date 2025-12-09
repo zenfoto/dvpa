@@ -1,10 +1,10 @@
 {
   "portfolio": "icons-of-agriculture-iii",
-  "order": 1,
+  "order": "1",
   "slug": "gas-tank-artois",
   "title": "Gas Tank",
   "state": "California",
-  "year": 2015,
+  "year": "2015",
   "place": "Sacramento Valley",
   "location": "Artois",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "gas-tank-artois.jpg",
   "image-home": "gas-tank-artois-home.jpg",
   "image-biz": "gas-tank-artois-biz.jpg",
-  "width": 1100,
-  "height": 1600
+  "width": "1100",
+  "height": "1600"
 }

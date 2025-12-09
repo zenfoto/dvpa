@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn",
-  "order": 2,
+  "order": "2",
   "slug": "pink-and-yellow-maple-zion-national-park",
   "title": "Pink and Yellow Maples",
   "state": "Utah",
-  "year": 2013,
+  "year": "2013",
   "place": "Zion's East Side",
   "location": "Clear Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "pink-and-yellow-maple-zion-national-park.jpg",
   "image-home": "pink-and-yellow-maple-zion-national-park-home.jpg",
   "image-biz": "pink-and-yellow-maple-zion-national-park-biz.jpg",
-  "width": 1920,
-  "height": 1600
+  "width": "1920",
+  "height": "1600"
 }

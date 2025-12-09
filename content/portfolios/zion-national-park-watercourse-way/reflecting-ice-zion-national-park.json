@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-watercourse-way",
-  "order": 7,
+  "order": "7",
   "slug": "reflecting-ice-zion-national-park",
   "title": "Reflecting Ice",
   "state": "Utah",
-  "year": 2015,
+  "year": "2015",
   "place": "Zion National Park",
   "location": "Pine Creek",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "reflecting-ice-zion-national-park.jpg",
   "image-home": "reflecting-ice-zion-national-park-home.jpg",
   "image-biz": "reflecting-ice-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1980
+  "width": "2400",
+  "height": "1980"
 }

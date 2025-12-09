@@ -1,10 +1,10 @@
 {
   "portfolio": "the-american-west-ii",
-  "order": 9,
+  "order": "9",
   "slug": "dusk-painted-hills",
   "title": "Dusk, Painted Hills",
   "state": "Oregon",
-  "year": 2012,
+  "year": "2012",
   "place": "Mitchell",
   "location": "John Day Fossil Beds",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "dusk-painted-hills.jpg",
   "image-home": "dusk-painted-hills-home.jpg",
   "image-biz": "dusk-painted-hills-biz.jpg",
-  "width": 2400,
-  "height": 1600
+  "width": "2400",
+  "height": "1600"
 }

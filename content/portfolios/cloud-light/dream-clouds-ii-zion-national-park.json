@@ -1,10 +1,10 @@
 {
   "portfolio": "cloud-light",
-  "order": 3,
+  "order": "3",
   "slug": "dream-clouds-ii-zion-national-park",
   "title": "Dream Clouds II",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Zion National Park",
   "location": "East Side",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "dream-clouds-ii-zion-national-park.jpg",
   "image-home": "dream-clouds-ii-zion-national-park-home.jpg",
   "image-biz": "dream-clouds-ii-zion-national-park-biz.jpg",
-  "width": 1600,
-  "height": 1600
+  "width": "1600",
+  "height": "1600"
 }

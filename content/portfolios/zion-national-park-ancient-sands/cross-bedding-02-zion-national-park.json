@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-ancient-sands",
-  "order": 8,
+  "order": "8",
   "slug": "cross-bedding-02-zion-national-park",
   "title": "Cross Bedding #2",
   "state": "Utah",
-  "year": 2014,
+  "year": "2014",
   "place": "Zion National Park",
   "location": "East Side Canyon",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "cross-bedding-02-zion-national-park.jpg",
   "image-home": "cross-bedding-02-zion-national-park-home.jpg",
   "image-biz": "cross-bedding-02-zion-national-park-biz.jpg",
-  "width": 2400,
-  "height": 1920
+  "width": "2400",
+  "height": "1920"
 }

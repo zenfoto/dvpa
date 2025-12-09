@@ -1,10 +1,10 @@
 {
   "portfolio": "zion-national-park-autumn",
-  "order": 19,
+  "order": "19",
   "slug": "tapestry-in-yellow-zion-national-park",
   "title": "Tapestry in Yellow",
   "state": "Utah",
-  "year": 2012,
+  "year": "2012",
   "place": "Zion National Park",
   "location": "Kolob Canyons",
   "field-notes": "This is a field note.",
@@ -15,6 +15,6 @@
   "thumb": "tapestry-in-yellow-zion-national-park.jpg",
   "image-home": "tapestry-in-yellow-zion-national-park-home.jpg",
   "image-biz": "tapestry-in-yellow-zion-national-park-biz.jpg",
-  "width": 1280,
-  "height": 1600
+  "width": "1280",
+  "height": "1600"
 }
