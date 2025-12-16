@@ -5,7 +5,8 @@
     "slug": "aspen-canopy-crested-butte",
     "place": "Crested Butte",
     "location": "Kebler Pass",
-    "portfolio": "the-american-west"
+    "portfolio": "the-american-west",
+    "pname": "The American West"
   },
   {
     "title": "Canyon Light",
@@ -13,7 +14,8 @@
     "slug": "canyon-light-zion-national-park",
     "place": "Zion National Park",
     "location": "Echo Canyon",
-    "portfolio": "zion-national-park"
+    "portfolio": "zion-national-park",
+    "pname": "Zion National Park"
   },
   {
     "title": "Clearing Storm",
@@ -21,7 +23,8 @@
     "slug": "clearing-storm-the-palouse",
     "place": "The Palouse",
     "location": "Lion's Ferry Road",
-    "portfolio": "icons-of-agriculture"
+    "portfolio": "icons-of-agriculture",
+    "pname": "Icons of Agriculture (I)"
   },
   {
     "title": "Electric",
@@ -29,7 +32,8 @@
     "slug": "electric-cortena",
     "place": "Sacramento Valley",
     "location": "Cortena",
-    "portfolio": "icons-of-agriculture"
+    "portfolio": "icons-of-agriculture",
+    "pname": "Icons of Agriculture (I)"
   },
   {
     "title": "Granary and Moon",
@@ -37,7 +41,8 @@
     "slug": "granary-and-moon-walters",
     "place": "Garfield",
     "location": "Walters Road",
-    "portfolio": "icons-of-agriculture-ii"
+    "portfolio": "icons-of-agriculture-ii",
+    "pname": "Icons of Agriculture (II)"
   },
   {
     "title": "Red, Off White, and Blue",
@@ -45,7 +50,8 @@
     "slug": "red-off-white-and-blue-palouse",
     "place": "Whitman County",
     "location": "Palouse City",
-    "portfolio": "icons-of-agriculture"
+    "portfolio": "icons-of-agriculture",
+    "pname": "Icons of Agriculture (I)"
   },
   {
     "title": "Reflections",
@@ -53,7 +59,8 @@
     "slug": "reflections-subway-zion-national-park",
     "place": "North Fork",
     "location": "The Subway",
-    "portfolio": "zion-national-park-watercourse-way"
+    "portfolio": "zion-national-park-watercourse-way",
+    "pname": "Zion: Watercourse Way"
   },
   {
     "title": "Solemnity",
@@ -61,7 +68,8 @@
     "slug": "solemnity-zion-national-park",
     "place": "Zion National Park",
     "location": "Temple of Sinawava",
-    "portfolio": "zion-national-park-autumn-ii"
+    "portfolio": "zion-national-park-autumn-ii",
+    "pname": "Zion: Autumn (II)"
   },
   {
     "title": "The Cosmic Wall",
@@ -69,7 +77,8 @@
     "slug": "the-cosmic-wall-zion-national-park",
     "place": "Zion National Park",
     "location": "Clear Creek",
-    "portfolio": "zion-national-park-ancient-sands"
+    "portfolio": "zion-national-park-ancient-sands",
+    "pname": "Zion: Ancient Sands"
   },
   {
     "title": "Twilight Maples",
@@ -77,7 +86,8 @@
     "slug": "twilight-maples-zion-national-park",
     "place": "Zion National Park",
     "location": "Clear Creek",
-    "portfolio": "zion-national-park-autumn-ii"
+    "portfolio": "zion-national-park-autumn-ii",
+    "pname": "Zion: Autumn (II)"
   },
   {
     "title": "Union",
@@ -85,7 +95,8 @@
     "slug": "cooperative-davenport",
     "place": "Lincoln County",
     "location": "Davenport",
-    "portfolio": "icons-of-agriculture-iii"
+    "portfolio": "icons-of-agriculture-iii",
+    "pname": "Icons of Agriculture (III)"
   },
   {
     "title": "Velvet Reflections",
@@ -93,6 +104,7 @@
     "slug": "velvet-reflections-zion-national-park",
     "place": "Zion National Park",
     "location": "Virgin River",
-    "portfolio": "zion-national-park-watercourse-way"
+    "portfolio": "zion-national-park-watercourse-way",
+    "pname": "Zion: Watercourse Way"
   }
 ]

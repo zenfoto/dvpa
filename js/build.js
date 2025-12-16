@@ -131,7 +131,8 @@ function buildHomeFeaturedJSON() {
         slug: data.slug,
         place: data.place,
         location: data.location,
-        portfolio: data.portfolio
+        portfolio: data.portfolio,
+        pname: data.pname
       });
     });
   });

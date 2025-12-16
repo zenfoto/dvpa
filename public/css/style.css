@@ -315,6 +315,7 @@ blockquote, blockquote span { background-size: 31px 26px; }
 .homecontent img {margin-bottom: 24px; box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.35);}
 .homecontent h3 { font: 600 24px/28px 'karmina-sans', sans-serif; margin-bottom: 8px; }
 .homecontent h4 { font: 600 16px/20px 'karmina-sans', sans-serif; margin-bottom: 12px; color: #727272; text-transform: none;}
+.homecontent p { margin-bottom: 1em;}
 .homecontent a.more { margin-bottom: 0; font: 600 16px/20px 'karmina-sans', sans-serif;}
 
 @media only screen and (max-width: 799px) {
