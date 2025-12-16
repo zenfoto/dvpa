@@ -231,16 +231,23 @@ function buildPortfolioIndexes() {
       .readdirSync(categoryPath)
       .filter(f => f.endsWith(".json") && f !== "index.json");
 
-    const thumbnails = files.map(file => {
+    const dataObjects = files.map(file => {
       const data = JSON.parse(fs.readFileSync(path.join(categoryPath, file), "utf-8"));
-      return `
-        <div class="thumb">
-          <a href="/portfolios/${category}/${data.slug}.html">
-            <img src="/assets/photographs/thumbs/${data.thumb}" alt="${data.title}">
-            <h4>${data.title}</h4>
-          </a>
-        </div>`;
-    }).join("\n");
+      return data;
+    });
+
+    // Sort by order field (same as image page nav)
+    dataObjects.sort((a, b) => a.order - b.order);
+
+    const thumbnails = dataObjects.map(data => `
+      <div class="thumb">
+        <a href="/portfolios/${category}/${data.slug}.html">
+          <img src="/assets/photographs/thumbs/${data.thumb}" alt="${data.title}">
+          <h4>${data.title}</h4>
+        </a>
+      </div>
+    `).join("\n");
+
 
     const html = sectionTemplate
       .replace(/{{header}}/g, header)

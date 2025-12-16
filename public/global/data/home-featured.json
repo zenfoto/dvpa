@@ -1,24 +1,98 @@
 [
   {
-    "image": "/assets/photographs/home/aspen-canopy-crested-butte.jpg",
-    "alt": "Aspen Canopy - Kebler Pass",
     "title": "Aspen Canopy at Dusk",
-    "location": "Kebler Pass, Colorado, 2020",
-    "link": "/portfolios"
+    "image": "aspen-canopy-crested-butte.jpg",
+    "slug": "aspen-canopy-crested-butte",
+    "place": "Crested Butte",
+    "location": "Kebler Pass",
+    "portfolio": "the-american-west"
   },
   {
-    "image": "/assets/photographs/home/reflections-subway-zion-national-park.jpg",
-    "alt": "Reflections - The Subway",
+    "title": "Canyon Light",
+    "image": "canyon-light-zion-national-park.jpg",
+    "slug": "canyon-light-zion-national-park",
+    "place": "Zion National Park",
+    "location": "Echo Canyon",
+    "portfolio": "zion-national-park"
+  },
+  {
+    "title": "Clearing Storm",
+    "image": "clearing-storm-the-palouse.jpg",
+    "slug": "clearing-storm-the-palouse",
+    "place": "The Palouse",
+    "location": "Lion's Ferry Road",
+    "portfolio": "icons-of-agriculture"
+  },
+  {
+    "title": "Electric",
+    "image": "electric-cortena.jpg",
+    "slug": "electric-cortena",
+    "place": "Sacramento Valley",
+    "location": "Cortena",
+    "portfolio": "icons-of-agriculture"
+  },
+  {
+    "title": "Granary and Moon",
+    "image": "granary-and-moon-walters.jpg",
+    "slug": "granary-and-moon-walters",
+    "place": "Garfield",
+    "location": "Walters Road",
+    "portfolio": "icons-of-agriculture-ii"
+  },
+  {
+    "title": "Red, Off White, and Blue",
+    "image": "red-off-white-and-blue-palouse.jpg",
+    "slug": "red-off-white-and-blue-palouse",
+    "place": "Whitman County",
+    "location": "Palouse City",
+    "portfolio": "icons-of-agriculture"
+  },
+  {
     "title": "Reflections",
-    "location": "The Subway, Zion National Park, 2018",
-    "link": "/portfolios/zion-national-park/reflections.html"
+    "image": "reflections-subway-zion-national-park.jpg",
+    "slug": "reflections-subway-zion-national-park",
+    "place": "North Fork",
+    "location": "The Subway",
+    "portfolio": "zion-national-park-watercourse-way"
   },
   {
-    "image": "/assets/photographs/home/granary-at-sunset-the-palouse.jpg",
-    "alt": "Granary at Sunset - The Palouse",
-    "title": "Granary at Sunset",
-    "location": "The Palouse, Washington, 2022",
-    "link": "/portfolios"
+    "title": "Solemnity",
+    "image": "solemnity-zion-national-park.jpg",
+    "slug": "solemnity-zion-national-park",
+    "place": "Zion National Park",
+    "location": "Temple of Sinawava",
+    "portfolio": "zion-national-park-autumn-ii"
+  },
+  {
+    "title": "The Cosmic Wall",
+    "image": "the-cosmic-wall-zion-national-park.jpg",
+    "slug": "the-cosmic-wall-zion-national-park",
+    "place": "Zion National Park",
+    "location": "Clear Creek",
+    "portfolio": "zion-national-park-ancient-sands"
+  },
+  {
+    "title": "Twilight Maples",
+    "image": "twilight-maples-zion-national-park.jpg",
+    "slug": "twilight-maples-zion-national-park",
+    "place": "Zion National Park",
+    "location": "Clear Creek",
+    "portfolio": "zion-national-park-autumn-ii"
+  },
+  {
+    "title": "Union",
+    "image": "cooperative-davenport.jpg",
+    "slug": "cooperative-davenport",
+    "place": "Lincoln County",
+    "location": "Davenport",
+    "portfolio": "icons-of-agriculture-iii"
+  },
+  {
+    "title": "Velvet Reflections",
+    "image": "velvet-reflections-zion-national-park.jpg",
+    "slug": "velvet-reflections-zion-national-park",
+    "place": "Zion National Park",
+    "location": "Virgin River",
+    "portfolio": "zion-national-park-watercourse-way"
   }
 ]
-
