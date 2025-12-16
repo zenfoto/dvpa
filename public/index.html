@@ -144,7 +144,8 @@
 			document.getElementById("featured-hero").innerHTML = `
 				<a href="portfolios/${f.portfolio}/${f.slug}.html"><img src="/assets/photographs/${f.image}" alt="${f.title}"></a>
 				<h3>${f.title}</h3>
-				<h4>${f.location}</h4>
+				<h4>${f.location}, ${f.place}</h4>
+				<p>Part of the <a href="portfolios/${f.portfolio}/" class="more">${f.portfolio}</a> collection.</p>
 				<p><a href="/portfolios" class="more">View All Photographs »</a></p>
 			`;
 			})
