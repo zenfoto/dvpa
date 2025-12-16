@@ -24,7 +24,7 @@
     "place": "The Palouse",
     "location": "Lion's Ferry Road",
     "portfolio": "icons-of-agriculture",
-    "pname": "Icons of Agriculture (I)"
+    "pname": "Icons of Agriculture"
   },
   {
     "title": "Electric",
@@ -33,7 +33,7 @@
     "place": "Sacramento Valley",
     "location": "Cortena",
     "portfolio": "icons-of-agriculture",
-    "pname": "Icons of Agriculture (I)"
+    "pname": "Icons of Agriculture"
   },
   {
     "title": "Granary and Moon",
@@ -42,7 +42,7 @@
     "place": "Garfield",
     "location": "Walters Road",
     "portfolio": "icons-of-agriculture-ii",
-    "pname": "Icons of Agriculture (II)"
+    "pname": "Icons of Agriculture"
   },
   {
     "title": "Red, Off White, and Blue",
@@ -51,7 +51,7 @@
     "place": "Whitman County",
     "location": "Palouse City",
     "portfolio": "icons-of-agriculture",
-    "pname": "Icons of Agriculture (I)"
+    "pname": "Icons of Agriculture"
   },
   {
     "title": "Reflections",
@@ -60,7 +60,7 @@
     "place": "North Fork",
     "location": "The Subway",
     "portfolio": "zion-national-park-watercourse-way",
-    "pname": "Zion: Watercourse Way"
+    "pname": "Zion National Park"
   },
   {
     "title": "Solemnity",
@@ -69,7 +69,7 @@
     "place": "Zion National Park",
     "location": "Temple of Sinawava",
     "portfolio": "zion-national-park-autumn-ii",
-    "pname": "Zion: Autumn (II)"
+    "pname": "Zion National Park"
   },
   {
     "title": "The Cosmic Wall",
@@ -78,7 +78,7 @@
     "place": "Zion National Park",
     "location": "Clear Creek",
     "portfolio": "zion-national-park-ancient-sands",
-    "pname": "Zion: Ancient Sands"
+    "pname": "Zion National Park"
   },
   {
     "title": "Twilight Maples",
@@ -87,7 +87,7 @@
     "place": "Zion National Park",
     "location": "Clear Creek",
     "portfolio": "zion-national-park-autumn-ii",
-    "pname": "Zion: Autumn (II)"
+    "pname": "Zion National Park"
   },
   {
     "title": "Union",
@@ -96,7 +96,7 @@
     "place": "Lincoln County",
     "location": "Davenport",
     "portfolio": "icons-of-agriculture-iii",
-    "pname": "Icons of Agriculture (III)"
+    "pname": "Icons of Agriculture"
   },
   {
     "title": "Velvet Reflections",
@@ -105,6 +105,6 @@
     "place": "Zion National Park",
     "location": "Virgin River",
     "portfolio": "zion-national-park-watercourse-way",
-    "pname": "Zion: Watercourse Way"
+    "pname": "Zion National Park"
   }
 ]
