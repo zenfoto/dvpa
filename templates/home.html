@@ -34,11 +34,23 @@
 
 	<script>
 	document.addEventListener("DOMContentLoaded", () => {
-		const items = document.querySelectorAll("#featured-hero .hero-item");
-		if (!items.length) return;
+		const items = Array.from(
+		document.querySelectorAll("#featured-hero .hero-item")
+		);
+		if (items.length < 2) return;
 
-		const pick = items[Math.floor(Math.random() * items.length)];
-		pick.hidden = false;
+		// Pick random starting index
+		let index = Math.floor(Math.random() * items.length);
+		items[index].classList.add("active");
+
+		setInterval(() => {
+		const current = items[index];
+		index = (index + 1) % items.length;
+		const next = items[index];
+
+		current.classList.remove("active");
+		next.classList.add("active");
+		}, 10000); // 10 seconds
 	});
 	</script>
 

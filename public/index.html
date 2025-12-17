@@ -115,7 +115,7 @@
 		
 	<div class="homecontent" id="featured-hero">
 		
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/the-american-west/aspen-canopy-crested-butte.html">
         <img src="/assets/photographs/aspen-canopy-crested-butte.jpg" alt="Aspen Canopy at Dusk">
       </a>
@@ -128,7 +128,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/zion-national-park/canyon-light-zion-national-park.html">
         <img src="/assets/photographs/canyon-light-zion-national-park.jpg" alt="Canyon Light">
       </a>
@@ -141,7 +141,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/icons-of-agriculture/clearing-storm-the-palouse.html">
         <img src="/assets/photographs/clearing-storm-the-palouse.jpg" alt="Clearing Storm">
       </a>
@@ -154,7 +154,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/icons-of-agriculture/electric-cortena.html">
         <img src="/assets/photographs/electric-cortena.jpg" alt="Electric">
       </a>
@@ -167,7 +167,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/icons-of-agriculture-ii/granary-and-moon-walters.html">
         <img src="/assets/photographs/granary-and-moon-walters.jpg" alt="Granary and Moon">
       </a>
@@ -180,7 +180,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/icons-of-agriculture/red-off-white-and-blue-palouse.html">
         <img src="/assets/photographs/red-off-white-and-blue-palouse.jpg" alt="Red, Off White, and Blue">
       </a>
@@ -193,7 +193,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/zion-national-park-watercourse-way/reflections-subway-zion-national-park.html">
         <img src="/assets/photographs/reflections-subway-zion-national-park.jpg" alt="Reflections">
       </a>
@@ -206,7 +206,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/zion-national-park-autumn-ii/solemnity-zion-national-park.html">
         <img src="/assets/photographs/solemnity-zion-national-park.jpg" alt="Solemnity">
       </a>
@@ -219,7 +219,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/zion-national-park-ancient-sands/the-cosmic-wall-zion-national-park.html">
         <img src="/assets/photographs/the-cosmic-wall-zion-national-park.jpg" alt="The Cosmic Wall">
       </a>
@@ -232,7 +232,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/zion-national-park-autumn-ii/twilight-maples-zion-national-park.html">
         <img src="/assets/photographs/twilight-maples-zion-national-park.jpg" alt="Twilight Maples">
       </a>
@@ -245,7 +245,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/icons-of-agriculture-iii/cooperative-davenport.html">
         <img src="/assets/photographs/cooperative-davenport.jpg" alt="Union">
       </a>
@@ -258,7 +258,7 @@
     </div>
   
 
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/zion-national-park-watercourse-way/velvet-reflections-zion-national-park.html">
         <img src="/assets/photographs/velvet-reflections-zion-national-park.jpg" alt="Velvet Reflections">
       </a>
@@ -292,11 +292,23 @@
 
 	<script>
 	document.addEventListener("DOMContentLoaded", () => {
-		const items = document.querySelectorAll("#featured-hero .hero-item");
-		if (!items.length) return;
+		const items = Array.from(
+		document.querySelectorAll("#featured-hero .hero-item")
+		);
+		if (items.length < 2) return;
 
-		const pick = items[Math.floor(Math.random() * items.length)];
-		pick.hidden = false;
+		// Pick random starting index
+		let index = Math.floor(Math.random() * items.length);
+		items[index].classList.add("active");
+
+		setInterval(() => {
+		const current = items[index];
+		index = (index + 1) % items.length;
+		const next = items[index];
+
+		current.classList.remove("active");
+		next.classList.add("active");
+		}, 10000); // 10 seconds
 	});
 	</script>
 

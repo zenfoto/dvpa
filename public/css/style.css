@@ -324,6 +324,10 @@ blockquote, blockquote span { background-size: 31px 26px; }
 	.homecontent img {border: none;}
 }
 
+#featured-hero {position: relative;}
+.hero-item {position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease-in-out; pointer-events: none;}
+.hero-item.active {opacity: 1; pointer-events: auto;}
+
 /*--- Inspiration Page ---*/
 
 .inspire .row {max-width: 1024px;}

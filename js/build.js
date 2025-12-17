@@ -177,7 +177,7 @@ function buildHomePage() {
 
   // 🔹 Build ALL hero items (hidden by default)
   const heroHTML = featured.map(f => `
-    <div class="hero-item" hidden>
+    <div class="hero-item">
       <a href="/portfolios/${f.portfolio}/${f.slug}.html">
         <img src="/assets/photographs/${f.image}" alt="${f.title}">
       </a>
