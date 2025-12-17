@@ -179,9 +179,7 @@ function buildHomePage() {
   const f = featured[0];
 
   const heroHTML = `
-    <a href="/portfolios/${f.portfolio}/${f.slug}.html">
-      <img src="/assets/photographs/home/${f.image}" alt="${f.title}">
-    </a>
+    <a href="/portfolios/${f.portfolio}/${f.slug}.html"><img src="/assets/photographs/home/${f.image}" alt="${f.title}"></a>
     <h3>${f.title}</h3>
     <h4>${f.place}</h4>
     <p class="collection">Part of the <a href="portfolios/${f.portfolio}/">${f.pname}</a> collection.</p>
