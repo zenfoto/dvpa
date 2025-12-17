@@ -406,7 +406,8 @@ function buildPortfoliosIndex() {
     cards.push({
       portfolio,
       title: indexData.title || portfolio,
-      thumb: leadImage.thumb
+      thumb: leadImage.thumb,
+      order: indexData.order
     });
   });
 
@@ -416,7 +417,16 @@ function buildPortfoliosIndex() {
   }
 
   // Option A: alphabetical by portfolio title
-  cards.sort((a, b) => a.title.localeCompare(b.title));
+  cards.sort((a, b) => {
+  // Portfolios with an explicit order come first
+  if (a.order != null && b.order != null) return a.order - b.order;
+  if (a.order != null) return -1;
+  if (b.order != null) return 1;
+
+  // Fallback: alphabetical
+  return a.title.localeCompare(b.title);
+});
+
 
   const thumbnails = cards.map(card => `
     <div class="thumb">
