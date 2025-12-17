@@ -324,10 +324,29 @@ blockquote, blockquote span { background-size: 31px 26px; }
 	.homecontent img {border: none;}
 }
 
-#featured-hero {position: relative; aspect-ratio: 3 / 2;}
-.hero-item {position: absolute; inset: 0; opacity: 0; transition: opacity 1s ease-in-out; pointer-events: none;}
-.hero-item.active {opacity: 1; pointer-events: auto;}
-.hero-item img {width: 100%; height: 100%; object-fit: cover;}
+#featured-hero {
+  position: relative;
+}
+
+.hero-item {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  pointer-events: none;
+}
+
+.hero-item.active {
+  position: relative;   /* ← THIS restores layout height */
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hero-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /*--- Inspiration Page ---*/
 
