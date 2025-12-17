@@ -157,6 +157,7 @@ function buildHomeFeaturedJSON() {
 // -------------------------------------------------------------
 // buildHomePage
 // -------------------------------------------------------------
+
 function buildHomePage() {
   const featuredPath = path.join(
     __dirname,
@@ -182,7 +183,7 @@ function buildHomePage() {
         <img src="/assets/photographs/${f.image}" alt="${f.title}">
       </a>
       <h3>${f.title}</h3>
-      <h4>${f.place}, ${f.location}</h4>
+      <h4>${f.location}, ${f.place}</h4>
       <p class="collection">
         Part of the <a href="/portfolios/${f.portfolio}/">${f.pname}</a> collection.
       </p>
