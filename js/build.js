@@ -179,10 +179,10 @@ function buildHomePage() {
   const heroHTML = featured.map(f => `
     <div class="hero-item" hidden>
       <a href="/portfolios/${f.portfolio}/${f.slug}.html">
-        <img src="/assets/photographs/home/${f.image}" alt="${f.title}">
+        <img src="/assets/photographs/${f.image}" alt="${f.title}">
       </a>
       <h3>${f.title}</h3>
-      <h4>${f.place}</h4>
+      <h4>${f.place}, ${f.location}</h4>
       <p class="collection">
         Part of the <a href="/portfolios/${f.portfolio}/">${f.pname}</a> collection.
       </p>
