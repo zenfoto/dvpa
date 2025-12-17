@@ -175,16 +175,20 @@ function buildHomePage() {
     return;
   }
 
-  // Option: deterministic first item (later we can rotate)
-  const f = featured[0];
-
-  const heroHTML = `
-    <a href="/portfolios/${f.portfolio}/${f.slug}.html"><img src="/assets/photographs/home/${f.image}" alt="${f.title}"></a>
-    <h3>${f.title}</h3>
-    <h4>${f.place}</h4>
-    <p class="collection">Part of the <a href="portfolios/${f.portfolio}/">${f.pname}</a> collection.</p>
-		<p><a href="/portfolios" class="more">View All Photographs »</a></p>
-  `;
+  // 🔹 Build ALL hero items (hidden by default)
+  const heroHTML = featured.map(f => `
+    <div class="hero-item" hidden>
+      <a href="/portfolios/${f.portfolio}/${f.slug}.html">
+        <img src="/assets/photographs/home/${f.image}" alt="${f.title}">
+      </a>
+      <h3>${f.title}</h3>
+      <h4>${f.place}</h4>
+      <p class="collection">
+        Part of the <a href="/portfolios/${f.portfolio}/">${f.pname}</a> collection.
+      </p>
+      <p><a href="/portfolios" class="more">View All Photographs »</a></p>
+    </div>
+  `).join("\n");
 
   const html = homeTemplate
     .replace(/{{header}}/g, header)
@@ -192,7 +196,7 @@ function buildHomePage() {
     .replace(/{{featured-hero}}/g, heroHTML);
 
   fs.writeFileSync(path.join(pageOutputDir, "index.html"), html);
-  console.log("🏠 Generated home page");
+  console.log(`🏠 Generated home page (${featured.length} hero items)`);
 }
 
 
