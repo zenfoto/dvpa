@@ -97,6 +97,62 @@ function convertCSVtoJSON() {
 }
 
 // -------------------------------------------------------------
+// buildHomeFeaturedJSON
+// -------------------------------------------------------------
+function buildHomeFeaturedJSON() {
+  const outputPath = path.join(
+    __dirname,
+    "../public/global/data/home-featured.json"
+  );
+
+  const featured = [];
+
+  const portfolios = fs.readdirSync(contentDir);
+
+  portfolios.forEach(portfolio => {
+    const folder = path.join(contentDir, portfolio);
+
+    if (!fs.statSync(folder).isDirectory()) return;
+
+    const files = fs
+      .readdirSync(folder)
+      .filter(f => f.endsWith(".json") && f !== "index.json");
+
+    files.forEach(file => {
+      const data = JSON.parse(
+        fs.readFileSync(path.join(folder, file), "utf-8")
+      );
+
+      if (data.homepage !== "Y") return;
+
+      featured.push({
+        title: data.title,
+        image: data.image,
+        slug: data.slug,
+        place: data.place,
+        location: data.location,
+        portfolio: data.portfolio,
+        pname: data.pname
+      });
+    });
+  });
+
+  if (featured.length === 0) {
+    console.warn("⚠️ No homepage items found (homepage=Y).");
+    return;
+  }
+
+  // Optional but recommended: deterministic ordering
+  featured.sort((a, b) => (a.title || "").localeCompare(b.title || ""));
+
+  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+  fs.writeFileSync(outputPath, JSON.stringify(featured, null, 2));
+
+  console.log(`🏠 Generated home-featured.json (${featured.length} items)`);
+}
+
+
+// -------------------------------------------------------------
 // buildImagePages
 // -------------------------------------------------------------
 function buildImagePages() {
@@ -268,7 +324,10 @@ function buildPortfolioIndexes() {
 // -------------------------------------------------------------
 // Run everything
 // -------------------------------------------------------------
+
 convertCSVtoJSON();
+buildHomeFeaturedJSON();
 buildImagePages();
 buildSectionPages();
 buildPortfolioIndexes();
+

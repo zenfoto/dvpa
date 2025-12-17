@@ -16,6 +16,7 @@ const pageOutputDir = path.join(__dirname, "../public");
 const photoTemplatePath = path.join(__dirname, "../templates/photograph.html");
 const pageTemplatePath = path.join(__dirname, "../templates/page.html");
 const sectionTemplatePath = path.join(__dirname, "../templates/section.html");
+const homeTemplatePath = path.join(__dirname, "../templates/home.html");
 const headerPath = path.join(__dirname, "../templates/header.html");
 const footerPath = path.join(__dirname, "../templates/footer.html");
 
@@ -23,6 +24,7 @@ const footerPath = path.join(__dirname, "../templates/footer.html");
 const photoTemplate = fs.readFileSync(photoTemplatePath, "utf-8");
 const pageTemplate = fs.readFileSync(pageTemplatePath, "utf-8");
 const sectionTemplate = fs.readFileSync(sectionTemplatePath, "utf-8");
+const homeTemplate = fs.readFileSync(homeTemplatePath, "utf-8");
 const header = fs.readFileSync(headerPath, "utf-8");
 const footer = fs.readFileSync(footerPath, "utf-8");
 
@@ -149,6 +151,50 @@ function buildHomeFeaturedJSON() {
   fs.writeFileSync(outputPath, JSON.stringify(featured, null, 2));
 
   console.log(`🏠 Generated home-featured.json (${featured.length} items)`);
+}
+
+
+// -------------------------------------------------------------
+// buildHomePage
+// -------------------------------------------------------------
+function buildHomePage() {
+  const featuredPath = path.join(
+    __dirname,
+    "../public/global/data/home-featured.json"
+  );
+
+  if (!fs.existsSync(featuredPath)) {
+    console.error("❌ home-featured.json not found");
+    return;
+  }
+
+  const featured = JSON.parse(fs.readFileSync(featuredPath, "utf-8"));
+
+  if (!featured.length) {
+    console.warn("⚠️ No featured homepage items.");
+    return;
+  }
+
+  // Option: deterministic first item (later we can rotate)
+  const f = featured[0];
+
+  const heroHTML = `
+    <a href="/portfolios/${f.portfolio}/${f.slug}.html">
+      <img src="/assets/photographs/home/${f.image}" alt="${f.title}">
+    </a>
+    <h3>${f.title}</h3>
+    <h4>${f.place}</h4>
+    <p class="collection">Part of the <a href="portfolios/${f.portfolio}/">${f.pname}</a> collection.</p>
+		<p><a href="/portfolios" class="more">View All Photographs »</a></p>
+  `;
+
+  const html = homeTemplate
+    .replace(/{{header}}/g, header)
+    .replace(/{{footer}}/g, footer)
+    .replace(/{{featured-hero}}/g, heroHTML);
+
+  fs.writeFileSync(path.join(pageOutputDir, "index.html"), html);
+  console.log("🏠 Generated home page");
 }
 
 
@@ -327,6 +373,7 @@ function buildPortfolioIndexes() {
 
 convertCSVtoJSON();
 buildHomeFeaturedJSON();
+buildHomePage(); 
 buildImagePages();
 buildSectionPages();
 buildPortfolioIndexes();
