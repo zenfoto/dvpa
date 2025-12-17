@@ -371,6 +371,81 @@ function buildPortfolioIndexes() {
 }
 
 // -------------------------------------------------------------
+// buildPortfoliosIndex
+// -------------------------------------------------------------
+function buildPortfoliosIndex() {
+  const portfolios = fs.readdirSync(contentDir);
+
+  const cards = [];
+
+  portfolios.forEach(portfolio => {
+    const folder = path.join(contentDir, portfolio);
+
+    if (!fs.statSync(folder).isDirectory()) return;
+
+    const indexJsonPath = path.join(folder, "index.json");
+    if (!fs.existsSync(indexJsonPath)) return;
+
+    const indexData = JSON.parse(fs.readFileSync(indexJsonPath, "utf-8"));
+
+    // Load image JSON files (exclude index.json)
+    const imageFiles = fs
+      .readdirSync(folder)
+      .filter(f => f.endsWith(".json") && f !== "index.json");
+
+    if (!imageFiles.length) return;
+
+    const images = imageFiles.map(file =>
+      JSON.parse(fs.readFileSync(path.join(folder, file), "utf-8"))
+    );
+
+    // Sort images by order and take the first
+    images.sort((a, b) => a.order - b.order);
+    const leadImage = images[0];
+
+    cards.push({
+      portfolio,
+      title: indexData.title || portfolio,
+      thumb: leadImage.thumb
+    });
+  });
+
+  if (!cards.length) {
+    console.warn("⚠️ No portfolios found for portfolios index.");
+    return;
+  }
+
+  // Option A: alphabetical by portfolio title
+  cards.sort((a, b) => a.title.localeCompare(b.title));
+
+  const thumbnails = cards.map(card => `
+    <div class="thumb">
+      <a href="/portfolios/${card.portfolio}/">
+        <img src="/assets/photographs/thumbs/${card.thumb}" alt="${card.title}">
+        <h4>${card.title}</h4>
+      </a>
+    </div>
+  `).join("\n");
+
+  const html = sectionTemplate
+    .replace(/{{header}}/g, header)
+    .replace(/{{footer}}/g, footer)
+    .replace(/{{title}}/g, "Portfolios")
+    .replace(/{{intro}}/g, "")
+    .replace(/{{body-id}}/g, "portfolios")
+    .replace(/{{thumbnails}}/g, thumbnails);
+
+  const outputDirPath = path.join(outputDir);
+  if (!fs.existsSync(outputDirPath)) {
+    fs.mkdirSync(outputDirPath, { recursive: true });
+  }
+
+  fs.writeFileSync(path.join(outputDirPath, "index.html"), html);
+  console.log("📁 Generated portfolios index");
+}
+
+
+// -------------------------------------------------------------
 // Run everything
 // -------------------------------------------------------------
 
@@ -379,5 +454,6 @@ buildHomeFeaturedJSON();
 buildHomePage(); 
 buildImagePages();
 buildSectionPages();
+buildPortfoliosIndex();
 buildPortfolioIndexes();
 
