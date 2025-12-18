@@ -14,7 +14,7 @@ const outputDir = path.join(__dirname, "../public/portfolios");
 const pageOutputDir = path.join(__dirname, "../public");
 
 const photoTemplatePath = path.join(__dirname, "../templates/photograph.html");
-const pageTemplatePath = path.join(__dirname, "../templates/page.html");
+const pageTemplatePath = path.join(__dirname, "../templates/single.html");
 const sectionTemplatePath = path.join(__dirname, "../templates/section.html");
 const homeTemplatePath = path.join(__dirname, "../templates/home.html");
 const headerPath = path.join(__dirname, "../templates/header.html");
