@@ -1,9 +1,9 @@
 {
   "portfolio": "icons-of-agriculture-iii",
   "pname": "Icons of Agriculture",
-  "order": "5",
-  "slug": "chutes-davenport",
-  "title": "Chutes and Ladders",
+  "order": "6",
+  "slug": "union-davenport",
+  "title": "Union",
   "state": "Washington",
   "year": "2020",
   "place": "Lincoln County",
@@ -12,11 +12,11 @@
   "print-type": "Pigment Ink",
   "edition": "25",
   "edition-type": "Limited",
-  "image": "chutes-davenport.jpg",
-  "thumb": "chutes-davenport.jpg",
-  "image-home": "chutes-davenport-home.jpg",
-  "image-biz": "chutes-davenport-biz.jpg",
-  "width": "1200",
-  "height": "1600",
-  "homepage": "N"
+  "image": "union-davenport.jpg",
+  "thumb": "union-davenport.jpg",
+  "image-home": "union-davenport-home.jpg",
+  "image-biz": "union-davenport-biz.jpg",
+  "width": "2400",
+  "height": "1820",
+  "homepage": "Y"
 }
