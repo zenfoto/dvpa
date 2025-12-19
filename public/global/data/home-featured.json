@@ -41,7 +41,7 @@
     "slug": "granary-and-moon-walters",
     "place": "Garfield",
     "location": "Walters Road",
-    "portfolio": "icons-of-agriculture-ii",
+    "portfolio": "icons-of-agriculture-iii",
     "pname": "Icons of Agriculture"
   },
   {
@@ -78,6 +78,15 @@
     "place": "Zion National Park",
     "location": "Clear Creek",
     "portfolio": "zion-national-park-ancient-sands",
+    "pname": "Zion National Park"
+  },
+  {
+    "title": "Tree of Life II",
+    "image": "trees-of-life-ii-zion-national-park.jpg",
+    "slug": "trees-of-life-ii-zion-national-park",
+    "place": "Kolob Canyons",
+    "location": "Taylor Creek South",
+    "portfolio": "zion-national-park-autumn-ii",
     "pname": "Zion National Park"
   },
   {
