@@ -1,0 +1,22 @@
+{
+  "portfolio": "the-american-west",
+  "pname": "The American West",
+  "order": "24",
+  "slug": "stately-aspens-crested-butte",
+  "title": "Stately Aspens",
+  "state": "Colorado",
+  "year": "2020",
+  "place": "Crested Butte",
+  "location": "Kebler Pass",
+  "field-notes": "This is a field note.",
+  "print-type": "Pigment Ink",
+  "edition": "25",
+  "edition-type": "Limited",
+  "image": "stately-aspens-crested-butte.jpg",
+  "thumb": "stately-aspens-crested-butte.jpg",
+  "image-home": "stately-aspens-crested-butte-home.jpg",
+  "image-biz": "stately-aspens-crested-butte-biz.jpg",
+  "width": "1200",
+  "height": "1600",
+  "homepage": "N"
+}
