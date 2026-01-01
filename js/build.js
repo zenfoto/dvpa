@@ -246,6 +246,7 @@ function buildImagePages() {
         .replace(/{{height}}/g, data.height)
         .replace(/{{location}}/g, data.location)
         .replace(/{{place}}/g, data.place)
+        .replace(/{{state}}/g, data.state)
         .replace(/{{year}}/g, data.year)
         .replace(/{{print-type}}/g, data["print-type"])
         .replace(/{{edition-type}}/g, data["edition-type"])
