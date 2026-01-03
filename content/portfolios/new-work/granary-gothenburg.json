@@ -1,0 +1,22 @@
+{
+  "portfolio": "new-work",
+  "pname": "New Work",
+  "order": "2",
+  "slug": "granary-gothenburg",
+  "title": "Granary",
+  "state": "Kansas",
+  "year": "2025",
+  "place": "",
+  "location": "Gothenburg",
+  "field-notes": "This is a field note.",
+  "print-type": "Pigment Ink",
+  "edition": "25",
+  "edition-type": "Limited",
+  "image": "granary-gothenburg.jpg",
+  "thumb": "granary-gothenburg.jpg",
+  "image-home": "granary-gothenburg-home.jpg",
+  "image-biz": "granary-gothenburg-biz.jpg",
+  "width": "1200",
+  "height": "1600",
+  "homepage": "N"
+}

@@ -1,0 +1,22 @@
+{
+  "portfolio": "new-work",
+  "pname": "New Work",
+  "order": "1",
+  "slug": "dryer-ensign",
+  "title": "Dryer",
+  "state": "Nebraska",
+  "year": "2025",
+  "place": "",
+  "location": "Ensign",
+  "field-notes": "This is a field note.",
+  "print-type": "Pigment Ink",
+  "edition": "25",
+  "edition-type": "Limited",
+  "image": "dryer-ensign.jpg",
+  "thumb": "dryer-ensign.jpg",
+  "image-home": "dryer-ensign-home.jpg",
+  "image-biz": "dryer-ensign-biz.jpg",
+  "width": "1200",
+  "height": "1600",
+  "homepage": "N"
+}

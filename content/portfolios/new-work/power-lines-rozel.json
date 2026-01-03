@@ -1,0 +1,22 @@
+{
+  "portfolio": "new-work",
+  "pname": "New Work",
+  "order": "3",
+  "slug": "power-lines-rozel",
+  "title": "Power Lines",
+  "state": "Kansas",
+  "year": "2025",
+  "place": "",
+  "location": "Rozel",
+  "field-notes": "This is a field note.",
+  "print-type": "Pigment Ink",
+  "edition": "25",
+  "edition-type": "Limited",
+  "image": "power-lines-rozel.jpg",
+  "thumb": "power-lines-rozel.jpg",
+  "image-home": "power-lines-rozel-home.jpg",
+  "image-biz": "power-lines-rozel-biz.jpg",
+  "width": "1280",
+  "height": "1600",
+  "homepage": "N"
+}
